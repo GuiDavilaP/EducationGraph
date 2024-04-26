@@ -28,3 +28,4 @@ dfFinal = dfFinal[['NOME_IES_BOLSA', 'COD_CURSO', 'NOME_CURSO_BOLSA', 'BOLSAS', 
 #print(dfFinal)
 
 dfFinal.to_csv('arquivosCSV/bolsasDesist2010.csv', encoding='cp1252', sep=';')
+
