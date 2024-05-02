@@ -19,23 +19,28 @@ dfFinal = dfFinal.groupby(['Nome da Instituição', 'Nome do Curso de Graduaçã
 
 # Soma quantia de ingressantes em mesma universidade e curso
 fluxo['Quantidade de Ingressantes no Curso'] = fluxo['Quantidade de Ingressantes no Curso'].astype(int)
+
 fluxo = fluxo.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).agg({
     'Quantidade de Ingressantes no Curso': 'sum',  # Soma de ingressantes.
     'Taxa de Desistência Acumulada - TODA': 'first',
-    'Código do Curso de Graduação': 'first'
+    'Código do Curso de Graduação': 'first',
+    'Nome da Grande Área do Curso segundo a classificação CINE BRASIL': 'first',
 }).reset_index()
 
 # Une a base dfFinal, que contém quantia de bolsas, com a taxa de desistência total, código do curso e quantia de ingressantes do curso, do dataframe 'fluxo'.
 # Associa o nome da universidade e do curso de ambos dataframes para fazer a união
 dfFinal = pd.merge(dfFinal, fluxo[['Nome da Instituição', 'Código do Curso de Graduação', 'Nome do Curso de Graduação', 'Quantidade de Ingressantes no Curso',
-                                   'Taxa de Desistência Acumulada - TODA']], on=['Nome da Instituição','Nome do Curso de Graduação'])
+                                   'Taxa de Desistência Acumulada - TODA', 'Nome da Grande Área do Curso segundo a classificação CINE BRASIL']], on=['Nome da Instituição','Nome do Curso de Graduação'])
+
+# Se a quantidade de bolsas for maior que a quantia de ingressantes, remove a linha
+dfFinal = dfFinal[dfFinal['Quantia de Bolsas'] <= dfFinal['Quantidade de Ingressantes no Curso']]
 
 # Calcula percentual de bolsas ofertadas em relação a quantia de ingressantes.
 dfFinal['Percentual de Bolsas'] = (dfFinal['Quantia de Bolsas'] / dfFinal['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(float)
 
 # Remove colunas desnecessárias ('Quantia de Bolsas' e 'Quantidade de Ingressantes no Curso') e reordena colunas restantes.
 dfFinal = dfFinal[['Nome da Instituição', 'Código do Curso de Graduação', 'Nome do Curso de Graduação',
-                   'Quantia de Bolsas', 'Quantidade de Ingressantes no Curso', 'Percentual de Bolsas', 'Taxa de Desistência Acumulada - TODA']]
+                   'Quantia de Bolsas', 'Quantidade de Ingressantes no Curso', 'Percentual de Bolsas', 'Taxa de Desistência Acumulada - TODA', 'Nome da Grande Área do Curso segundo a classificação CINE BRASIL']]
 
 # Print, com opção que muda display com base no tamanho do console, se ficar bugado pode comentar.
 #pd.options.display.width = 0x
