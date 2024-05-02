@@ -4,10 +4,10 @@ import pandas as pd
 import seaborn as sns
 
 # Read the CSV file
-df = pd.read_csv('arquivosCSV/bolsasDesist2010.csv', delimiter=";", encoding='cp1252')
+df = pd.read_csv('arquivosCSV/bolsasDesist2010RS.csv', delimiter=";", encoding='cp1252')
 
 # Filter the dataframe for the specified course
-selected_course = "arquitetura e urbanismo"
+selected_course = "teologia"
 
 filtered_df = df[df['Nome do Curso de Graduação'] == selected_course]
 

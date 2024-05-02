@@ -1,11 +1,10 @@
 import numpy as np
-import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
 # Lê csv's, função lambda converte valores para lowercase.
-fluxo = pd.read_csv('arquivosCSV/Fluxo2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', dtype={'Código da Instituição':int}).apply(lambda x: x.astype(str).str.lower())
-prouni = pd.read_csv('arquivosCSV/prouni2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(lambda x: x.astype(str).str.lower())
+fluxo = pd.read_csv('arquivosCSV/fluxo2010RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', dtype={'Código da Instituição':int}).apply(lambda x: x.astype(str).str.lower())
+prouni = pd.read_csv('arquivosCSV/prouni2010RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(lambda x: x.astype(str).str.lower())
 
 # Cria dataframe dfFinal a partir do dataframe prouni
 # ':' indica que quero copiar todas as linhas e a tupla Nome IES e Nome do Curso são as colunas que quero copiar.
@@ -42,4 +41,4 @@ dfFinal = dfFinal[['Nome da Instituição', 'Código do Curso de Graduação', '
 #pd.options.display.width = 0x
 #print(dfFinal)
 
-dfFinal.to_csv('arquivosCSV/bolsasDesist2010.csv', encoding='cp1252', sep=';')
+dfFinal.to_csv('arquivosCSV/bolsasDesist2010RS.csv', encoding='cp1252', sep=';')
