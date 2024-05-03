@@ -3,14 +3,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Lê csv's, função lambda converte valores para lowercase.
-prouni = pd.read_csv('arquivosCSV/prouni2010RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
+prouni = pd.read_csv('arquivosCSV/prouni2011RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
     lambda x: x.astype(str).str.lower())
 
-fluxo = pd.read_csv('arquivosCSV/fluxo2010RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', 
+prouni = prouni.loc[prouni['MODALIDADE_ENSINO_BOLSA'] == 'PRESENCIAL']
+
+fluxo = pd.read_csv('arquivosCSV/fluxo2011.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', 
                     dtype={'Código da Instituição':int}).apply(lambda x: x.astype(str).str.lower())
 
 # Selecionando as colunas relevantes
-prouni = prouni.drop('Unnamed: 0', axis=1)
+#prouni = prouni.drop('Unnamed: 0', axis=1)
 
 colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                       'Nome da área do Curso segundo a classificação CINE BRASIL',
@@ -68,4 +70,4 @@ dfFinal['Percentual de Bolsas'] = (
 #pd.options.display.width = 0x
 #print(dfFinal)
 
-dfFinal.to_csv('arquivosCSV/bolsasDesist2010RS.csv', encoding='cp1252', sep=';')
+dfFinal.to_csv('arquivosCSV/bolsasDesist2010.csv', encoding='cp1252', sep=';')
