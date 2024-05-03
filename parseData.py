@@ -6,7 +6,8 @@ import pandas as pd
 prouni = pd.read_csv('arquivosCSV/prouni2011RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
     lambda x: x.astype(str).str.lower())
 
-prouni = prouni.loc[prouni['MODALIDADE_ENSINO_BOLSA'] == 'PRESENCIAL']
+prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
+prouni.to_csv('arquivosCSV/prouni2011RSteste.csv', encoding='cp1252', sep=';')
 
 fluxo = pd.read_csv('arquivosCSV/fluxo2011.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', 
                     dtype={'Código da Instituição':int}).apply(lambda x: x.astype(str).str.lower())
@@ -70,4 +71,4 @@ dfFinal['Percentual de Bolsas'] = (
 #pd.options.display.width = 0x
 #print(dfFinal)
 
-dfFinal.to_csv('arquivosCSV/bolsasDesist2010.csv', encoding='cp1252', sep=';')
+dfFinal.to_csv('arquivosCSV/bolsasDesist2011RS.csv', encoding='cp1252', sep=';')
