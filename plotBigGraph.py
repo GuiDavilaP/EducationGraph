@@ -11,7 +11,7 @@ df = pd.read_csv('arquivosCSV/bolsasDesist2010RS.csv', delimiter=";", encoding='
 #filtered_df = df[df['Nome do Curso de Graduação'] == selected_course]
 
 #Filter the dataframe for the specified área do Curso segundo a classificação CINE BRASIL
-selected_area = "ciências sociais, comunicação e informação"
+selected_area = "ciências naturais, matemática e estatística"
 filtered_df = df[df['Nome da Grande Área do Curso segundo a classificação CINE BRASIL'] == selected_area]
 
 #Convert 'BOLSAS' and 'TODA' columns to numeric
