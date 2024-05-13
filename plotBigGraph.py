@@ -3,49 +3,106 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 
-#Read the CSV file
-df = pd.read_csv('arquivosCSV/bolsasDesist2010RS.csv', delimiter=";", encoding='cp1252')
+import filterData as fd
 
-#Filter the dataframe for the specified course
-#selected_course = "ciências econômicas"
-#filtered_df = df[df['Nome do Curso de Graduação'] == selected_course]
+# Função que retorna sigla da universidade se o nome for muito grande, utilizado para título.
+def acronym(text, max_characters):
+    if(len(text) < max_characters):
+        return text
+    else:
+        # Divide a string em palavras usando split()
+        words = text.split()
+        # Inicializa uma lista para armazenar as siglas de cada palavra
+        acronymList = []
+        ignoredWords = ["da", "de", "do", "a", "e", "o"]
+        # Itera sobre cada palavra e pega o primeiro caractere
+        for word in words:
+            if(word not in ignoredWords):
+                acronymList.append(word[0])
+        # Junta os caracteres para formar a sigla
+        acronym = ''.join(acronymList)
+        return acronym
 
-#Filter the dataframe for the specified área do Curso segundo a classificação CINE BRASIL
-selected_area = "negócios, administração e direito"
-filtered_df = df[df['Nome da Grande Área do Curso segundo a classificação CINE BRASIL'] == selected_area]
+#-------------------------------------Constantes---------------------------------------------
+csvList = {'2010': 'bolsasDesist2010RS', '2011': 'bolsasDesist2011RS', '2012': 'bolsasDesist2012RS', '2013': 'bolsasDesist2013RS', 
+          '2014': 'bolsasDesist2014RS'}
 
-#Convert 'BOLSAS' and 'TODA' columns to numeric
-filtered_df['Percentual de Bolsas'] = filtered_df['Percentual de Bolsas'].astype(float)
+columns = ['Nome da Instituição', 'Count',
+       'Nome do Curso de Graduação', 'Quantia de Bolsas',
+       'Código do Curso de Graduação', 'Quantidade de Ingressantes no Curso',
+       'Quantidade de Desistências',
+       'Nome da Grande Área do Curso segundo a classificação CINE BRASIL',
+       'Percentual de Bolsas', 'Taxa de Desistência Acumulada', 'Ano de Ingresso']
 
+# Nome da área ou curso selecionado.
+selected = "ciência da computação"
+# Boleano indica se selected é área [1] ou curso[0].
+area = 0
+# Nome da universidade selecionado, utilizado apenas para gráfico do tipo universidade única em diferentes anos.
+university = "pontifícia universidade católica do rio grande do sul"
 
+#-------------------------------------Gráfico-----------------------------------------
 
-filtered_df.insert(2, column = 'Count', value = 1.0)
-filtered_df = filtered_df.groupby(['Nome da Instituição']).sum().reset_index()
-filtered_df['Percentual de Bolsas'] = (filtered_df['Quantia de Bolsas'] / filtered_df['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(float)
-filtered_df['Taxa de Desistência Acumulada'] = (filtered_df['Quantidade de Desistências'] / filtered_df['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(float)
+# Seleciona entre gráfico de múltiplas universidades em um ano (0) ou uma única universidade em múltiplos anos (1).
+while(True):
+    graphType = int(input(" Multiplas universidades[0] ou uma universidade [1]: "))
+    if(graphType == 0 or graphType == 1):
+        break
+    else:
+        print(" Digite 0 ou 1!")
+        input(" Precione Enter para continuar...")
 
-filtered_df.to_csv('arquivosCSV/teste.csv', encoding='cp1252', sep=';')
+#--------Gráfico de Múltiplas Universidades em um Ano---------
+if(graphType == 0):
+    anoStr = input(" Escolha um ano [2010 - 2014]: ")
+    filtered_df = fd.filterData(csvList[anoStr], selected,  area)
 
-#Plot the graph
-plt.figure(figsize=(10, 6))
-for university, data in filtered_df.groupby('Nome da Instituição'):
-    plt.scatter(data['Percentual de Bolsas'], data['Taxa de Desistência Acumulada'], marker='o', color='blue')
+    # Plota gráfico
+    sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 2, data=filtered_df, ci=None, color='CornflowerBlue', line_kws={"color": "darkgray"})
+    sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 1, data=filtered_df, ci=None, color='CornflowerBlue', line_kws={"color": "dimgray"})
+
+#--------Gráfico de uma Universidade em Múltiplos Anos--------
+else:
+    # Lê universidade.
+    # print(" Escolha uma universidade: ")
+    # university = input()
+
+    # Lê e filtra csv de cada ano por área ou curso e universidade.
+    # Adiciona a data filtrada para cada ano a uma lista que é transformada em um dataframe final que une todos os anos. 
+    filtered_list = []
+    anoNum = 2010
+    for csv in csvList.values():
+        data = fd.filterData(csv, selected, area, university).values.tolist()
+        if(data):
+            data[0].append(str(anoNum))
+            filtered_list.append(data[0])
+        anoNum += 1
+    filtered_df = pd.DataFrame(filtered_list, columns=columns)
+
+    # Plota gráfico.
+    # Desenha pontos com legenda para cada ano no gráfico.
+    graph = sns.lmplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", hue="Ano de Ingresso", data=filtered_df, fit_reg=False)
+    # Desenha regressão linear.
+    sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 2, data=filtered_df, ci=None, scatter=False, ax=graph.axes[0, 0], line_kws={"color": "darkgray"})
+    sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 1, data=filtered_df, ci=None, scatter=False, ax=graph.axes[0, 0], line_kws={"color": "dimgray"})
+    # Salva csv de teste.
+    # filtered_df.to_csv('arquivosCSV/teste/testeUni.csv', encoding='cp1252', sep=';')
+    # filtered_df.reset_index(drop=True, inplace=True)
+    
+#------------------------------------Legendas--------------------------------------------
 
 #Tentativa de fazer um cálculo da correlação de Peterson.
 #correlation = np.corrcoef([filtered_df['Percentual de Bolsas'], filtered_df['Taxa de Desistência Acumulada]])
 #print(" Correlação Pearson: ", correlation)
 
-#Cria reta de aproximação linear usando library seaborn, esse método utiliza uma regressão linear que pode ser customizada pelos parâmetros.
-#Propriedade truncate permite delimitar área de dados, pode ser útil para ignorar cursos com taxa de desistência incongruente.
-sns.regplot(x = filtered_df['Percentual de Bolsas'], y = filtered_df['Taxa de Desistência Acumulada'])
-
 #Add title and labels
-plt.title(selected_area)
+if(graphType == 0):
+    plt.title(selected)
+else:
+    plt.title(university)
+    plt.suptitle(selected)
 plt.xlabel('Percentual Bolsas')
 plt.ylabel('Percentual Desistência')
-
-#Add legend
-plt.legend()
 
 #Show the plot
 plt.grid(True)

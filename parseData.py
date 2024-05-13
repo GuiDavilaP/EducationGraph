@@ -2,15 +2,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+ESTADO = '43.0'
+
 # Lê csv's, função lambda converte valores para lowercase.
-prouni = pd.read_csv('arquivosCSV/prouni2011RS.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
+prouni = pd.read_csv('arquivosCSV/prouni2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
     lambda x: x.astype(str).str.lower())
 
-prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
-prouni.to_csv('arquivosCSV/prouni2011RSteste.csv', encoding='cp1252', sep=';')
-
-fluxo = pd.read_csv('arquivosCSV/fluxo2011.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', 
+fluxo = pd.read_csv('arquivosCSV/fluxo2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';', 
                     dtype={'Código da Instituição':int}).apply(lambda x: x.astype(str).str.lower())
+
+# Filtra bolsas presenciais.
+prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
+
+# Filtra universidades do RS.
+fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == ESTADO]
 
 # Selecionando as colunas relevantes
 #prouni = prouni.drop('Unnamed: 0', axis=1)
@@ -19,7 +24,7 @@ colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                       'Nome da área do Curso segundo a classificação CINE BRASIL',
                       'Nome da Grande Área do Curso segundo a classificação CINE BRASIL',
                       'Quantidade de Ingressantes no Curso',
-                      'Taxa de Desistência Acumulada - TODA', 'Código do Curso de Graduação']
+                      'Taxa de Desistência Acumulada - TDA', 'Código do Curso de Graduação']
 
 for column in fluxo.columns:
     if column not in colunas_relevantes:
@@ -28,10 +33,10 @@ for column in fluxo.columns:
 # Converte quantiade de ingressantes para int para ser somado depois.
 fluxo['Quantidade de Ingressantes no Curso'] = fluxo['Quantidade de Ingressantes no Curso'].astype(int)
 # Converte taxa de desistência para float.
-fluxo['Taxa de Desistência Acumulada - TODA'] = fluxo['Taxa de Desistência Acumulada - TODA'].str.replace(',', '.').astype(float)
+fluxo['Taxa de Desistência Acumulada - TDA'] = fluxo['Taxa de Desistência Acumulada - TDA'].str.replace(',', '.').astype(float)
 
 # Cria nova coluna com quantidade de desistências.
-fluxo['Quantidade de Desistências'] = (fluxo['Quantidade de Ingressantes no Curso'] * fluxo['Taxa de Desistência Acumulada - TODA'] / 100).round()
+fluxo['Quantidade de Desistências'] = (fluxo['Quantidade de Ingressantes no Curso'] * fluxo['Taxa de Desistência Acumulada - TDA'] / 100).round()
 
 # Agrupa por universidade e curso, soma a quantia de ingressantes e quantidade de desistências.
 fluxo = fluxo.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).agg({
@@ -71,4 +76,4 @@ dfFinal['Percentual de Bolsas'] = (
 #pd.options.display.width = 0x
 #print(dfFinal)
 
-dfFinal.to_csv('arquivosCSV/bolsasDesist2011RS.csv', encoding='cp1252', sep=';')
+dfFinal.to_csv('arquivosCSV/bolsasDesist2010RS.csv', encoding='cp1252', sep=';')
