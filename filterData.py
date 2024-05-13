@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Método utilizado no plotBigGraph que filtra o csv de acordo com o gráfico desejado.
 def filterData(nomeCsv, selected, area = 0, university = "none"):
     #-------------------------------------Lê o arquivo CSV-----------------------------------------------
     df = pd.read_csv('arquivosCSV/'+nomeCsv+'.csv', delimiter=";", encoding='cp1252')
