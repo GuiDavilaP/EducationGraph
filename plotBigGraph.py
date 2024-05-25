@@ -5,24 +5,6 @@ import seaborn as sns
 
 import filterData as fd
 
-# Função que retorna sigla da universidade se o nome for muito grande, utilizado para título.
-def acronym(text, max_characters):
-    if(len(text) < max_characters):
-        return text
-    else:
-        # Divide a string em palavras usando split()
-        words = text.split()
-        # Inicializa uma lista para armazenar as siglas de cada palavra
-        acronymList = []
-        ignoredWords = ["da", "de", "do", "a", "e", "o"]
-        # Itera sobre cada palavra e pega o primeiro caractere
-        for word in words:
-            if(word not in ignoredWords):
-                acronymList.append(word[0])
-        # Junta os caracteres para formar a sigla
-        acronym = ''.join(acronymList)
-        return acronym
-
 #-------------------------------------Constantes---------------------------------------------
 csvList = {'2010': 'bolsasDesist2010RS', '2011': 'bolsasDesist2011RS', '2012': 'bolsasDesist2012RS', '2013': 'bolsasDesist2013RS', 
           '2014': 'bolsasDesist2014RS'}
@@ -38,7 +20,7 @@ columns = ['Nome da Instituição', 'Count',
 selected = "ciência da computação"
 # Boleano indica se selected é área [1] ou curso[0].
 area = 0
-# Nome da universidade selecionado, utilizado apenas para gráfico do tipo universidade única em diferentes anos.
+# Nome da universidade selecionado, utilizado apenas para gráfico do tipo "uma universidade em diferentes anos".
 university = "pontifícia universidade católica do rio grande do sul"
 
 #-------------------------------------Gráfico-----------------------------------------
@@ -63,7 +45,7 @@ if(graphType == 0):
 
 #--------Gráfico de uma Universidade em Múltiplos Anos--------
 else:
-    # Lê universidade.
+    # Lê universidade. Comente caso fique chato digitar o nome da universidade no console.
     # print(" Escolha uma universidade: ")
     # university = input()
 
@@ -90,11 +72,6 @@ else:
     # filtered_df.reset_index(drop=True, inplace=True)
     
 #------------------------------------Legendas--------------------------------------------
-
-#Tentativa de fazer um cálculo da correlação de Peterson.
-#correlation = np.corrcoef([filtered_df['Percentual de Bolsas'], filtered_df['Taxa de Desistência Acumulada]])
-#print(" Correlação Pearson: ", correlation)
-
 #Add title and labels
 if(graphType == 0):
     plt.title(selected)
