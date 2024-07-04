@@ -5,6 +5,9 @@ import seaborn as sns
 
 import filterData as fd
 
+ANO_INICIAL = '2010'
+ANO_FINAL = '2014'
+
 #-------------------------------------Constantes---------------------------------------------
 csvList = {'2010': 'bolsasDesist2010RS', '2011': 'bolsasDesist2011RS', '2012': 'bolsasDesist2012RS', '2013': 'bolsasDesist2013RS', 
           '2014': 'bolsasDesist2014RS'}
@@ -21,26 +24,33 @@ selected = "ciência da computação"
 # Boleano indica se selected é área [1] ou curso[0].
 area = 0
 # Nome da universidade selecionado, utilizado apenas para gráfico do tipo "uma universidade em diferentes anos".
-university = "pontifícia universidade católica do rio grande do sul"
+university = "pontifícia universidade do rio grande do sul"
 
 #-------------------------------------Gráfico-----------------------------------------
 
 # Seleciona entre gráfico de múltiplas universidades em um ano (0) ou uma única universidade em múltiplos anos (1).
 while(True):
-    graphType = int(input(" Multiplas universidades[0] ou uma universidade [1]: "))
+    graphType = 0
+    #graphType = int(input(" Multiplas universidades[0] ou uma universidade [1]: "))
     if(graphType == 0 or graphType == 1):
         break
     else:
         print(" Digite 0 ou 1!")
         input(" Precione Enter para continuar...")
 
-#--------Gráfico de Múltiplas Universidades em um Ano---------
+#--------Gráfico de Múltiplas Universidades em um Ano ou Todos os Anos---------
 if(graphType == 0):
-    anoStr = input(" Escolha um ano [2010 - 2014]: ")
-    filtered_df = fd.filterData(csvList[anoStr], selected,  area)
+    anoStr = input(" Escolha um ano ["+ANO_INICIAL+" - "+ANO_FINAL+"] ou todos [ALL]: ") 
+    if(anoStr.lower() != "all"):
+        filtered_df = fd.filterData(csvList[anoStr], selected,  area)
+    else:
+        filtered_df = fd.filterData(csvList[ANO_INICIAL], selected,  area)
+        for ano, nomeCsv in csvList.items():
+            if(ano != ANO_INICIAL):
+                filtered_df = pd.concat([filtered_df, fd.filterData(csvList[ano], selected,  area)])
 
     # Plota gráfico
-    sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 2, data=filtered_df, ci=None, color='CornflowerBlue', line_kws={"color": "darkgray"})
+    #sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 2, data=filtered_df, ci=None, color='CornflowerBlue', line_kws={"color": "darkgray"})
     sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order = 1, data=filtered_df, ci=None, color='CornflowerBlue', line_kws={"color": "dimgray"})
 
 #--------Gráfico de uma Universidade em Múltiplos Anos--------
