@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-ESTADO = '43.0'
+COD_ESTADO = '43.0'
 
 # Lê csv's, função lambda converte valores para lowercase.
 prouni = pd.read_csv('arquivosCSV/prouni2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
@@ -15,7 +15,7 @@ fluxo = pd.read_csv('arquivosCSV/fluxo2010.csv', encoding='cp1252', on_bad_lines
 prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
 
 # Filtra universidades do RS.
-fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == ESTADO]
+fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == COD_ESTADO]
 
 # Selecionando as colunas relevantes
 #prouni = prouni.drop('Unnamed: 0', axis=1)

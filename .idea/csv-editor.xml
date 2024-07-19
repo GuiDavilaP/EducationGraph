@@ -3,7 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\arquivosCSV\prouni2010RS.csv">
+        <entry key="\arquivosCSV\bolsasDesist2010RS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\fluxo2010.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\fluxo\fluxo2010.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
