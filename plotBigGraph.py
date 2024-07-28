@@ -50,32 +50,45 @@ def calculate_percentages(df):
     return df
 
 
+import numpy as np
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 def plot_graph(df, graph_type, selected, university="none"):
-    # Plotar o gráfico
+    # Ensure data is suitable for logarithmic scale
+    df = df[df['Percentual de Bolsas'] > 0]  # Filter out non-positive values
+
+    # Plot the graph using pandas
     if graph_type == 0:
-        sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order=1, data=df, ci=None,
-                    color='CornflowerBlue', line_kws={"color": "dimgray"})
+        df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
+        plt.xscale('log')  # Set x-axis to logarithmic scale
+
+        # Set x-axis ticks
+        x_ticks = [1, 10, 100]  # Example ticks for a logarithmic scale
+        plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])  # Set ticks and labels
     else:
         graph = sns.lmplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", hue="Ano de Ingresso", data=df,
                            fit_reg=False)
+        graph.set(xscale="log")
         sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order=2, data=df, ci=None,
-                    scatter=False, ax=graph.axes[0, 0], line_kws={"color": "darkgray"})
+                    scatter=False, ax=graph.axes[0, 0], line_kws={"color": "darkgray"}, x_bins=20)  # Adjust x_bins as needed
         sns.regplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", order=1, data=df, ci=None,
-                    scatter=False, ax=graph.axes[0, 0], line_kws={"color": "dimgray"})
+                    scatter=False, ax=graph.axes[0, 0], line_kws={"color": "dimgray"}, x_bins=20)  # Adjust x_bins as needed
 
-    # Configurar o gráfico
-    if graph_type == 0:
-        plt.title(selected)
-    else:
-        plt.title(university)
-        plt.suptitle(selected)
+    # Set plot limits if necessary
+    # Example: plt.xlim(left=1) to ensure the x-axis starts from 1
+
+    # Configure and display the plot as before
+    plt.title(selected if graph_type == 0 else university)
+    plt.suptitle(selected if graph_type != 0 else "")
     plt.xlabel('Percentual Bolsas')
     plt.ylabel('Percentual Desistência')
     plt.grid(True)
+    plt.show()
 
     # Exibir o gráfico
     plt.show()
-
 
 # Exemplo de uso das funções
 file_path = 'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2010-RS.csv'
