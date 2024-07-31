@@ -1,24 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 
 COD_ESTADO = '43.0'
-
-# Lê csv's, função lambda converte valores para lowercase.
-prouni = pd.read_csv('arquivosCSV/prouni/prouni2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
-    lambda x: x.astype(str).str.lower())
-
-fluxo = pd.read_csv('arquivosCSV/fluxo/fluxo2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';',
-                    dtype={'Código da Instituição': int}).apply(lambda x: x.astype(str).str.lower())
-
-# Filtra bolsas presenciais.
-prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
-
-# Filtra universidades do RS.
-fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == COD_ESTADO]
-
-# Selecionando as colunas relevantes
-#prouni = prouni.drop('Unnamed: 0', axis=1)
 
 colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                       'Nome da área do Curso segundo a classificação CINE BRASIL',
@@ -26,9 +8,31 @@ colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                       'Quantidade de Ingressantes no Curso',
                       'Taxa de Desistência Acumulada - TDA', 'Código do Curso de Graduação']
 
-for column in fluxo.columns:
-    if column not in colunas_relevantes:
-        fluxo = fluxo.drop(column, axis=1)
+# Lê csv: função lambda converte valores para lowercase.
+prouni = pd.read_csv('arquivosCSV/prouni/prouni2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(
+    lambda x: x.astype(str).str.lower())
+
+# Filtra bolsas presenciais.
+prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
+
+# Renomeia por conveniência no merge.
+prouni = prouni.rename(
+    columns={'NOME_IES_BOLSA': 'Nome da Instituição', 'NOME_CURSO_BOLSA': 'Nome do Curso de Graduação'})
+
+# Filtra as colunas relevantes
+prouni = prouni.loc[:, colunas_relevantes[:2]]
+
+
+# Lê csv: função lambda converte valores para lowercase.
+fluxo = pd.read_csv('arquivosCSV/fluxo/fluxo2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';',
+                    dtype={'Código da Instituição': int}).apply(lambda x: x.astype(str).str.lower())
+
+# Filtra universidades do RS.
+fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == COD_ESTADO]
+
+# Filtra as colunas relevantes
+fluxo = fluxo.loc[:, colunas_relevantes]
+
 
 # Converte quantidade de ingressantes para int para ser somado depois.
 fluxo['Quantidade de Ingressantes no Curso'] = fluxo['Quantidade de Ingressantes no Curso'].astype(int)
@@ -52,12 +56,7 @@ fluxo = fluxo.groupby(['Nome da Instituição', 'Nome do Curso de Graduação'])
 #--------------------------------------------------------------------------------------------------------------------------------------#
 
 # Cria dataframe dfFinal a partir do dataframe prouni
-# ':' indica que quero copiar todas as linhas e a tupla Nome IES e Nome do Curso são as colunas que quero copiar.
-dfFinal = prouni.loc[:, ['NOME_IES_BOLSA', 'NOME_CURSO_BOLSA']]
-
-# Renomeia por conveniência no merge.
-dfFinal = dfFinal.rename(
-    columns={'NOME_IES_BOLSA': 'Nome da Instituição', 'NOME_CURSO_BOLSA': 'Nome do Curso de Graduação'})
+dfFinal = prouni.copy()
 
 # Cria coluna Bolsas, agrupa bolsas de uma mesma universidade e curso e conta quantia delas. 
 dfFinal.insert(2, column='Quantia de Bolsas', value=1)
