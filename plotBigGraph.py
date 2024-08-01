@@ -116,7 +116,7 @@ def read_uma_uni():
 #-----------------------Execução---------------------------
 if __name__ == '__main__':
     course = "ciencia da computacao"
-    university = "pontifícia universidade catolica do rio grande do sul"
+    university = "pontificia universidade catolica do rio grande do sul"
 
     graphType = read_tipo_graf()
 
