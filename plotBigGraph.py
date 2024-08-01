@@ -119,6 +119,6 @@ def plot_graph(df, graph_type, selected, university_name="none"):
 file_path = 'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2010-RS.csv'
 df = read_csv(file_path)
 
-df_filtered = filter_data(df, "ciência da computação")
+df_filtered = filter_data(df, "ciência da computação", "curso", "pontifícia universidade católica do rio grande do sul")
 df_percentages = calculate_percentages(df_filtered)
-plot_graph(df_percentages, TipoGrafico.TODASUNI, "ciência da computação")
+plot_graph(df_percentages, TipoGrafico.UMAUNI, "ciência da computação")
