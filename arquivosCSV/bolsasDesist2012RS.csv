@@ -1,604 +1,604 @@
-;Nome da InstituiÃ§Ã£o;Nome do Curso de GraduaÃ§Ã£o;Quantia de Bolsas;CÃ³digo do Curso de GraduaÃ§Ã£o;Quantidade de Ingressantes no Curso;Quantidade de DesistÃªncias;Nome da Grande Ãrea do Curso segundo a classificaÃ§Ã£o CINE BRASIL;Percentual de Bolsas
-0;centro universitÃ¡rio da serra gaÃºcha;administraÃ§Ã£o;9;20710;6920;4279.0;negÃ³cios, administraÃ§Ã£o e direito;0.13
-1;centro universitÃ¡rio da serra gaÃºcha;arquitetura e urbanismo;7;5000224;1770;1089.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.4
-2;centro universitÃ¡rio da serra gaÃºcha;biomedicina;4;5000225;1620;1094.0;saÃºde e bem-estar;0.25
-3;centro universitÃ¡rio da serra gaÃºcha;ciÃªncias contÃ¡beis;2;87550;1480;890.0;negÃ³cios, administraÃ§Ã£o e direito;0.14
-4;centro universitÃ¡rio da serra gaÃºcha;educaÃ§Ã£o fÃ­sica;1;50265;1540;1007.0;educaÃ§Ã£o;0.06
-5;centro universitÃ¡rio da serra gaÃºcha;enfermagem;4;5000228;750;453.0;saÃºde e bem-estar;0.53
-6;centro universitÃ¡rio da serra gaÃºcha;engenharia civil;7;1060234;1770;1185.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.4
-7;centro universitÃ¡rio da serra gaÃºcha;engenharia de produÃ§Ã£o;12;1059809;2000;1313.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.6
-8;centro universitÃ¡rio da serra gaÃºcha;nutriÃ§Ã£o;4;1130277;1110;642.0;saÃºde e bem-estar;0.36
-9;centro universitÃ¡rio da serra gaÃºcha;odontologia;5;1122568;880;333.0;saÃºde e bem-estar;0.57
-10;centro universitÃ¡rio da serra gaÃºcha;terapia ocupacional;2;1105219;80;27.0;saÃºde e bem-estar;2.5
-11;centro universitÃ¡rio metodista;administraÃ§Ã£o;7;74816;690;210.0;negÃ³cios, administraÃ§Ã£o e direito;1.01
-12;centro universitÃ¡rio metodista;arquitetura e urbanismo;17;91286;750;204.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.27
-13;centro universitÃ¡rio metodista;biomedicina;5;75703;520;167.0;saÃºde e bem-estar;0.96
-14;centro universitÃ¡rio metodista;ciÃªncias contÃ¡beis;2;75715;190;32.0;negÃ³cios, administraÃ§Ã£o e direito;1.05
-15;centro universitÃ¡rio metodista;comunicaÃ§Ã£o social - publicidade e propaganda;7;75726;490;122.0;negÃ³cios, administraÃ§Ã£o e direito;1.43
-16;centro universitÃ¡rio metodista;design de interiores;16;115698;740;177.0;artes e humanidades;2.16
-17;centro universitÃ¡rio metodista;direito;15;56442;1070;260.0;negÃ³cios, administraÃ§Ã£o e direito;1.4
-18;centro universitÃ¡rio metodista;educaÃ§Ã£o fÃ­sica;24;83938;1610;420.0;saÃºde e bem-estar;1.49
-19;centro universitÃ¡rio metodista;enfermagem;7;75705;820;196.0;saÃºde e bem-estar;0.85
-20;centro universitÃ¡rio metodista;engenharia civil;17;91288;1070;217.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.59
-21;centro universitÃ¡rio metodista;engenharia de produÃ§Ã£o;6;91290;530;100.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.13
-22;centro universitÃ¡rio metodista;farmÃ¡cia;8;75717;360;126.0;saÃºde e bem-estar;2.22
-23;centro universitÃ¡rio metodista;fisioterapia;26;9018;1700;422.0;saÃºde e bem-estar;1.53
-24;centro universitÃ¡rio metodista;mÃºsica;11;83945;920;198.0;educaÃ§Ã£o;1.2
-25;centro universitÃ¡rio metodista;nutriÃ§Ã£o;13;15762;700;197.0;saÃºde e bem-estar;1.86
-26;centro universitÃ¡rio metodista;psicologia;11;110300;790;232.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.39
-27;centro universitÃ¡rio metodista;serviÃ§o social;10;75728;220;26.0;saÃºde e bem-estar;4.55
-28;centro universitÃ¡rio ritter dos reis;administraÃ§Ã£o;18;8548;7530;2984.0;negÃ³cios, administraÃ§Ã£o e direito;0.24
-29;centro universitÃ¡rio ritter dos reis;anÃ¡lise e desenvolvimento de sistemas;6;103549;580;277.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.03
-30;centro universitÃ¡rio ritter dos reis;arquitetura e urbanismo;17;9264;3600;1094.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.47
-31;centro universitÃ¡rio ritter dos reis;biomedicina;6;1166231;1130;492.0;saÃºde e bem-estar;0.53
-32;centro universitÃ¡rio ritter dos reis;direito;102;9263;15070;4665.0;negÃ³cios, administraÃ§Ã£o e direito;0.68
-33;centro universitÃ¡rio ritter dos reis;engenharia civil;18;1130130;2080;717.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.87
-34;centro universitÃ¡rio ritter dos reis;engenharia de produÃ§Ã£o;6;1169140;660;400.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.91
-35;centro universitÃ¡rio ritter dos reis;engenharia mecÃ¢nica;6;1169139;1090;592.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.55
-36;centro universitÃ¡rio ritter dos reis;fisioterapia;6;1166454;1360;644.0;saÃºde e bem-estar;0.44
-37;centro universitÃ¡rio ritter dos reis;jornalismo;12;1168946;1640;534.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.73
-38;centro universitÃ¡rio ritter dos reis;letras - inglÃªs;5;32142;500;222.0;educaÃ§Ã£o;1.0
-39;centro universitÃ¡rio ritter dos reis;pedagogia;9;8535;1800;647.0;educaÃ§Ã£o;0.5
-40;centro universitÃ¡rio ritter dos reis;publicidade e propaganda;12;1169004;2050;742.0;negÃ³cios, administraÃ§Ã£o e direito;0.59
-41;centro universitÃ¡rio ritter dos reis;relaÃ§Ãµes internacionais;10;1133632;1560;737.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.64
-42;centro universitÃ¡rio ritter dos reis;sistemas de informaÃ§Ã£o;7;22020;820;401.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.85
-43;centro universitÃ¡rio uniftec;administraÃ§Ã£o;9;1122184;620;345.0;negÃ³cios, administraÃ§Ã£o e direito;1.45
-44;centro universitÃ¡rio uniftec;anÃ¡lise e desenvolvimento de sistemas;8;60168;700;339.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.14
-45;centro universitÃ¡rio uniftec;ciÃªncias contÃ¡beis;7;1043151;350;175.0;negÃ³cios, administraÃ§Ã£o e direito;2.0
-46;centro universitÃ¡rio uniftec;comÃ©rcio exterior;8;101157;240;100.0;negÃ³cios, administraÃ§Ã£o e direito;3.33
-47;centro universitÃ¡rio uniftec;design de moda;5;1048077;330;132.0;artes e humanidades;1.52
-48;centro universitÃ¡rio uniftec;design de produto;6;122384;350;154.0;artes e humanidades;1.71
-49;centro universitÃ¡rio uniftec;engenharia civil;6;1108450;750;373.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.8
-50;centro universitÃ¡rio uniftec;engenharia de computaÃ§Ã£o;9;119335;380;231.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.37
-51;centro universitÃ¡rio uniftec;engenharia de produÃ§Ã£o;12;119339;1030;506.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.17
-52;centro universitÃ¡rio uniftec;engenharia elÃ©trica;10;1154623;720;287.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.39
-53;centro universitÃ¡rio uniftec;engenharia mecÃ¢nica;12;1108433;1520;663.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.79
-54;centro universitÃ¡rio uniftec;gestÃ£o ambiental;2;1077731;260;106.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.77
-55;centro universitÃ¡rio uniftec;gestÃ£o comercial;8;104048;560;224.0;negÃ³cios, administraÃ§Ã£o e direito;1.43
-56;centro universitÃ¡rio uniftec;gestÃ£o da qualidade;6;102103;640;262.0;negÃ³cios, administraÃ§Ã£o e direito;0.94
-57;centro universitÃ¡rio uniftec;gestÃ£o da tecnologia da informaÃ§Ã£o;4;75921;370;134.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.08
-58;centro universitÃ¡rio uniftec;gestÃ£o de recursos humanos;9;101151;680;253.0;negÃ³cios, administraÃ§Ã£o e direito;1.32
-59;centro universitÃ¡rio uniftec;gestÃ£o financeira;8;101192;380;129.0;negÃ³cios, administraÃ§Ã£o e direito;2.11
-60;centro universitÃ¡rio uniftec;logÃ­stica;10;107984;780;358.0;negÃ³cios, administraÃ§Ã£o e direito;1.28
-61;centro universitÃ¡rio uniftec;marketing;6;101155;530;188.0;negÃ³cios, administraÃ§Ã£o e direito;1.13
-62;centro universitÃ¡rio uniftec;processos gerenciais;5;1104027;510;199.0;negÃ³cios, administraÃ§Ã£o e direito;0.98
-63;centro universitÃ¡rio uniftec;produÃ§Ã£o multimÃ­dia;6;1074227;400;157.0;artes e humanidades;1.5
-64;centro universitÃ¡rio uniftec;redes de computadores;6;75917;420;215.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.43
-65;faculdade amÃ©rica latina;administraÃ§Ã£o;6;116818;590;480.0;negÃ³cios, administraÃ§Ã£o e direito;1.02
-66;faculdade amÃ©rica latina;design;8;87254;1060;833.0;artes e humanidades;0.75
-67;faculdade anglicana de erechim;administraÃ§Ã£o;2;103860;610;165.0;negÃ³cios, administraÃ§Ã£o e direito;0.33
-68;faculdade anglicana de erechim;anÃ¡lise e desenvolvimento de sistemas;2;97206;420;160.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.48
-69;faculdade anglicana de erechim;ciÃªncias contÃ¡beis;5;1100620;630;121.0;negÃ³cios, administraÃ§Ã£o e direito;0.79
+;Nome da Instituição;Nome do Curso de Graduação;Quantia de Bolsas;Código do Curso de Graduação;Quantidade de Ingressantes no Curso;Quantidade de Desistências;Nome da Grande Área do Curso segundo a classificação CINE BRASIL;Percentual de Bolsas
+0;centro universitário da serra gaúcha;administração;9;20710;6920;4279.0;negócios, administração e direito;0.13
+1;centro universitário da serra gaúcha;arquitetura e urbanismo;7;5000224;1770;1089.0;engenharia, produção e construção;0.4
+2;centro universitário da serra gaúcha;biomedicina;4;5000225;1620;1094.0;saúde e bem-estar;0.25
+3;centro universitário da serra gaúcha;ciências contábeis;2;87550;1480;890.0;negócios, administração e direito;0.14
+4;centro universitário da serra gaúcha;educação física;1;50265;1540;1007.0;educação;0.06
+5;centro universitário da serra gaúcha;enfermagem;4;5000228;750;453.0;saúde e bem-estar;0.53
+6;centro universitário da serra gaúcha;engenharia civil;7;1060234;1770;1185.0;engenharia, produção e construção;0.4
+7;centro universitário da serra gaúcha;engenharia de produção;12;1059809;2000;1313.0;engenharia, produção e construção;0.6
+8;centro universitário da serra gaúcha;nutrição;4;1130277;1110;642.0;saúde e bem-estar;0.36
+9;centro universitário da serra gaúcha;odontologia;5;1122568;880;333.0;saúde e bem-estar;0.57
+10;centro universitário da serra gaúcha;terapia ocupacional;2;1105219;80;27.0;saúde e bem-estar;2.5
+11;centro universitário metodista;administração;7;74816;690;210.0;negócios, administração e direito;1.01
+12;centro universitário metodista;arquitetura e urbanismo;17;91286;750;204.0;engenharia, produção e construção;2.27
+13;centro universitário metodista;biomedicina;5;75703;520;167.0;saúde e bem-estar;0.96
+14;centro universitário metodista;ciências contábeis;2;75715;190;32.0;negócios, administração e direito;1.05
+15;centro universitário metodista;comunicação social - publicidade e propaganda;7;75726;490;122.0;negócios, administração e direito;1.43
+16;centro universitário metodista;design de interiores;16;115698;740;177.0;artes e humanidades;2.16
+17;centro universitário metodista;direito;15;56442;1070;260.0;negócios, administração e direito;1.4
+18;centro universitário metodista;educação física;24;83938;1610;420.0;saúde e bem-estar;1.49
+19;centro universitário metodista;enfermagem;7;75705;820;196.0;saúde e bem-estar;0.85
+20;centro universitário metodista;engenharia civil;17;91288;1070;217.0;engenharia, produção e construção;1.59
+21;centro universitário metodista;engenharia de produção;6;91290;530;100.0;engenharia, produção e construção;1.13
+22;centro universitário metodista;farmácia;8;75717;360;126.0;saúde e bem-estar;2.22
+23;centro universitário metodista;fisioterapia;26;9018;1700;422.0;saúde e bem-estar;1.53
+24;centro universitário metodista;música;11;83945;920;198.0;educação;1.2
+25;centro universitário metodista;nutrição;13;15762;700;197.0;saúde e bem-estar;1.86
+26;centro universitário metodista;psicologia;11;110300;790;232.0;ciências sociais, comunicação e informação;1.39
+27;centro universitário metodista;serviço social;10;75728;220;26.0;saúde e bem-estar;4.55
+28;centro universitário ritter dos reis;administração;18;8548;7530;2984.0;negócios, administração e direito;0.24
+29;centro universitário ritter dos reis;análise e desenvolvimento de sistemas;6;103549;580;277.0;computação e tecnologias da informação e comunicação (tic);1.03
+30;centro universitário ritter dos reis;arquitetura e urbanismo;17;9264;3600;1094.0;engenharia, produção e construção;0.47
+31;centro universitário ritter dos reis;biomedicina;6;1166231;1130;492.0;saúde e bem-estar;0.53
+32;centro universitário ritter dos reis;direito;102;9263;15070;4665.0;negócios, administração e direito;0.68
+33;centro universitário ritter dos reis;engenharia civil;18;1130130;2080;717.0;engenharia, produção e construção;0.87
+34;centro universitário ritter dos reis;engenharia de produção;6;1169140;660;400.0;engenharia, produção e construção;0.91
+35;centro universitário ritter dos reis;engenharia mecânica;6;1169139;1090;592.0;engenharia, produção e construção;0.55
+36;centro universitário ritter dos reis;fisioterapia;6;1166454;1360;644.0;saúde e bem-estar;0.44
+37;centro universitário ritter dos reis;jornalismo;12;1168946;1640;534.0;ciências sociais, comunicação e informação;0.73
+38;centro universitário ritter dos reis;letras - inglês;5;32142;500;222.0;educação;1.0
+39;centro universitário ritter dos reis;pedagogia;9;8535;1800;647.0;educação;0.5
+40;centro universitário ritter dos reis;publicidade e propaganda;12;1169004;2050;742.0;negócios, administração e direito;0.59
+41;centro universitário ritter dos reis;relações internacionais;10;1133632;1560;737.0;ciências sociais, comunicação e informação;0.64
+42;centro universitário ritter dos reis;sistemas de informação;7;22020;820;401.0;computação e tecnologias da informação e comunicação (tic);0.85
+43;centro universitário uniftec;administração;9;1122184;620;345.0;negócios, administração e direito;1.45
+44;centro universitário uniftec;análise e desenvolvimento de sistemas;8;60168;700;339.0;computação e tecnologias da informação e comunicação (tic);1.14
+45;centro universitário uniftec;ciências contábeis;7;1043151;350;175.0;negócios, administração e direito;2.0
+46;centro universitário uniftec;comércio exterior;8;101157;240;100.0;negócios, administração e direito;3.33
+47;centro universitário uniftec;design de moda;5;1048077;330;132.0;artes e humanidades;1.52
+48;centro universitário uniftec;design de produto;6;122384;350;154.0;artes e humanidades;1.71
+49;centro universitário uniftec;engenharia civil;6;1108450;750;373.0;engenharia, produção e construção;0.8
+50;centro universitário uniftec;engenharia de computação;9;119335;380;231.0;engenharia, produção e construção;2.37
+51;centro universitário uniftec;engenharia de produção;12;119339;1030;506.0;engenharia, produção e construção;1.17
+52;centro universitário uniftec;engenharia elétrica;10;1154623;720;287.0;engenharia, produção e construção;1.39
+53;centro universitário uniftec;engenharia mecânica;12;1108433;1520;663.0;engenharia, produção e construção;0.79
+54;centro universitário uniftec;gestão ambiental;2;1077731;260;106.0;engenharia, produção e construção;0.77
+55;centro universitário uniftec;gestão comercial;8;104048;560;224.0;negócios, administração e direito;1.43
+56;centro universitário uniftec;gestão da qualidade;6;102103;640;262.0;negócios, administração e direito;0.94
+57;centro universitário uniftec;gestão da tecnologia da informação;4;75921;370;134.0;computação e tecnologias da informação e comunicação (tic);1.08
+58;centro universitário uniftec;gestão de recursos humanos;9;101151;680;253.0;negócios, administração e direito;1.32
+59;centro universitário uniftec;gestão financeira;8;101192;380;129.0;negócios, administração e direito;2.11
+60;centro universitário uniftec;logística;10;107984;780;358.0;negócios, administração e direito;1.28
+61;centro universitário uniftec;marketing;6;101155;530;188.0;negócios, administração e direito;1.13
+62;centro universitário uniftec;processos gerenciais;5;1104027;510;199.0;negócios, administração e direito;0.98
+63;centro universitário uniftec;produção multimídia;6;1074227;400;157.0;artes e humanidades;1.5
+64;centro universitário uniftec;redes de computadores;6;75917;420;215.0;computação e tecnologias da informação e comunicação (tic);1.43
+65;faculdade américa latina;administração;6;116818;590;480.0;negócios, administração e direito;1.02
+66;faculdade américa latina;design;8;87254;1060;833.0;artes e humanidades;0.75
+67;faculdade anglicana de erechim;administração;2;103860;610;165.0;negócios, administração e direito;0.33
+68;faculdade anglicana de erechim;análise e desenvolvimento de sistemas;2;97206;420;160.0;computação e tecnologias da informação e comunicação (tic);0.48
+69;faculdade anglicana de erechim;ciências contábeis;5;1100620;630;121.0;negócios, administração e direito;0.79
 70;faculdade anglicana de erechim;design;4;101256;430;134.0;artes e humanidades;0.93
-71;faculdade anglicana de erechim;eletrÃ´nica industrial;2;1123213;370;128.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.54
-72;faculdade anglicana de erechim;pedagogia;1;101287;420;129.0;educaÃ§Ã£o;0.24
-73;faculdade anhanguera de caxias do sul;administraÃ§Ã£o;7;115184;1580;724.0;negÃ³cios, administraÃ§Ã£o e direito;0.44
-74;faculdade anhanguera de caxias do sul;ciÃªncias contÃ¡beis;1;117521;620;261.0;negÃ³cios, administraÃ§Ã£o e direito;0.16
-75;faculdade anhanguera de caxias do sul;engenharia de produÃ§Ã£o;1;1123439;830;368.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.12
-76;faculdade anhanguera de caxias do sul;serviÃ§o social;5;117524;750;282.0;saÃºde e bem-estar;0.67
-77;faculdade anhanguera de passo fundo;administraÃ§Ã£o;64;48455;2260;984.0;negÃ³cios, administraÃ§Ã£o e direito;2.83
-78;faculdade anhanguera de passo fundo;ciÃªncias contÃ¡beis;19;68178;1270;553.0;negÃ³cios, administraÃ§Ã£o e direito;1.5
-79;faculdade anhanguera de passo fundo;direito;58;66395;2480;1041.0;negÃ³cios, administraÃ§Ã£o e direito;2.34
-80;faculdade anhanguera de passo fundo;gestÃ£o comercial;18;104042;730;349.0;negÃ³cios, administraÃ§Ã£o e direito;2.47
-81;faculdade anhanguera de passo fundo;gestÃ£o da tecnologia da informaÃ§Ã£o;6;104116;130;112.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);4.62
-82;faculdade anhanguera de passo fundo;gestÃ£o de recursos humanos;12;1070127;600;283.0;negÃ³cios, administraÃ§Ã£o e direito;2.0
-83;faculdade anhanguera de pelotas;administraÃ§Ã£o;36;59316;2750;1542.0;negÃ³cios, administraÃ§Ã£o e direito;1.31
-84;faculdade anhanguera de pelotas;ciÃªncias biolÃ³gicas;20;105959;810;321.0;educaÃ§Ã£o;2.47
-85;faculdade anhanguera de pelotas;direito;17;86408;3040;1510.0;negÃ³cios, administraÃ§Ã£o e direito;0.56
-86;faculdade anhanguera de pelotas;educaÃ§Ã£o fÃ­sica;13;98728;3940;1540.0;educaÃ§Ã£o;0.33
-87;faculdade anhanguera de pelotas;enfermagem;11;98723;2450;1115.0;saÃºde e bem-estar;0.45
-88;faculdade anhanguera de pelotas;engenharia de produÃ§Ã£o;13;1117478;920;541.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.41
-89;faculdade anhanguera de pelotas;engenharia mecÃ¢nica;13;1117754;1900;1051.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.68
-90;faculdade anhanguera do rio grande;administraÃ§Ã£o;59;59309;2880;1410.0;negÃ³cios, administraÃ§Ã£o e direito;2.05
-91;faculdade anhanguera do rio grande;ciÃªncias biolÃ³gicas;1;110654;140;136.0;educaÃ§Ã£o;0.71
-92;faculdade anhanguera do rio grande;direito;27;87933;2920;1251.0;negÃ³cios, administraÃ§Ã£o e direito;0.92
-93;faculdade anhanguera do rio grande;enfermagem;9;5000331;1850;895.0;saÃºde e bem-estar;0.49
-94;faculdade anhanguera do rio grande;engenharia de controle e automaÃ§Ã£o;2;1119305;850;429.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.24
-95;faculdade anhanguera do rio grande;engenharia mecÃ¢nica;15;1117755;2900;1527.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.52
-96;faculdade anhanguera do rio grande;fisioterapia;9;104382;2080;979.0;saÃºde e bem-estar;0.43
-97;faculdade anhanguera do rio grande;psicologia;6;99604;1910;853.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.31
-98;faculdade anhanguera do rio grande;sistemas para internet;1;96601;100;82.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.0
-99;faculdade antÃ´nio meneghetti;administraÃ§Ã£o;1;108118;300;80.0;negÃ³cios, administraÃ§Ã£o e direito;0.33
-100;faculdade antÃ´nio meneghetti;sistema de informaÃ§Ã£o;2;1057622;90;30.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);2.22
-101;faculdade camaqÃ¼ense de ciÃªncias contÃ¡beis e administrativas;administraÃ§Ã£o;3;9449;410;136.0;negÃ³cios, administraÃ§Ã£o e direito;0.73
-102;faculdade camaqÃ¼ense de ciÃªncias contÃ¡beis e administrativas;ciÃªncias contÃ¡beis;2;9450;150;64.0;negÃ³cios, administraÃ§Ã£o e direito;1.33
-103;faculdade camaqÃ¼ense de ciÃªncias contÃ¡beis e administrativas;educaÃ§Ã£o fÃ­sica;6;1135235;390;200.0;saÃºde e bem-estar;1.54
-104;faculdade cnec farroupilha;administraÃ§Ã£o;8;14943;930;476.0;negÃ³cios, administraÃ§Ã£o e direito;0.86
-105;faculdade cnec farroupilha;direito;6;96000;770;388.0;negÃ³cios, administraÃ§Ã£o e direito;0.78
-106;faculdade cnec farroupilha;pedagogia;4;100474;410;131.0;educaÃ§Ã£o;0.98
-107;faculdade cnec gravataÃ­;administraÃ§Ã£o;7;54552;1940;959.0;negÃ³cios, administraÃ§Ã£o e direito;0.36
-108;faculdade cnec gravataÃ­;ciÃªncias contÃ¡beis;2;98054;520;227.0;negÃ³cios, administraÃ§Ã£o e direito;0.38
-109;faculdade cnec gravataÃ­;sistemas de informaÃ§Ã£o;4;56121;290;176.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.38
-110;faculdade de direito de santa maria;direito;26;67110;2140;1061.0;negÃ³cios, administraÃ§Ã£o e direito;1.21
-111;faculdade de integraÃ§Ã£o do ensino superior do cone sul;administraÃ§Ã£o;3;69253;840;378.0;negÃ³cios, administraÃ§Ã£o e direito;0.36
-112;faculdade de integraÃ§Ã£o do ensino superior do cone sul;ciÃªncias contÃ¡beis;1;119536;440;141.0;negÃ³cios, administraÃ§Ã£o e direito;0.23
-113;faculdade de integraÃ§Ã£o do ensino superior do cone sul;gestÃ£o comercial;3;118598;470;189.0;negÃ³cios, administraÃ§Ã£o e direito;0.64
-114;faculdade de integraÃ§Ã£o do ensino superior do cone sul;gestÃ£o de recursos humanos;1;118600;450;122.0;negÃ³cios, administraÃ§Ã£o e direito;0.22
-115;faculdade de tecnologia la salle - estrela;agronegÃ³cio;2;1045356;160;62.0;agricultura, silvicultura, pesca e veterinÃ¡ria;1.25
-116;faculdade de tecnologia la salle - estrela;gestÃ£o ambiental;1;1122119;110;34.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.91
-117;faculdade de tecnologia la salle - estrela;gestÃ£o de turismo;1;1045095;60;17.0;serviÃ§os;1.67
-118;faculdade de tecnologia la salle - estrela;gestÃ£o financeira;1;1122127;130;16.0;negÃ³cios, administraÃ§Ã£o e direito;0.77
-119;faculdade dom alberto;administraÃ§Ã£o;12;67267;1690;928.0;negÃ³cios, administraÃ§Ã£o e direito;0.71
-120;faculdade dom alberto;ciÃªncias contÃ¡beis;8;67270;820;420.0;negÃ³cios, administraÃ§Ã£o e direito;0.98
-121;faculdade dom alberto;direito;6;89321;1450;800.0;negÃ³cios, administraÃ§Ã£o e direito;0.41
-122;faculdade dom bosco de porto alegre;administraÃ§Ã£o;13;57908;240;139.0;negÃ³cios, administraÃ§Ã£o e direito;5.42
-123;faculdade dom bosco de porto alegre;ciÃªncias contÃ¡beis;1;59091;130;47.0;negÃ³cios, administraÃ§Ã£o e direito;0.77
-124;faculdade dom bosco de porto alegre;direito;10;106816;1080;478.0;negÃ³cios, administraÃ§Ã£o e direito;0.93
-125;faculdade dom bosco de porto alegre;engenharia ambiental e sanitÃ¡ria;2;86449;110;53.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.82
-126;faculdade ecoar;gestÃ£o ambiental;5;113935;180;145.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.78
-127;faculdade equipe;logÃ­stica;3;1085211;70;35.0;negÃ³cios, administraÃ§Ã£o e direito;4.29
-128;faculdade especializada na Ã¡rea de saÃºde do rio grande do sul;odontologia;8;1024230;530;64.0;saÃºde e bem-estar;1.51
-129;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;administraÃ§Ã£o;24;17316;1510;404.0;negÃ³cios, administraÃ§Ã£o e direito;1.59
-130;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;ciÃªncias contÃ¡beis;6;17315;150;91.0;negÃ³cios, administraÃ§Ã£o e direito;4.0
-131;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;direito;12;57396;1030;300.0;negÃ³cios, administraÃ§Ã£o e direito;1.17
-132;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;gestÃ£o comercial;4;1114349;380;64.0;negÃ³cios, administraÃ§Ã£o e direito;1.05
-133;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;gestÃ£o financeira;4;1114158;190;54.0;negÃ³cios, administraÃ§Ã£o e direito;2.11
-134;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;hotelaria;4;21833;150;26.0;serviÃ§os;2.67
-135;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;sistemas para internet;4;1113749;290;95.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.38
-136;faculdade estÃ¡cio do rio grande do sul - estÃ¡cio fargs;turismo;4;21258;300;80.0;serviÃ§os;1.33
-137;faculdade horizontina;engenharia mecÃ¢nica;10;48113;760;378.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.32
-138;faculdade integrada de santa maria;administraÃ§Ã£o;25;67609;940;427.0;negÃ³cios, administraÃ§Ã£o e direito;2.66
-139;faculdade integrada de santa maria;enfermagem;5;67569;1210;575.0;saÃºde e bem-estar;0.41
-140;faculdade integrada de santa maria;psicologia;42;96094;1460;896.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;2.88
-141;faculdade meridional;administraÃ§Ã£o;32;97081;1350;765.0;negÃ³cios, administraÃ§Ã£o e direito;2.37
-142;faculdade meridional;arquitetura e urbanismo;10;122796;1800;832.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.56
-143;faculdade meridional;direito;20;80299;2700;1175.0;negÃ³cios, administraÃ§Ã£o e direito;0.74
-144;faculdade meridional;odontologia;7;122802;690;216.0;saÃºde e bem-estar;1.01
-145;faculdade meridional;psicologia;22;98065;1850;685.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.19
-146;faculdade meridional;sistema de informaÃ§Ã£o;28;96855;600;317.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);4.67
-147;faculdade monteiro lobato;administraÃ§Ã£o;9;68356;760;503.0;negÃ³cios, administraÃ§Ã£o e direito;1.18
-148;faculdade monteiro lobato;anÃ¡lise e desenvolvimento de sistemas;3;1055781;320;170.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.94
-149;faculdade monteiro lobato;ciÃªncias contÃ¡beis;1;68358;290;98.0;negÃ³cios, administraÃ§Ã£o e direito;0.34
-150;faculdade monteiro lobato;gestÃ£o ambiental;2;115394;250;134.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.8
-151;faculdade monteiro lobato;produÃ§Ã£o cÃªnica;4;115392;200;114.0;artes e humanidades;2.0
-152;faculdade nossa senhora de fÃ¡tima;administraÃ§Ã£o;20;67645;710;499.0;negÃ³cios, administraÃ§Ã£o e direito;2.82
-153;faculdade nossa senhora de fÃ¡tima;enfermagem;15;67647;830;513.0;saÃºde e bem-estar;1.81
-154;faculdade nossa senhora de fÃ¡tima;fonoaudiologia;7;81068;260;133.0;saÃºde e bem-estar;2.69
-155;faculdade nossa senhora de fÃ¡tima;nutriÃ§Ã£o;9;80824;280;151.0;saÃºde e bem-estar;3.21
-156;faculdade novo hamburgo;psicologia;3;1077039;220;128.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.36
-157;faculdade novo hamburgo;redes de computadores;1;119946;160;80.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.62
-158;faculdade santo augusto;administraÃ§Ã£o;10;114901;550;333.0;negÃ³cios, administraÃ§Ã£o e direito;1.82
-159;faculdade santo augusto;ciÃªncias contÃ¡beis;9;114903;300;177.0;negÃ³cios, administraÃ§Ã£o e direito;3.0
-160;faculdade santo augusto;educaÃ§Ã£o fÃ­sica;7;1110541;170;82.0;educaÃ§Ã£o;4.12
-161;faculdade sÃ£o francisco de assis;administraÃ§Ã£o;13;67774;1330;833.0;negÃ³cios, administraÃ§Ã£o e direito;0.98
-162;faculdade sÃ£o francisco de assis;arquitetura e urbanismo;6;1060058;470;275.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.28
-163;faculdade sÃ£o francisco de assis;ciÃªncia da computaÃ§Ã£o;2;1134546;260;180.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.77
-164;faculdade sÃ£o francisco de assis;ciÃªncias contÃ¡beis;4;67776;930;476.0;negÃ³cios, administraÃ§Ã£o e direito;0.43
-165;faculdade sÃ£o francisco de assis;direito;8;5000865;1130;556.0;negÃ³cios, administraÃ§Ã£o e direito;0.71
-166;faculdade sÃ£o francisco de assis;psicologia;8;1053146;970;549.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.82
-167;faculdade trÃªs de maio;administraÃ§Ã£o;6;6741;740;249.0;negÃ³cios, administraÃ§Ã£o e direito;0.81
-168;faculdade trÃªs de maio;agronomia;3;119212;490;150.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.61
-169;faculdade trÃªs de maio;design de moda;2;1077618;180;62.0;artes e humanidades;1.11
-170;faculdade trÃªs de maio;enfermagem;3;45559;390;150.0;saÃºde e bem-estar;0.77
-171;faculdade trÃªs de maio;engenharia de produÃ§Ã£o;3;68980;490;183.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.61
-172;faculdade trÃªs de maio;pedagogia;2;32470;210;49.0;educaÃ§Ã£o;0.95
-173;faculdade trÃªs de maio;psicologia;5;104028;270;50.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.85
-174;faculdade trÃªs de maio;redes de computadores;2;72485;120;51.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.67
-175;faculdade trÃªs de maio;sistemas de informaÃ§Ã£o;3;20130;200;93.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.5
-176;faculdades est;mÃºsica;4;1073438;270;92.0;educaÃ§Ã£o;1.48
-177;faculdades integradas machado de assis;administraÃ§Ã£o;19;18732;1530;682.0;negÃ³cios, administraÃ§Ã£o e direito;1.24
-178;faculdades integradas machado de assis;ciÃªncias contÃ¡beis;22;8901;1290;495.0;negÃ³cios, administraÃ§Ã£o e direito;1.71
-179;faculdades integradas machado de assis;direito;18;96010;1720;611.0;negÃ³cios, administraÃ§Ã£o e direito;1.05
-180;faculdades integradas machado de assis;gestÃ£o da tecnologia da informaÃ§Ã£o;6;1101105;460;211.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.3
-181;faculdades integradas machado de assis;gestÃ£o de recursos humanos;10;1101106;610;195.0;negÃ³cios, administraÃ§Ã£o e direito;1.64
-182;faculdades integradas machado de assis;serviÃ§o social;3;73453;100;81.0;saÃºde e bem-estar;3.0
-183;instituto superior de educaÃ§Ã£o ivoti;mÃºsica;3;1100369;270;126.0;educaÃ§Ã£o;1.11
-184;instituto superior de educaÃ§Ã£o ivoti;pedagogia;8;119032;730;461.0;educaÃ§Ã£o;1.1
+71;faculdade anglicana de erechim;eletrônica industrial;2;1123213;370;128.0;engenharia, produção e construção;0.54
+72;faculdade anglicana de erechim;pedagogia;1;101287;420;129.0;educação;0.24
+73;faculdade anhanguera de caxias do sul;administração;7;115184;1580;724.0;negócios, administração e direito;0.44
+74;faculdade anhanguera de caxias do sul;ciências contábeis;1;117521;620;261.0;negócios, administração e direito;0.16
+75;faculdade anhanguera de caxias do sul;engenharia de produção;1;1123439;830;368.0;engenharia, produção e construção;0.12
+76;faculdade anhanguera de caxias do sul;serviço social;5;117524;750;282.0;saúde e bem-estar;0.67
+77;faculdade anhanguera de passo fundo;administração;64;48455;2260;984.0;negócios, administração e direito;2.83
+78;faculdade anhanguera de passo fundo;ciências contábeis;19;68178;1270;553.0;negócios, administração e direito;1.5
+79;faculdade anhanguera de passo fundo;direito;58;66395;2480;1041.0;negócios, administração e direito;2.34
+80;faculdade anhanguera de passo fundo;gestão comercial;18;104042;730;349.0;negócios, administração e direito;2.47
+81;faculdade anhanguera de passo fundo;gestão da tecnologia da informação;6;104116;130;112.0;computação e tecnologias da informação e comunicação (tic);4.62
+82;faculdade anhanguera de passo fundo;gestão de recursos humanos;12;1070127;600;283.0;negócios, administração e direito;2.0
+83;faculdade anhanguera de pelotas;administração;36;59316;2750;1542.0;negócios, administração e direito;1.31
+84;faculdade anhanguera de pelotas;ciências biológicas;20;105959;810;321.0;educação;2.47
+85;faculdade anhanguera de pelotas;direito;17;86408;3040;1510.0;negócios, administração e direito;0.56
+86;faculdade anhanguera de pelotas;educação física;13;98728;3940;1540.0;educação;0.33
+87;faculdade anhanguera de pelotas;enfermagem;11;98723;2450;1115.0;saúde e bem-estar;0.45
+88;faculdade anhanguera de pelotas;engenharia de produção;13;1117478;920;541.0;engenharia, produção e construção;1.41
+89;faculdade anhanguera de pelotas;engenharia mecânica;13;1117754;1900;1051.0;engenharia, produção e construção;0.68
+90;faculdade anhanguera do rio grande;administração;59;59309;2880;1410.0;negócios, administração e direito;2.05
+91;faculdade anhanguera do rio grande;ciências biológicas;1;110654;140;136.0;educação;0.71
+92;faculdade anhanguera do rio grande;direito;27;87933;2920;1251.0;negócios, administração e direito;0.92
+93;faculdade anhanguera do rio grande;enfermagem;9;5000331;1850;895.0;saúde e bem-estar;0.49
+94;faculdade anhanguera do rio grande;engenharia de controle e automação;2;1119305;850;429.0;engenharia, produção e construção;0.24
+95;faculdade anhanguera do rio grande;engenharia mecânica;15;1117755;2900;1527.0;engenharia, produção e construção;0.52
+96;faculdade anhanguera do rio grande;fisioterapia;9;104382;2080;979.0;saúde e bem-estar;0.43
+97;faculdade anhanguera do rio grande;psicologia;6;99604;1910;853.0;ciências sociais, comunicação e informação;0.31
+98;faculdade anhanguera do rio grande;sistemas para internet;1;96601;100;82.0;computação e tecnologias da informação e comunicação (tic);1.0
+99;faculdade antônio meneghetti;administração;1;108118;300;80.0;negócios, administração e direito;0.33
+100;faculdade antônio meneghetti;sistema de informação;2;1057622;90;30.0;computação e tecnologias da informação e comunicação (tic);2.22
+101;faculdade camaqüense de ciências contábeis e administrativas;administração;3;9449;410;136.0;negócios, administração e direito;0.73
+102;faculdade camaqüense de ciências contábeis e administrativas;ciências contábeis;2;9450;150;64.0;negócios, administração e direito;1.33
+103;faculdade camaqüense de ciências contábeis e administrativas;educação física;6;1135235;390;200.0;saúde e bem-estar;1.54
+104;faculdade cnec farroupilha;administração;8;14943;930;476.0;negócios, administração e direito;0.86
+105;faculdade cnec farroupilha;direito;6;96000;770;388.0;negócios, administração e direito;0.78
+106;faculdade cnec farroupilha;pedagogia;4;100474;410;131.0;educação;0.98
+107;faculdade cnec gravataí;administração;7;54552;1940;959.0;negócios, administração e direito;0.36
+108;faculdade cnec gravataí;ciências contábeis;2;98054;520;227.0;negócios, administração e direito;0.38
+109;faculdade cnec gravataí;sistemas de informação;4;56121;290;176.0;computação e tecnologias da informação e comunicação (tic);1.38
+110;faculdade de direito de santa maria;direito;26;67110;2140;1061.0;negócios, administração e direito;1.21
+111;faculdade de integração do ensino superior do cone sul;administração;3;69253;840;378.0;negócios, administração e direito;0.36
+112;faculdade de integração do ensino superior do cone sul;ciências contábeis;1;119536;440;141.0;negócios, administração e direito;0.23
+113;faculdade de integração do ensino superior do cone sul;gestão comercial;3;118598;470;189.0;negócios, administração e direito;0.64
+114;faculdade de integração do ensino superior do cone sul;gestão de recursos humanos;1;118600;450;122.0;negócios, administração e direito;0.22
+115;faculdade de tecnologia la salle - estrela;agronegócio;2;1045356;160;62.0;agricultura, silvicultura, pesca e veterinária;1.25
+116;faculdade de tecnologia la salle - estrela;gestão ambiental;1;1122119;110;34.0;engenharia, produção e construção;0.91
+117;faculdade de tecnologia la salle - estrela;gestão de turismo;1;1045095;60;17.0;serviços;1.67
+118;faculdade de tecnologia la salle - estrela;gestão financeira;1;1122127;130;16.0;negócios, administração e direito;0.77
+119;faculdade dom alberto;administração;12;67267;1690;928.0;negócios, administração e direito;0.71
+120;faculdade dom alberto;ciências contábeis;8;67270;820;420.0;negócios, administração e direito;0.98
+121;faculdade dom alberto;direito;6;89321;1450;800.0;negócios, administração e direito;0.41
+122;faculdade dom bosco de porto alegre;administração;13;57908;240;139.0;negócios, administração e direito;5.42
+123;faculdade dom bosco de porto alegre;ciências contábeis;1;59091;130;47.0;negócios, administração e direito;0.77
+124;faculdade dom bosco de porto alegre;direito;10;106816;1080;478.0;negócios, administração e direito;0.93
+125;faculdade dom bosco de porto alegre;engenharia ambiental e sanitária;2;86449;110;53.0;engenharia, produção e construção;1.82
+126;faculdade ecoar;gestão ambiental;5;113935;180;145.0;engenharia, produção e construção;2.78
+127;faculdade equipe;logística;3;1085211;70;35.0;negócios, administração e direito;4.29
+128;faculdade especializada na área de saúde do rio grande do sul;odontologia;8;1024230;530;64.0;saúde e bem-estar;1.51
+129;faculdade estácio do rio grande do sul - estácio fargs;administração;24;17316;1510;404.0;negócios, administração e direito;1.59
+130;faculdade estácio do rio grande do sul - estácio fargs;ciências contábeis;6;17315;150;91.0;negócios, administração e direito;4.0
+131;faculdade estácio do rio grande do sul - estácio fargs;direito;12;57396;1030;300.0;negócios, administração e direito;1.17
+132;faculdade estácio do rio grande do sul - estácio fargs;gestão comercial;4;1114349;380;64.0;negócios, administração e direito;1.05
+133;faculdade estácio do rio grande do sul - estácio fargs;gestão financeira;4;1114158;190;54.0;negócios, administração e direito;2.11
+134;faculdade estácio do rio grande do sul - estácio fargs;hotelaria;4;21833;150;26.0;serviços;2.67
+135;faculdade estácio do rio grande do sul - estácio fargs;sistemas para internet;4;1113749;290;95.0;computação e tecnologias da informação e comunicação (tic);1.38
+136;faculdade estácio do rio grande do sul - estácio fargs;turismo;4;21258;300;80.0;serviços;1.33
+137;faculdade horizontina;engenharia mecânica;10;48113;760;378.0;engenharia, produção e construção;1.32
+138;faculdade integrada de santa maria;administração;25;67609;940;427.0;negócios, administração e direito;2.66
+139;faculdade integrada de santa maria;enfermagem;5;67569;1210;575.0;saúde e bem-estar;0.41
+140;faculdade integrada de santa maria;psicologia;42;96094;1460;896.0;ciências sociais, comunicação e informação;2.88
+141;faculdade meridional;administração;32;97081;1350;765.0;negócios, administração e direito;2.37
+142;faculdade meridional;arquitetura e urbanismo;10;122796;1800;832.0;engenharia, produção e construção;0.56
+143;faculdade meridional;direito;20;80299;2700;1175.0;negócios, administração e direito;0.74
+144;faculdade meridional;odontologia;7;122802;690;216.0;saúde e bem-estar;1.01
+145;faculdade meridional;psicologia;22;98065;1850;685.0;ciências sociais, comunicação e informação;1.19
+146;faculdade meridional;sistema de informação;28;96855;600;317.0;computação e tecnologias da informação e comunicação (tic);4.67
+147;faculdade monteiro lobato;administração;9;68356;760;503.0;negócios, administração e direito;1.18
+148;faculdade monteiro lobato;análise e desenvolvimento de sistemas;3;1055781;320;170.0;computação e tecnologias da informação e comunicação (tic);0.94
+149;faculdade monteiro lobato;ciências contábeis;1;68358;290;98.0;negócios, administração e direito;0.34
+150;faculdade monteiro lobato;gestão ambiental;2;115394;250;134.0;engenharia, produção e construção;0.8
+151;faculdade monteiro lobato;produção cênica;4;115392;200;114.0;artes e humanidades;2.0
+152;faculdade nossa senhora de fátima;administração;20;67645;710;499.0;negócios, administração e direito;2.82
+153;faculdade nossa senhora de fátima;enfermagem;15;67647;830;513.0;saúde e bem-estar;1.81
+154;faculdade nossa senhora de fátima;fonoaudiologia;7;81068;260;133.0;saúde e bem-estar;2.69
+155;faculdade nossa senhora de fátima;nutrição;9;80824;280;151.0;saúde e bem-estar;3.21
+156;faculdade novo hamburgo;psicologia;3;1077039;220;128.0;ciências sociais, comunicação e informação;1.36
+157;faculdade novo hamburgo;redes de computadores;1;119946;160;80.0;computação e tecnologias da informação e comunicação (tic);0.62
+158;faculdade santo augusto;administração;10;114901;550;333.0;negócios, administração e direito;1.82
+159;faculdade santo augusto;ciências contábeis;9;114903;300;177.0;negócios, administração e direito;3.0
+160;faculdade santo augusto;educação física;7;1110541;170;82.0;educação;4.12
+161;faculdade são francisco de assis;administração;13;67774;1330;833.0;negócios, administração e direito;0.98
+162;faculdade são francisco de assis;arquitetura e urbanismo;6;1060058;470;275.0;engenharia, produção e construção;1.28
+163;faculdade são francisco de assis;ciência da computação;2;1134546;260;180.0;computação e tecnologias da informação e comunicação (tic);0.77
+164;faculdade são francisco de assis;ciências contábeis;4;67776;930;476.0;negócios, administração e direito;0.43
+165;faculdade são francisco de assis;direito;8;5000865;1130;556.0;negócios, administração e direito;0.71
+166;faculdade são francisco de assis;psicologia;8;1053146;970;549.0;ciências sociais, comunicação e informação;0.82
+167;faculdade três de maio;administração;6;6741;740;249.0;negócios, administração e direito;0.81
+168;faculdade três de maio;agronomia;3;119212;490;150.0;agricultura, silvicultura, pesca e veterinária;0.61
+169;faculdade três de maio;design de moda;2;1077618;180;62.0;artes e humanidades;1.11
+170;faculdade três de maio;enfermagem;3;45559;390;150.0;saúde e bem-estar;0.77
+171;faculdade três de maio;engenharia de produção;3;68980;490;183.0;engenharia, produção e construção;0.61
+172;faculdade três de maio;pedagogia;2;32470;210;49.0;educação;0.95
+173;faculdade três de maio;psicologia;5;104028;270;50.0;ciências sociais, comunicação e informação;1.85
+174;faculdade três de maio;redes de computadores;2;72485;120;51.0;computação e tecnologias da informação e comunicação (tic);1.67
+175;faculdade três de maio;sistemas de informação;3;20130;200;93.0;computação e tecnologias da informação e comunicação (tic);1.5
+176;faculdades est;música;4;1073438;270;92.0;educação;1.48
+177;faculdades integradas machado de assis;administração;19;18732;1530;682.0;negócios, administração e direito;1.24
+178;faculdades integradas machado de assis;ciências contábeis;22;8901;1290;495.0;negócios, administração e direito;1.71
+179;faculdades integradas machado de assis;direito;18;96010;1720;611.0;negócios, administração e direito;1.05
+180;faculdades integradas machado de assis;gestão da tecnologia da informação;6;1101105;460;211.0;computação e tecnologias da informação e comunicação (tic);1.3
+181;faculdades integradas machado de assis;gestão de recursos humanos;10;1101106;610;195.0;negócios, administração e direito;1.64
+182;faculdades integradas machado de assis;serviço social;3;73453;100;81.0;saúde e bem-estar;3.0
+183;instituto superior de educação ivoti;música;3;1100369;270;126.0;educação;1.11
+184;instituto superior de educação ivoti;pedagogia;8;119032;730;461.0;educação;1.1
 185;instituto superior de filosofia berthier;filosofia;3;74493;250;113.0;artes e humanidades;1.2
-186;pontifÃ­cia universidade catÃ³lica do rio grande do sul;administraÃ§Ã£o;113;88923;16910;4697.0;negÃ³cios, administraÃ§Ã£o e direito;0.67
-187;pontifÃ­cia universidade catÃ³lica do rio grande do sul;arquitetura e urbanismo;19;18056;1620;555.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.17
-188;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncia da computaÃ§Ã£o;25;1904;1590;809.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.57
-189;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncias aeronÃ¡uticas;8;1923;690;161.0;serviÃ§os;1.16
-190;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncias biolÃ³gicas;25;1905;2150;1042.0;educaÃ§Ã£o;1.16
-191;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncias contÃ¡beis;33;88932;1300;355.0;negÃ³cios, administraÃ§Ã£o e direito;2.54
-192;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncias econÃ´micas;8;1890;1030;361.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.78
-193;pontifÃ­cia universidade catÃ³lica do rio grande do sul;ciÃªncias sociais;45;1894;820;456.0;educaÃ§Ã£o;5.49
-194;pontifÃ­cia universidade catÃ³lica do rio grande do sul;direito;56;1888;9930;2302.0;negÃ³cios, administraÃ§Ã£o e direito;0.56
-195;pontifÃ­cia universidade catÃ³lica do rio grande do sul;educaÃ§Ã£o fÃ­sica;45;39514;2990;1184.0;educaÃ§Ã£o;1.51
-196;pontifÃ­cia universidade catÃ³lica do rio grande do sul;enfermagem;42;19334;770;169.0;saÃºde e bem-estar;5.45
-197;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia de computaÃ§Ã£o;17;56702;910;503.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.87
-198;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia de controle e automaÃ§Ã£o;18;1925;820;396.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.2
-199;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia de produÃ§Ã£o;9;64746;1420;424.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.63
-200;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia elÃ©trica e eletrÃ´nica;13;116150;240;220.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;5.42
-201;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia mecÃ¢nica;10;1914;1530;620.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.65
-202;pontifÃ­cia universidade catÃ³lica do rio grande do sul;engenharia quÃ­mica;11;1915;910;268.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.21
-203;pontifÃ­cia universidade catÃ³lica do rio grande do sul;farmÃ¡cia;24;1924;810;263.0;saÃºde e bem-estar;2.96
-204;pontifÃ­cia universidade catÃ³lica do rio grande do sul;filosofia;30;1881;1280;651.0;educaÃ§Ã£o;2.34
-205;pontifÃ­cia universidade catÃ³lica do rio grande do sul;fisioterapia;30;39516;760;186.0;saÃºde e bem-estar;3.95
-206;pontifÃ­cia universidade catÃ³lica do rio grande do sul;fÃ­sica;35;1896;760;330.0;educaÃ§Ã£o;4.61
-207;pontifÃ­cia universidade catÃ³lica do rio grande do sul;geografia;26;1893;1380;705.0;educaÃ§Ã£o;1.88
-208;pontifÃ­cia universidade catÃ³lica do rio grande do sul;gestÃ£o de turismo;34;1107916;750;262.0;serviÃ§os;4.53
-209;pontifÃ­cia universidade catÃ³lica do rio grande do sul;histÃ³ria;30;102728;2760;1321.0;educaÃ§Ã£o;1.09
-210;pontifÃ­cia universidade catÃ³lica do rio grande do sul;hotelaria;40;1107917;490;292.0;serviÃ§os;8.16
-211;pontifÃ­cia universidade catÃ³lica do rio grande do sul;jornalismo;19;27508;1880;539.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.01
-212;pontifÃ­cia universidade catÃ³lica do rio grande do sul;matemÃ¡tica;55;1907;740;461.0;educaÃ§Ã£o;7.43
-213;pontifÃ­cia universidade catÃ³lica do rio grande do sul;medicina;11;1879;940;15.0;saÃºde e bem-estar;1.17
-214;pontifÃ­cia universidade catÃ³lica do rio grande do sul;nutriÃ§Ã£o;22;56696;600;103.0;saÃºde e bem-estar;3.67
-215;pontifÃ­cia universidade catÃ³lica do rio grande do sul;odontologia;8;1883;750;132.0;saÃºde e bem-estar;1.07
-216;pontifÃ­cia universidade catÃ³lica do rio grande do sul;pedagogia;50;1882;1290;464.0;educaÃ§Ã£o;3.88
-217;pontifÃ­cia universidade catÃ³lica do rio grande do sul;produÃ§Ã£o audiovisual;4;73235;400;119.0;artes e humanidades;1.0
-218;pontifÃ­cia universidade catÃ³lica do rio grande do sul;psicologia;30;1903;3290;839.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.91
-219;pontifÃ­cia universidade catÃ³lica do rio grande do sul;quÃ­mica;30;1906;1760;798.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;1.7
-220;pontifÃ­cia universidade catÃ³lica do rio grande do sul;relaÃ§Ãµes pÃºblicas;26;33288;890;257.0;negÃ³cios, administraÃ§Ã£o e direito;2.92
-221;pontifÃ­cia universidade catÃ³lica do rio grande do sul;serviÃ§o social;40;1887;940;240.0;saÃºde e bem-estar;4.26
-222;pontifÃ­cia universidade catÃ³lica do rio grande do sul;sistemas de informaÃ§Ã£o;36;56766;1470;656.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);2.45
-223;universidade catÃ³lica de pelotas;administraÃ§Ã£o;19;1517;1110;471.0;negÃ³cios, administraÃ§Ã£o e direito;1.71
-224;universidade catÃ³lica de pelotas;arquitetura e urbanismo;3;1534;530;173.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.57
-225;universidade catÃ³lica de pelotas;comunicaÃ§Ã£o social - publicidade e propaganda;4;49996;270;137.0;negÃ³cios, administraÃ§Ã£o e direito;1.48
-226;universidade catÃ³lica de pelotas;design de moda;2;103186;470;148.0;artes e humanidades;0.43
-227;universidade catÃ³lica de pelotas;direito;27;1531;2490;787.0;negÃ³cios, administraÃ§Ã£o e direito;1.08
-228;universidade catÃ³lica de pelotas;enfermagem;7;89467;750;315.0;saÃºde e bem-estar;0.93
-229;universidade catÃ³lica de pelotas;engenharia civil;2;1511;640;225.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.31
-230;universidade catÃ³lica de pelotas;farmÃ¡cia;3;90207;150;72.0;saÃºde e bem-estar;2.0
-231;universidade catÃ³lica de pelotas;filosofia;10;301513;190;94.0;artes e humanidades;5.26
-232;universidade catÃ³lica de pelotas;fisioterapia;4;64838;420;114.0;saÃºde e bem-estar;0.95
-233;universidade catÃ³lica de pelotas;jornalismo;4;49991;480;165.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.83
-234;universidade catÃ³lica de pelotas;letras - portuguÃªs e inglÃªs;10;1514;160;47.0;educaÃ§Ã£o;6.25
-235;universidade catÃ³lica de pelotas;medicina;10;1518;1080;118.0;saÃºde e bem-estar;0.93
-236;universidade catÃ³lica de pelotas;pedagogia;4;1515;350;38.0;educaÃ§Ã£o;1.14
-237;universidade catÃ³lica de pelotas;psicologia;5;1516;430;185.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.16
-238;universidade catÃ³lica de pelotas;serviÃ§o social;5;1526;140;33.0;saÃºde e bem-estar;3.57
-239;universidade de caxias do sul;administraÃ§Ã£o;102;31041;16660;6696.0;negÃ³cios, administraÃ§Ã£o e direito;0.61
-240;universidade de caxias do sul;agronomia;16;88562;1750;684.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.91
-241;universidade de caxias do sul;arquitetura e urbanismo;15;1140;1980;875.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.76
-242;universidade de caxias do sul;artes visuais;1;112356;360;168.0;educaÃ§Ã£o;0.28
-243;universidade de caxias do sul;automaÃ§Ã£o industrial;7;1127914;730;423.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.96
-244;universidade de caxias do sul;ciÃªncia da computaÃ§Ã£o;9;1110;880;467.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.02
-245;universidade de caxias do sul;ciÃªncias biolÃ³gicas;8;1109;970;470.0;educaÃ§Ã£o;0.82
-246;universidade de caxias do sul;ciÃªncias contÃ¡beis;48;1103;5400;1983.0;negÃ³cios, administraÃ§Ã£o e direito;0.89
-247;universidade de caxias do sul;ciÃªncias econÃ´micas;6;1104;890;431.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.67
-248;universidade de caxias do sul;comunicaÃ§Ã£o social - publicidade e propaganda;7;24299;980;447.0;negÃ³cios, administraÃ§Ã£o e direito;0.71
-249;universidade de caxias do sul;comÃ©rcio internacional;18;106910;2300;965.0;negÃ³cios, administraÃ§Ã£o e direito;0.78
+186;pontifícia universidade católica do rio grande do sul;administração;113;88923;16910;4697.0;negócios, administração e direito;0.67
+187;pontifícia universidade católica do rio grande do sul;arquitetura e urbanismo;19;18056;1620;555.0;engenharia, produção e construção;1.17
+188;pontifícia universidade católica do rio grande do sul;ciência da computação;25;1904;1590;809.0;computação e tecnologias da informação e comunicação (tic);1.57
+189;pontifícia universidade católica do rio grande do sul;ciências aeronáuticas;8;1923;690;161.0;serviços;1.16
+190;pontifícia universidade católica do rio grande do sul;ciências biológicas;25;1905;2150;1042.0;educação;1.16
+191;pontifícia universidade católica do rio grande do sul;ciências contábeis;33;88932;1300;355.0;negócios, administração e direito;2.54
+192;pontifícia universidade católica do rio grande do sul;ciências econômicas;8;1890;1030;361.0;ciências sociais, comunicação e informação;0.78
+193;pontifícia universidade católica do rio grande do sul;ciências sociais;45;1894;820;456.0;educação;5.49
+194;pontifícia universidade católica do rio grande do sul;direito;56;1888;9930;2302.0;negócios, administração e direito;0.56
+195;pontifícia universidade católica do rio grande do sul;educação física;45;39514;2990;1184.0;educação;1.51
+196;pontifícia universidade católica do rio grande do sul;enfermagem;42;19334;770;169.0;saúde e bem-estar;5.45
+197;pontifícia universidade católica do rio grande do sul;engenharia de computação;17;56702;910;503.0;computação e tecnologias da informação e comunicação (tic);1.87
+198;pontifícia universidade católica do rio grande do sul;engenharia de controle e automação;18;1925;820;396.0;engenharia, produção e construção;2.2
+199;pontifícia universidade católica do rio grande do sul;engenharia de produção;9;64746;1420;424.0;engenharia, produção e construção;0.63
+200;pontifícia universidade católica do rio grande do sul;engenharia elétrica e eletrônica;13;116150;240;220.0;engenharia, produção e construção;5.42
+201;pontifícia universidade católica do rio grande do sul;engenharia mecânica;10;1914;1530;620.0;engenharia, produção e construção;0.65
+202;pontifícia universidade católica do rio grande do sul;engenharia química;11;1915;910;268.0;engenharia, produção e construção;1.21
+203;pontifícia universidade católica do rio grande do sul;farmácia;24;1924;810;263.0;saúde e bem-estar;2.96
+204;pontifícia universidade católica do rio grande do sul;filosofia;30;1881;1280;651.0;educação;2.34
+205;pontifícia universidade católica do rio grande do sul;fisioterapia;30;39516;760;186.0;saúde e bem-estar;3.95
+206;pontifícia universidade católica do rio grande do sul;física;35;1896;760;330.0;educação;4.61
+207;pontifícia universidade católica do rio grande do sul;geografia;26;1893;1380;705.0;educação;1.88
+208;pontifícia universidade católica do rio grande do sul;gestão de turismo;34;1107916;750;262.0;serviços;4.53
+209;pontifícia universidade católica do rio grande do sul;história;30;102728;2760;1321.0;educação;1.09
+210;pontifícia universidade católica do rio grande do sul;hotelaria;40;1107917;490;292.0;serviços;8.16
+211;pontifícia universidade católica do rio grande do sul;jornalismo;19;27508;1880;539.0;ciências sociais, comunicação e informação;1.01
+212;pontifícia universidade católica do rio grande do sul;matemática;55;1907;740;461.0;educação;7.43
+213;pontifícia universidade católica do rio grande do sul;medicina;11;1879;940;15.0;saúde e bem-estar;1.17
+214;pontifícia universidade católica do rio grande do sul;nutrição;22;56696;600;103.0;saúde e bem-estar;3.67
+215;pontifícia universidade católica do rio grande do sul;odontologia;8;1883;750;132.0;saúde e bem-estar;1.07
+216;pontifícia universidade católica do rio grande do sul;pedagogia;50;1882;1290;464.0;educação;3.88
+217;pontifícia universidade católica do rio grande do sul;produção audiovisual;4;73235;400;119.0;artes e humanidades;1.0
+218;pontifícia universidade católica do rio grande do sul;psicologia;30;1903;3290;839.0;ciências sociais, comunicação e informação;0.91
+219;pontifícia universidade católica do rio grande do sul;química;30;1906;1760;798.0;ciências naturais, matemática e estatística;1.7
+220;pontifícia universidade católica do rio grande do sul;relações públicas;26;33288;890;257.0;negócios, administração e direito;2.92
+221;pontifícia universidade católica do rio grande do sul;serviço social;40;1887;940;240.0;saúde e bem-estar;4.26
+222;pontifícia universidade católica do rio grande do sul;sistemas de informação;36;56766;1470;656.0;computação e tecnologias da informação e comunicação (tic);2.45
+223;universidade católica de pelotas;administração;19;1517;1110;471.0;negócios, administração e direito;1.71
+224;universidade católica de pelotas;arquitetura e urbanismo;3;1534;530;173.0;engenharia, produção e construção;0.57
+225;universidade católica de pelotas;comunicação social - publicidade e propaganda;4;49996;270;137.0;negócios, administração e direito;1.48
+226;universidade católica de pelotas;design de moda;2;103186;470;148.0;artes e humanidades;0.43
+227;universidade católica de pelotas;direito;27;1531;2490;787.0;negócios, administração e direito;1.08
+228;universidade católica de pelotas;enfermagem;7;89467;750;315.0;saúde e bem-estar;0.93
+229;universidade católica de pelotas;engenharia civil;2;1511;640;225.0;engenharia, produção e construção;0.31
+230;universidade católica de pelotas;farmácia;3;90207;150;72.0;saúde e bem-estar;2.0
+231;universidade católica de pelotas;filosofia;10;301513;190;94.0;artes e humanidades;5.26
+232;universidade católica de pelotas;fisioterapia;4;64838;420;114.0;saúde e bem-estar;0.95
+233;universidade católica de pelotas;jornalismo;4;49991;480;165.0;ciências sociais, comunicação e informação;0.83
+234;universidade católica de pelotas;letras - português e inglês;10;1514;160;47.0;educação;6.25
+235;universidade católica de pelotas;medicina;10;1518;1080;118.0;saúde e bem-estar;0.93
+236;universidade católica de pelotas;pedagogia;4;1515;350;38.0;educação;1.14
+237;universidade católica de pelotas;psicologia;5;1516;430;185.0;ciências sociais, comunicação e informação;1.16
+238;universidade católica de pelotas;serviço social;5;1526;140;33.0;saúde e bem-estar;3.57
+239;universidade de caxias do sul;administração;102;31041;16660;6696.0;negócios, administração e direito;0.61
+240;universidade de caxias do sul;agronomia;16;88562;1750;684.0;agricultura, silvicultura, pesca e veterinária;0.91
+241;universidade de caxias do sul;arquitetura e urbanismo;15;1140;1980;875.0;engenharia, produção e construção;0.76
+242;universidade de caxias do sul;artes visuais;1;112356;360;168.0;educação;0.28
+243;universidade de caxias do sul;automação industrial;7;1127914;730;423.0;engenharia, produção e construção;0.96
+244;universidade de caxias do sul;ciência da computação;9;1110;880;467.0;computação e tecnologias da informação e comunicação (tic);1.02
+245;universidade de caxias do sul;ciências biológicas;8;1109;970;470.0;educação;0.82
+246;universidade de caxias do sul;ciências contábeis;48;1103;5400;1983.0;negócios, administração e direito;0.89
+247;universidade de caxias do sul;ciências econômicas;6;1104;890;431.0;ciências sociais, comunicação e informação;0.67
+248;universidade de caxias do sul;comunicação social - publicidade e propaganda;7;24299;980;447.0;negócios, administração e direito;0.71
+249;universidade de caxias do sul;comércio internacional;18;106910;2300;965.0;negócios, administração e direito;0.78
 250;universidade de caxias do sul;design;11;1105331;1810;945.0;artes e humanidades;0.61
 251;universidade de caxias do sul;design de moda;5;121110;780;344.0;artes e humanidades;0.64
-252;universidade de caxias do sul;direito;85;1101;11030;4000.0;negÃ³cios, administraÃ§Ã£o e direito;0.77
-253;universidade de caxias do sul;educaÃ§Ã£o fÃ­sica;28;66129;3120;1240.0;educaÃ§Ã£o;0.9
-254;universidade de caxias do sul;enfermagem;7;45693;780;314.0;saÃºde e bem-estar;0.9
-255;universidade de caxias do sul;engenharia ambiental;6;40404;930;588.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.65
-256;universidade de caxias do sul;engenharia civil;15;1105330;2570;1229.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.58
-257;universidade de caxias do sul;engenharia de alimentos;5;50304;360;207.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.39
-258;universidade de caxias do sul;engenharia de controle e automaÃ§Ã£o;8;98118;1210;613.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.66
-259;universidade de caxias do sul;engenharia de materiais;5;57714;820;485.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.61
-260;universidade de caxias do sul;engenharia de produÃ§Ã£o;28;40405;3180;1664.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.88
-261;universidade de caxias do sul;engenharia eletrÃ´nica;4;1115910;590;299.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.68
-262;universidade de caxias do sul;engenharia elÃ©trica;12;57706;1700;801.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.71
-263;universidade de caxias do sul;engenharia mecÃ¢nica;42;22642;4330;1952.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.97
-264;universidade de caxias do sul;engenharia quÃ­mica;9;26065;1030;393.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.87
-265;universidade de caxias do sul;eventos;3;1127023;250;126.0;serviÃ§os;1.2
-266;universidade de caxias do sul;farmÃ¡cia;13;70604;750;401.0;saÃºde e bem-estar;1.73
-267;universidade de caxias do sul;filosofia;3;45735;530;216.0;educaÃ§Ã£o;0.57
-268;universidade de caxias do sul;fisioterapia;6;50302;830;380.0;saÃºde e bem-estar;0.72
+252;universidade de caxias do sul;direito;85;1101;11030;4000.0;negócios, administração e direito;0.77
+253;universidade de caxias do sul;educação física;28;66129;3120;1240.0;educação;0.9
+254;universidade de caxias do sul;enfermagem;7;45693;780;314.0;saúde e bem-estar;0.9
+255;universidade de caxias do sul;engenharia ambiental;6;40404;930;588.0;engenharia, produção e construção;0.65
+256;universidade de caxias do sul;engenharia civil;15;1105330;2570;1229.0;engenharia, produção e construção;0.58
+257;universidade de caxias do sul;engenharia de alimentos;5;50304;360;207.0;engenharia, produção e construção;1.39
+258;universidade de caxias do sul;engenharia de controle e automação;8;98118;1210;613.0;engenharia, produção e construção;0.66
+259;universidade de caxias do sul;engenharia de materiais;5;57714;820;485.0;engenharia, produção e construção;0.61
+260;universidade de caxias do sul;engenharia de produção;28;40405;3180;1664.0;engenharia, produção e construção;0.88
+261;universidade de caxias do sul;engenharia eletrônica;4;1115910;590;299.0;engenharia, produção e construção;0.68
+262;universidade de caxias do sul;engenharia elétrica;12;57706;1700;801.0;engenharia, produção e construção;0.71
+263;universidade de caxias do sul;engenharia mecânica;42;22642;4330;1952.0;engenharia, produção e construção;0.97
+264;universidade de caxias do sul;engenharia química;9;26065;1030;393.0;engenharia, produção e construção;0.87
+265;universidade de caxias do sul;eventos;3;1127023;250;126.0;serviços;1.2
+266;universidade de caxias do sul;farmácia;13;70604;750;401.0;saúde e bem-estar;1.73
+267;universidade de caxias do sul;filosofia;3;45735;530;216.0;educação;0.57
+268;universidade de caxias do sul;fisioterapia;6;50302;830;380.0;saúde e bem-estar;0.72
 269;universidade de caxias do sul;fotografia;3;1116795;580;237.0;artes e humanidades;0.52
-270;universidade de caxias do sul;gastronomia;2;1172253;570;271.0;serviÃ§os;0.35
-271;universidade de caxias do sul;gestÃ£o comercial;2;1116798;590;194.0;negÃ³cios, administraÃ§Ã£o e direito;0.34
-272;universidade de caxias do sul;gestÃ£o da qualidade;2;1153962;1040;311.0;negÃ³cios, administraÃ§Ã£o e direito;0.19
-273;universidade de caxias do sul;gestÃ£o de recursos humanos;12;1115906;1950;735.0;negÃ³cios, administraÃ§Ã£o e direito;0.62
-274;universidade de caxias do sul;histÃ³ria;4;1095;600;228.0;educaÃ§Ã£o;0.67
-275;universidade de caxias do sul;letras - inglÃªs;3;29730;520;233.0;educaÃ§Ã£o;0.58
-276;universidade de caxias do sul;letras - lÃ­ngua portuguesa;5;25674;600;275.0;educaÃ§Ã£o;0.83
-277;universidade de caxias do sul;marketing;1;1117530;850;272.0;negÃ³cios, administraÃ§Ã£o e direito;0.12
-278;universidade de caxias do sul;matemÃ¡tica;6;1112;470;302.0;educaÃ§Ã£o;1.28
-279;universidade de caxias do sul;medicina;7;1107;850;120.0;saÃºde e bem-estar;0.82
-280;universidade de caxias do sul;mÃºsica;4;1105328;560;250.0;educaÃ§Ã£o;0.71
-281;universidade de caxias do sul;nutriÃ§Ã£o;7;72777;650;283.0;saÃºde e bem-estar;1.08
-282;universidade de caxias do sul;pedagogia;14;98307;2240;836.0;educaÃ§Ã£o;0.62
-283;universidade de caxias do sul;polÃ­meros;1;18043;320;197.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.31
-284;universidade de caxias do sul;processos gerenciais;2;1115907;1030;367.0;negÃ³cios, administraÃ§Ã£o e direito;0.19
-285;universidade de caxias do sul;psicologia;15;29733;1890;925.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.79
-286;universidade de caxias do sul;radiologia;3;1168449;290;133.0;saÃºde e bem-estar;1.03
-287;universidade de caxias do sul;secretariado;2;1105571;210;115.0;negÃ³cios, administraÃ§Ã£o e direito;0.95
-288;universidade de caxias do sul;serviÃ§o social;6;1098;460;249.0;saÃºde e bem-estar;1.3
-289;universidade de caxias do sul;sistemas de informaÃ§Ã£o;19;50298;1440;702.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.32
-290;universidade de caxias do sul;tecnologias digitais;3;75926;350;197.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.86
-291;universidade de caxias do sul;turismo;1;1168445;280;167.0;serviÃ§os;0.36
-292;universidade de cruz alta;administraÃ§Ã£o;11;9229;790;294.0;negÃ³cios, administraÃ§Ã£o e direito;1.39
-293;universidade de cruz alta;agronomia;11;9228;530;189.0;agricultura, silvicultura, pesca e veterinÃ¡ria;2.08
-294;universidade de cruz alta;arquitetura e urbanismo;3;18051;640;236.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.47
-295;universidade de cruz alta;biomedicina;4;69109;250;135.0;saÃºde e bem-estar;1.6
-296;universidade de cruz alta;ciÃªncia da computaÃ§Ã£o;7;20966;290;128.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);2.41
-297;universidade de cruz alta;ciÃªncias contÃ¡beis;4;9236;300;119.0;negÃ³cios, administraÃ§Ã£o e direito;1.33
-298;universidade de cruz alta;direito;17;9227;1560;603.0;negÃ³cios, administraÃ§Ã£o e direito;1.09
-299;universidade de cruz alta;educaÃ§Ã£o fÃ­sica;1;9225;320;147.0;educaÃ§Ã£o;0.31
-300;universidade de cruz alta;estÃ©tica e cosmÃ©tica;2;112062;220;57.0;serviÃ§os;0.91
-301;universidade de cruz alta;jornalismo;2;35859;180;108.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.11
-302;universidade de cruz alta;medicina veterinÃ¡ria;14;19005;1130;382.0;agricultura, silvicultura, pesca e veterinÃ¡ria;1.24
-303;universidade de passo fundo;administraÃ§Ã£o;178;1729;5760;2322.0;negÃ³cios, administraÃ§Ã£o e direito;3.09
-304;universidade de passo fundo;agronomia;20;1728;1300;388.0;agricultura, silvicultura, pesca e veterinÃ¡ria;1.54
-305;universidade de passo fundo;anÃ¡lise e desenvolvimento de sistemas;34;98361;1150;507.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);2.96
-306;universidade de passo fundo;arquitetura e urbanismo;15;1786;950;244.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.58
-307;universidade de passo fundo;artes visuais;6;88502;250;75.0;educaÃ§Ã£o;2.4
-308;universidade de passo fundo;ciÃªncia da computaÃ§Ã£o;22;1721;760;415.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);2.89
-309;universidade de passo fundo;ciÃªncias biolÃ³gicas;25;66005;1020;375.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;2.45
-310;universidade de passo fundo;ciÃªncias contÃ¡beis;145;1734;3720;1072.0;negÃ³cios, administraÃ§Ã£o e direito;3.9
-311;universidade de passo fundo;ciÃªncias econÃ´micas;15;1735;450;154.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;3.33
-312;universidade de passo fundo;comÃ©rcio exterior;17;1133188;580;207.0;negÃ³cios, administraÃ§Ã£o e direito;2.93
+270;universidade de caxias do sul;gastronomia;2;1172253;570;271.0;serviços;0.35
+271;universidade de caxias do sul;gestão comercial;2;1116798;590;194.0;negócios, administração e direito;0.34
+272;universidade de caxias do sul;gestão da qualidade;2;1153962;1040;311.0;negócios, administração e direito;0.19
+273;universidade de caxias do sul;gestão de recursos humanos;12;1115906;1950;735.0;negócios, administração e direito;0.62
+274;universidade de caxias do sul;história;4;1095;600;228.0;educação;0.67
+275;universidade de caxias do sul;letras - inglês;3;29730;520;233.0;educação;0.58
+276;universidade de caxias do sul;letras - língua portuguesa;5;25674;600;275.0;educação;0.83
+277;universidade de caxias do sul;marketing;1;1117530;850;272.0;negócios, administração e direito;0.12
+278;universidade de caxias do sul;matemática;6;1112;470;302.0;educação;1.28
+279;universidade de caxias do sul;medicina;7;1107;850;120.0;saúde e bem-estar;0.82
+280;universidade de caxias do sul;música;4;1105328;560;250.0;educação;0.71
+281;universidade de caxias do sul;nutrição;7;72777;650;283.0;saúde e bem-estar;1.08
+282;universidade de caxias do sul;pedagogia;14;98307;2240;836.0;educação;0.62
+283;universidade de caxias do sul;polímeros;1;18043;320;197.0;engenharia, produção e construção;0.31
+284;universidade de caxias do sul;processos gerenciais;2;1115907;1030;367.0;negócios, administração e direito;0.19
+285;universidade de caxias do sul;psicologia;15;29733;1890;925.0;ciências sociais, comunicação e informação;0.79
+286;universidade de caxias do sul;radiologia;3;1168449;290;133.0;saúde e bem-estar;1.03
+287;universidade de caxias do sul;secretariado;2;1105571;210;115.0;negócios, administração e direito;0.95
+288;universidade de caxias do sul;serviço social;6;1098;460;249.0;saúde e bem-estar;1.3
+289;universidade de caxias do sul;sistemas de informação;19;50298;1440;702.0;computação e tecnologias da informação e comunicação (tic);1.32
+290;universidade de caxias do sul;tecnologias digitais;3;75926;350;197.0;computação e tecnologias da informação e comunicação (tic);0.86
+291;universidade de caxias do sul;turismo;1;1168445;280;167.0;serviços;0.36
+292;universidade de cruz alta;administração;11;9229;790;294.0;negócios, administração e direito;1.39
+293;universidade de cruz alta;agronomia;11;9228;530;189.0;agricultura, silvicultura, pesca e veterinária;2.08
+294;universidade de cruz alta;arquitetura e urbanismo;3;18051;640;236.0;engenharia, produção e construção;0.47
+295;universidade de cruz alta;biomedicina;4;69109;250;135.0;saúde e bem-estar;1.6
+296;universidade de cruz alta;ciência da computação;7;20966;290;128.0;computação e tecnologias da informação e comunicação (tic);2.41
+297;universidade de cruz alta;ciências contábeis;4;9236;300;119.0;negócios, administração e direito;1.33
+298;universidade de cruz alta;direito;17;9227;1560;603.0;negócios, administração e direito;1.09
+299;universidade de cruz alta;educação física;1;9225;320;147.0;educação;0.31
+300;universidade de cruz alta;estética e cosmética;2;112062;220;57.0;serviços;0.91
+301;universidade de cruz alta;jornalismo;2;35859;180;108.0;ciências sociais, comunicação e informação;1.11
+302;universidade de cruz alta;medicina veterinária;14;19005;1130;382.0;agricultura, silvicultura, pesca e veterinária;1.24
+303;universidade de passo fundo;administração;178;1729;5760;2322.0;negócios, administração e direito;3.09
+304;universidade de passo fundo;agronomia;20;1728;1300;388.0;agricultura, silvicultura, pesca e veterinária;1.54
+305;universidade de passo fundo;análise e desenvolvimento de sistemas;34;98361;1150;507.0;computação e tecnologias da informação e comunicação (tic);2.96
+306;universidade de passo fundo;arquitetura e urbanismo;15;1786;950;244.0;engenharia, produção e construção;1.58
+307;universidade de passo fundo;artes visuais;6;88502;250;75.0;educação;2.4
+308;universidade de passo fundo;ciência da computação;22;1721;760;415.0;computação e tecnologias da informação e comunicação (tic);2.89
+309;universidade de passo fundo;ciências biológicas;25;66005;1020;375.0;ciências naturais, matemática e estatística;2.45
+310;universidade de passo fundo;ciências contábeis;145;1734;3720;1072.0;negócios, administração e direito;3.9
+311;universidade de passo fundo;ciências econômicas;15;1735;450;154.0;ciências sociais, comunicação e informação;3.33
+312;universidade de passo fundo;comércio exterior;17;1133188;580;207.0;negócios, administração e direito;2.93
 313;universidade de passo fundo;design de moda;16;115484;540;175.0;artes e humanidades;2.96
 314;universidade de passo fundo;design de produto;11;115478;270;115.0;artes e humanidades;4.07
-315;universidade de passo fundo;design grÃ¡fico;18;111744;520;176.0;artes e humanidades;3.46
-316;universidade de passo fundo;direito;132;1736;4970;1546.0;negÃ³cios, administraÃ§Ã£o e direito;2.66
-317;universidade de passo fundo;educaÃ§Ã£o fÃ­sica;60;1724;2530;806.0;educaÃ§Ã£o;2.37
-318;universidade de passo fundo;enfermagem;19;1727;700;129.0;saÃºde e bem-estar;2.71
-319;universidade de passo fundo;engenharia civil;17;1748;1670;394.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.02
-320;universidade de passo fundo;engenharia de alimentos;12;20948;340;155.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;3.53
-321;universidade de passo fundo;engenharia de produÃ§Ã£o;16;86484;330;95.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;4.85
-322;universidade de passo fundo;engenharia elÃ©trica;19;1109501;1060;369.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.79
-323;universidade de passo fundo;engenharia mecÃ¢nica;30;1718;1780;636.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.69
-324;universidade de passo fundo;estÃ©tica e cosmÃ©tica;23;115482;720;109.0;serviÃ§os;3.19
-325;universidade de passo fundo;fabricaÃ§Ã£o mecÃ¢nica;27;111740;900;480.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;3.0
-326;universidade de passo fundo;farmÃ¡cia;9;18483;290;40.0;saÃºde e bem-estar;3.1
-327;universidade de passo fundo;filosofia;6;1738;250;96.0;educaÃ§Ã£o;2.4
-328;universidade de passo fundo;fisioterapia;10;20949;560;102.0;saÃºde e bem-estar;1.79
-329;universidade de passo fundo;fonoaudiologia;12;64832;380;31.0;saÃºde e bem-estar;3.16
-330;universidade de passo fundo;fÃ­sica;7;73302;250;119.0;educaÃ§Ã£o;2.8
-331;universidade de passo fundo;gestÃ£o comercial;16;1107869;390;139.0;negÃ³cios, administraÃ§Ã£o e direito;4.1
-332;universidade de passo fundo;gestÃ£o de recursos humanos;19;115500;620;175.0;negÃ³cios, administraÃ§Ã£o e direito;3.06
-333;universidade de passo fundo;histÃ³ria;14;1740;490;212.0;educaÃ§Ã£o;2.86
-334;universidade de passo fundo;jornalismo;26;29604;640;179.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;4.06
-335;universidade de passo fundo;letras - portuguÃªs e espanhol;5;88496;130;60.0;educaÃ§Ã£o;3.85
-336;universidade de passo fundo;logÃ­stica;18;115512;410;115.0;negÃ³cios, administraÃ§Ã£o e direito;4.39
-337;universidade de passo fundo;matemÃ¡tica;19;1717;630;280.0;educaÃ§Ã£o;3.02
-338;universidade de passo fundo;medicina;8;1725;930;17.0;saÃºde e bem-estar;0.86
-339;universidade de passo fundo;medicina veterinÃ¡ria;10;18484;840;122.0;agricultura, silvicultura, pesca e veterinÃ¡ria;1.19
-340;universidade de passo fundo;mÃºsica;9;1750;610;253.0;educaÃ§Ã£o;1.48
-341;universidade de passo fundo;nutriÃ§Ã£o;11;64836;290;57.0;saÃºde e bem-estar;3.79
-342;universidade de passo fundo;odontologia;6;1726;660;151.0;saÃºde e bem-estar;0.91
-343;universidade de passo fundo;pedagogia;96;1741;3330;1071.0;educaÃ§Ã£o;2.88
-344;universidade de passo fundo;psicologia;21;47663;1080;269.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.94
-345;universidade de passo fundo;quÃ­mica;30;57548;940;470.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;3.19
-346;universidade de passo fundo;secretariado executivo;16;18482;300;90.0;negÃ³cios, administraÃ§Ã£o e direito;5.33
-347;universidade de passo fundo;serviÃ§o social;14;73298;280;83.0;saÃºde e bem-estar;5.0
-348;universidade de passo fundo;sistemas para internet;18;111736;390;174.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);4.62
-349;universidade de santa cruz do sul;administraÃ§Ã£o;34;6749;4400;1722.0;negÃ³cios, administraÃ§Ã£o e direito;0.77
-350;universidade de santa cruz do sul;anÃ¡lise e desenvolvimento de sistemas;3;1081609;320;133.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.94
-351;universidade de santa cruz do sul;arquitetura e urbanismo;7;20107;710;240.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.99
-352;universidade de santa cruz do sul;ciÃªncia da computaÃ§Ã£o;14;6756;940;592.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.49
-353;universidade de santa cruz do sul;ciÃªncias biolÃ³gicas;4;29951;500;248.0;educaÃ§Ã£o;0.8
-354;universidade de santa cruz do sul;ciÃªncias contÃ¡beis;20;6748;2280;932.0;negÃ³cios, administraÃ§Ã£o e direito;0.88
-355;universidade de santa cruz do sul;ciÃªncias econÃ´micas;8;6751;380;192.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;2.11
-356;universidade de santa cruz do sul;computaÃ§Ã£o;1;20109;130;81.0;educaÃ§Ã£o;0.77
-357;universidade de santa cruz do sul;comunicaÃ§Ã£o social -radialismo - produÃ§Ã£o em mÃ­dia audiovisual;2;55270;360;192.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.56
-358;universidade de santa cruz do sul;direito;53;6743;5540;2079.0;negÃ³cios, administraÃ§Ã£o e direito;0.96
-359;universidade de santa cruz do sul;educaÃ§Ã£o fÃ­sica;16;6747;1930;1016.0;educaÃ§Ã£o;0.83
-360;universidade de santa cruz do sul;enfermagem;17;64474;1370;571.0;saÃºde e bem-estar;1.24
-361;universidade de santa cruz do sul;engenharia agrÃ­cola;5;6760;560;310.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.89
-362;universidade de santa cruz do sul;engenharia ambiental;9;89750;930;623.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.97
-363;universidade de santa cruz do sul;engenharia civil;15;98294;1240;401.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.21
-364;universidade de santa cruz do sul;engenharia de computaÃ§Ã£o;7;75235;500;286.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.4
-365;universidade de santa cruz do sul;engenharia de produÃ§Ã£o;16;64478;1230;740.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.3
-366;universidade de santa cruz do sul;engenharia elÃ©trica;5;114666;610;327.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.82
-367;universidade de santa cruz do sul;engenharia mecÃ¢nica;7;75242;1030;484.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.68
-368;universidade de santa cruz do sul;estÃ©tica e cosmÃ©tica;3;111306;400;142.0;serviÃ§os;0.75
-369;universidade de santa cruz do sul;farmÃ¡cia;8;38525;540;286.0;saÃºde e bem-estar;1.48
-370;universidade de santa cruz do sul;fisioterapia;12;19003;1090;425.0;saÃºde e bem-estar;1.1
+315;universidade de passo fundo;design gráfico;18;111744;520;176.0;artes e humanidades;3.46
+316;universidade de passo fundo;direito;132;1736;4970;1546.0;negócios, administração e direito;2.66
+317;universidade de passo fundo;educação física;60;1724;2530;806.0;educação;2.37
+318;universidade de passo fundo;enfermagem;19;1727;700;129.0;saúde e bem-estar;2.71
+319;universidade de passo fundo;engenharia civil;17;1748;1670;394.0;engenharia, produção e construção;1.02
+320;universidade de passo fundo;engenharia de alimentos;12;20948;340;155.0;engenharia, produção e construção;3.53
+321;universidade de passo fundo;engenharia de produção;16;86484;330;95.0;engenharia, produção e construção;4.85
+322;universidade de passo fundo;engenharia elétrica;19;1109501;1060;369.0;engenharia, produção e construção;1.79
+323;universidade de passo fundo;engenharia mecânica;30;1718;1780;636.0;engenharia, produção e construção;1.69
+324;universidade de passo fundo;estética e cosmética;23;115482;720;109.0;serviços;3.19
+325;universidade de passo fundo;fabricação mecânica;27;111740;900;480.0;engenharia, produção e construção;3.0
+326;universidade de passo fundo;farmácia;9;18483;290;40.0;saúde e bem-estar;3.1
+327;universidade de passo fundo;filosofia;6;1738;250;96.0;educação;2.4
+328;universidade de passo fundo;fisioterapia;10;20949;560;102.0;saúde e bem-estar;1.79
+329;universidade de passo fundo;fonoaudiologia;12;64832;380;31.0;saúde e bem-estar;3.16
+330;universidade de passo fundo;física;7;73302;250;119.0;educação;2.8
+331;universidade de passo fundo;gestão comercial;16;1107869;390;139.0;negócios, administração e direito;4.1
+332;universidade de passo fundo;gestão de recursos humanos;19;115500;620;175.0;negócios, administração e direito;3.06
+333;universidade de passo fundo;história;14;1740;490;212.0;educação;2.86
+334;universidade de passo fundo;jornalismo;26;29604;640;179.0;ciências sociais, comunicação e informação;4.06
+335;universidade de passo fundo;letras - português e espanhol;5;88496;130;60.0;educação;3.85
+336;universidade de passo fundo;logística;18;115512;410;115.0;negócios, administração e direito;4.39
+337;universidade de passo fundo;matemática;19;1717;630;280.0;educação;3.02
+338;universidade de passo fundo;medicina;8;1725;930;17.0;saúde e bem-estar;0.86
+339;universidade de passo fundo;medicina veterinária;10;18484;840;122.0;agricultura, silvicultura, pesca e veterinária;1.19
+340;universidade de passo fundo;música;9;1750;610;253.0;educação;1.48
+341;universidade de passo fundo;nutrição;11;64836;290;57.0;saúde e bem-estar;3.79
+342;universidade de passo fundo;odontologia;6;1726;660;151.0;saúde e bem-estar;0.91
+343;universidade de passo fundo;pedagogia;96;1741;3330;1071.0;educação;2.88
+344;universidade de passo fundo;psicologia;21;47663;1080;269.0;ciências sociais, comunicação e informação;1.94
+345;universidade de passo fundo;química;30;57548;940;470.0;ciências naturais, matemática e estatística;3.19
+346;universidade de passo fundo;secretariado executivo;16;18482;300;90.0;negócios, administração e direito;5.33
+347;universidade de passo fundo;serviço social;14;73298;280;83.0;saúde e bem-estar;5.0
+348;universidade de passo fundo;sistemas para internet;18;111736;390;174.0;computação e tecnologias da informação e comunicação (tic);4.62
+349;universidade de santa cruz do sul;administração;34;6749;4400;1722.0;negócios, administração e direito;0.77
+350;universidade de santa cruz do sul;análise e desenvolvimento de sistemas;3;1081609;320;133.0;computação e tecnologias da informação e comunicação (tic);0.94
+351;universidade de santa cruz do sul;arquitetura e urbanismo;7;20107;710;240.0;engenharia, produção e construção;0.99
+352;universidade de santa cruz do sul;ciência da computação;14;6756;940;592.0;computação e tecnologias da informação e comunicação (tic);1.49
+353;universidade de santa cruz do sul;ciências biológicas;4;29951;500;248.0;educação;0.8
+354;universidade de santa cruz do sul;ciências contábeis;20;6748;2280;932.0;negócios, administração e direito;0.88
+355;universidade de santa cruz do sul;ciências econômicas;8;6751;380;192.0;ciências sociais, comunicação e informação;2.11
+356;universidade de santa cruz do sul;computação;1;20109;130;81.0;educação;0.77
+357;universidade de santa cruz do sul;comunicação social -radialismo - produção em mídia audiovisual;2;55270;360;192.0;ciências sociais, comunicação e informação;0.56
+358;universidade de santa cruz do sul;direito;53;6743;5540;2079.0;negócios, administração e direito;0.96
+359;universidade de santa cruz do sul;educação física;16;6747;1930;1016.0;educação;0.83
+360;universidade de santa cruz do sul;enfermagem;17;64474;1370;571.0;saúde e bem-estar;1.24
+361;universidade de santa cruz do sul;engenharia agrícola;5;6760;560;310.0;agricultura, silvicultura, pesca e veterinária;0.89
+362;universidade de santa cruz do sul;engenharia ambiental;9;89750;930;623.0;engenharia, produção e construção;0.97
+363;universidade de santa cruz do sul;engenharia civil;15;98294;1240;401.0;engenharia, produção e construção;1.21
+364;universidade de santa cruz do sul;engenharia de computação;7;75235;500;286.0;computação e tecnologias da informação e comunicação (tic);1.4
+365;universidade de santa cruz do sul;engenharia de produção;16;64478;1230;740.0;engenharia, produção e construção;1.3
+366;universidade de santa cruz do sul;engenharia elétrica;5;114666;610;327.0;engenharia, produção e construção;0.82
+367;universidade de santa cruz do sul;engenharia mecânica;7;75242;1030;484.0;engenharia, produção e construção;0.68
+368;universidade de santa cruz do sul;estética e cosmética;3;111306;400;142.0;serviços;0.75
+369;universidade de santa cruz do sul;farmácia;8;38525;540;286.0;saúde e bem-estar;1.48
+370;universidade de santa cruz do sul;fisioterapia;12;19003;1090;425.0;saúde e bem-estar;1.1
 371;universidade de santa cruz do sul;fotografia;6;111312;260;127.0;artes e humanidades;2.31
-372;universidade de santa cruz do sul;gastronomia;11;102762;470;107.0;serviÃ§os;2.34
-373;universidade de santa cruz do sul;geografia;3;55324;130;26.0;educaÃ§Ã£o;2.31
-374;universidade de santa cruz do sul;histÃ³ria;2;55327;450;165.0;educaÃ§Ã£o;0.44
-375;universidade de santa cruz do sul;jornalismo;4;27572;660;321.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.61
-376;universidade de santa cruz do sul;letras - espanhol;4;55318;220;92.0;educaÃ§Ã£o;1.82
-377;universidade de santa cruz do sul;letras - inglÃªs;6;55316;420;237.0;educaÃ§Ã£o;1.43
-378;universidade de santa cruz do sul;letras - portuguÃªs;3;55276;220;83.0;educaÃ§Ã£o;1.36
-379;universidade de santa cruz do sul;matemÃ¡tica;6;6754;370;158.0;educaÃ§Ã£o;1.62
-380;universidade de santa cruz do sul;medicina;9;91399;680;117.0;saÃºde e bem-estar;1.32
-381;universidade de santa cruz do sul;nutriÃ§Ã£o;2;20108;570;249.0;saÃºde e bem-estar;0.35
-382;universidade de santa cruz do sul;odontologia;6;19004;580;97.0;saÃºde e bem-estar;1.03
-383;universidade de santa cruz do sul;pedagogia;10;6750;1110;464.0;educaÃ§Ã£o;0.9
-384;universidade de santa cruz do sul;psicologia;5;6757;1330;660.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.38
-385;universidade de santa cruz do sul;quÃ­mica;10;6752;610;285.0;educaÃ§Ã£o;1.64
-386;universidade de santa cruz do sul;relaÃ§Ãµes internacionais;6;114668;510;285.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.18
-387;universidade de santa cruz do sul;relaÃ§Ãµes pÃºblicas;3;35249;330;144.0;negÃ³cios, administraÃ§Ã£o e direito;0.91
-388;universidade de santa cruz do sul;secretariado executivo;6;106770;290;184.0;negÃ³cios, administraÃ§Ã£o e direito;2.07
-389;universidade de santa cruz do sul;serviÃ§o social;5;21709;410;166.0;saÃºde e bem-estar;1.22
-390;universidade de santa cruz do sul;sistemas para internet;3;1081610;80;37.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);3.75
-391;universidade de santa cruz do sul;turismo;1;18517;180;69.0;serviÃ§os;0.56
-392;universidade do vale do rio dos sinos;administraÃ§Ã£o;90;96103;8050;4247.0;negÃ³cios, administraÃ§Ã£o e direito;1.12
-393;universidade do vale do rio dos sinos;anÃ¡lise e desenvolvimento de sistemas;12;90237;2600;1407.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.46
-394;universidade do vale do rio dos sinos;arquitetura e urbanismo;38;1237;4150;1783.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.92
-395;universidade do vale do rio dos sinos;biomedicina;13;1149146;960;502.0;saÃºde e bem-estar;1.35
-396;universidade do vale do rio dos sinos;ciÃªncia da computaÃ§Ã£o;24;57702;1650;992.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.45
-397;universidade do vale do rio dos sinos;ciÃªncias biolÃ³gicas;34;38429;2130;990.0;educaÃ§Ã£o;1.6
-398;universidade do vale do rio dos sinos;ciÃªncias contÃ¡beis;23;1233;1850;938.0;negÃ³cios, administraÃ§Ã£o e direito;1.24
-399;universidade do vale do rio dos sinos;ciÃªncias econÃ´micas;12;1232;740;359.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.62
-400;universidade do vale do rio dos sinos;ciÃªncias sociais;3;1224;200;94.0;educaÃ§Ã£o;1.5
-401;universidade do vale do rio dos sinos;comunicaÃ§Ã£o social - habilitaÃ§Ã£o realizaÃ§Ã£o audiovisual;1;64819;260;64.0;artes e humanidades;0.38
-402;universidade do vale do rio dos sinos;comunicaÃ§Ã£o social - publicidade e propaganda;26;22932;2540;1222.0;negÃ³cios, administraÃ§Ã£o e direito;1.02
+372;universidade de santa cruz do sul;gastronomia;11;102762;470;107.0;serviços;2.34
+373;universidade de santa cruz do sul;geografia;3;55324;130;26.0;educação;2.31
+374;universidade de santa cruz do sul;história;2;55327;450;165.0;educação;0.44
+375;universidade de santa cruz do sul;jornalismo;4;27572;660;321.0;ciências sociais, comunicação e informação;0.61
+376;universidade de santa cruz do sul;letras - espanhol;4;55318;220;92.0;educação;1.82
+377;universidade de santa cruz do sul;letras - inglês;6;55316;420;237.0;educação;1.43
+378;universidade de santa cruz do sul;letras - português;3;55276;220;83.0;educação;1.36
+379;universidade de santa cruz do sul;matemática;6;6754;370;158.0;educação;1.62
+380;universidade de santa cruz do sul;medicina;9;91399;680;117.0;saúde e bem-estar;1.32
+381;universidade de santa cruz do sul;nutrição;2;20108;570;249.0;saúde e bem-estar;0.35
+382;universidade de santa cruz do sul;odontologia;6;19004;580;97.0;saúde e bem-estar;1.03
+383;universidade de santa cruz do sul;pedagogia;10;6750;1110;464.0;educação;0.9
+384;universidade de santa cruz do sul;psicologia;5;6757;1330;660.0;ciências sociais, comunicação e informação;0.38
+385;universidade de santa cruz do sul;química;10;6752;610;285.0;educação;1.64
+386;universidade de santa cruz do sul;relações internacionais;6;114668;510;285.0;ciências sociais, comunicação e informação;1.18
+387;universidade de santa cruz do sul;relações públicas;3;35249;330;144.0;negócios, administração e direito;0.91
+388;universidade de santa cruz do sul;secretariado executivo;6;106770;290;184.0;negócios, administração e direito;2.07
+389;universidade de santa cruz do sul;serviço social;5;21709;410;166.0;saúde e bem-estar;1.22
+390;universidade de santa cruz do sul;sistemas para internet;3;1081610;80;37.0;computação e tecnologias da informação e comunicação (tic);3.75
+391;universidade de santa cruz do sul;turismo;1;18517;180;69.0;serviços;0.56
+392;universidade do vale do rio dos sinos;administração;90;96103;8050;4247.0;negócios, administração e direito;1.12
+393;universidade do vale do rio dos sinos;análise e desenvolvimento de sistemas;12;90237;2600;1407.0;computação e tecnologias da informação e comunicação (tic);0.46
+394;universidade do vale do rio dos sinos;arquitetura e urbanismo;38;1237;4150;1783.0;engenharia, produção e construção;0.92
+395;universidade do vale do rio dos sinos;biomedicina;13;1149146;960;502.0;saúde e bem-estar;1.35
+396;universidade do vale do rio dos sinos;ciência da computação;24;57702;1650;992.0;computação e tecnologias da informação e comunicação (tic);1.45
+397;universidade do vale do rio dos sinos;ciências biológicas;34;38429;2130;990.0;educação;1.6
+398;universidade do vale do rio dos sinos;ciências contábeis;23;1233;1850;938.0;negócios, administração e direito;1.24
+399;universidade do vale do rio dos sinos;ciências econômicas;12;1232;740;359.0;ciências sociais, comunicação e informação;1.62
+400;universidade do vale do rio dos sinos;ciências sociais;3;1224;200;94.0;educação;1.5
+401;universidade do vale do rio dos sinos;comunicação social - habilitação realização audiovisual;1;64819;260;64.0;artes e humanidades;0.38
+402;universidade do vale do rio dos sinos;comunicação social - publicidade e propaganda;26;22932;2540;1222.0;negócios, administração e direito;1.02
 403;universidade do vale do rio dos sinos;design de produto;12;1121529;520;303.0;artes e humanidades;2.31
-404;universidade do vale do rio dos sinos;direito;50;1230;7140;3108.0;negÃ³cios, administraÃ§Ã£o e direito;0.7
-405;universidade do vale do rio dos sinos;educaÃ§Ã£o fÃ­sica;39;1253;3410;1535.0;educaÃ§Ã£o;1.14
-406;universidade do vale do rio dos sinos;enfermagem;28;1225;2380;1260.0;saÃºde e bem-estar;1.18
-407;universidade do vale do rio dos sinos;engenharia ambiental;16;1114767;1130;678.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.42
-408;universidade do vale do rio dos sinos;engenharia cartogrÃ¡fica e de agrimensura;15;1149061;390;259.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;3.85
-409;universidade do vale do rio dos sinos;engenharia civil;28;32842;5010;2256.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.56
-410;universidade do vale do rio dos sinos;engenharia da computaÃ§Ã£o;17;64822;900;582.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.89
-411;universidade do vale do rio dos sinos;engenharia de alimentos;5;29738;380;227.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.32
-412;universidade do vale do rio dos sinos;engenharia de controle e automaÃ§Ã£o;17;1114857;880;606.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.93
-413;universidade do vale do rio dos sinos;engenharia de energia;18;1114784;610;372.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.95
-414;universidade do vale do rio dos sinos;engenharia de produÃ§Ã£o;23;31419;3900;2083.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.59
-415;universidade do vale do rio dos sinos;engenharia elÃ©trica;26;26073;2530;1243.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.03
-416;universidade do vale do rio dos sinos;engenharia mecÃ¢nica;32;29595;4350;2286.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.74
-417;universidade do vale do rio dos sinos;farmÃ¡cia;16;116200;690;409.0;saÃºde e bem-estar;2.32
-418;universidade do vale do rio dos sinos;filosofia;3;1223;380;169.0;educaÃ§Ã£o;0.79
-419;universidade do vale do rio dos sinos;fisioterapia;21;57728;1110;573.0;saÃºde e bem-estar;1.89
+404;universidade do vale do rio dos sinos;direito;50;1230;7140;3108.0;negócios, administração e direito;0.7
+405;universidade do vale do rio dos sinos;educação física;39;1253;3410;1535.0;educação;1.14
+406;universidade do vale do rio dos sinos;enfermagem;28;1225;2380;1260.0;saúde e bem-estar;1.18
+407;universidade do vale do rio dos sinos;engenharia ambiental;16;1114767;1130;678.0;engenharia, produção e construção;1.42
+408;universidade do vale do rio dos sinos;engenharia cartográfica e de agrimensura;15;1149061;390;259.0;engenharia, produção e construção;3.85
+409;universidade do vale do rio dos sinos;engenharia civil;28;32842;5010;2256.0;engenharia, produção e construção;0.56
+410;universidade do vale do rio dos sinos;engenharia da computação;17;64822;900;582.0;engenharia, produção e construção;1.89
+411;universidade do vale do rio dos sinos;engenharia de alimentos;5;29738;380;227.0;engenharia, produção e construção;1.32
+412;universidade do vale do rio dos sinos;engenharia de controle e automação;17;1114857;880;606.0;engenharia, produção e construção;1.93
+413;universidade do vale do rio dos sinos;engenharia de energia;18;1114784;610;372.0;engenharia, produção e construção;2.95
+414;universidade do vale do rio dos sinos;engenharia de produção;23;31419;3900;2083.0;engenharia, produção e construção;0.59
+415;universidade do vale do rio dos sinos;engenharia elétrica;26;26073;2530;1243.0;engenharia, produção e construção;1.03
+416;universidade do vale do rio dos sinos;engenharia mecânica;32;29595;4350;2286.0;engenharia, produção e construção;0.74
+417;universidade do vale do rio dos sinos;farmácia;16;116200;690;409.0;saúde e bem-estar;2.32
+418;universidade do vale do rio dos sinos;filosofia;3;1223;380;169.0;educação;0.79
+419;universidade do vale do rio dos sinos;fisioterapia;21;57728;1110;573.0;saúde e bem-estar;1.89
 420;universidade do vale do rio dos sinos;fotografia;8;1178939;620;280.0;artes e humanidades;1.29
-421;universidade do vale do rio dos sinos;fÃ­sica;10;38433;380;223.0;educaÃ§Ã£o;2.63
-422;universidade do vale do rio dos sinos;gastronomia;8;102859;1040;383.0;serviÃ§os;0.77
-423;universidade do vale do rio dos sinos;geologia;9;1240;830;417.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;1.08
-424;universidade do vale do rio dos sinos;gestÃ£o ambiental;17;91921;840;432.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.02
-425;universidade do vale do rio dos sinos;gestÃ£o comercial;15;1114863;1190;461.0;negÃ³cios, administraÃ§Ã£o e direito;1.26
-426;universidade do vale do rio dos sinos;gestÃ£o de recursos humanos;13;96105;1210;481.0;negÃ³cios, administraÃ§Ã£o e direito;1.07
-427;universidade do vale do rio dos sinos;gestÃ£o financeira;14;102861;880;326.0;negÃ³cios, administraÃ§Ã£o e direito;1.59
-428;universidade do vale do rio dos sinos;gestÃ£o hospitalar;2;1149080;150;69.0;negÃ³cios, administraÃ§Ã£o e direito;1.33
-429;universidade do vale do rio dos sinos;histÃ³ria;18;1222;820;427.0;educaÃ§Ã£o;2.2
-430;universidade do vale do rio dos sinos;jogos digitais;8;80675;1510;916.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.53
-431;universidade do vale do rio dos sinos;jornalismo;50;27498;2580;1198.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.94
-432;universidade do vale do rio dos sinos;letras - inglÃªs;10;40717;530;259.0;educaÃ§Ã£o;1.89
-433;universidade do vale do rio dos sinos;letras - portuguÃªs;13;40720;390;188.0;educaÃ§Ã£o;3.33
-434;universidade do vale do rio dos sinos;letras - portuguÃªs e espanhol;12;38439;320;140.0;educaÃ§Ã£o;3.75
-435;universidade do vale do rio dos sinos;letras portuguÃªs e inglÃªs;20;29336;950;489.0;educaÃ§Ã£o;2.11
-436;universidade do vale do rio dos sinos;logÃ­stica;13;96107;800;316.0;negÃ³cios, administraÃ§Ã£o e direito;1.62
-437;universidade do vale do rio dos sinos;matemÃ¡tica;23;38431;1200;663.0;educaÃ§Ã£o;1.92
+421;universidade do vale do rio dos sinos;física;10;38433;380;223.0;educação;2.63
+422;universidade do vale do rio dos sinos;gastronomia;8;102859;1040;383.0;serviços;0.77
+423;universidade do vale do rio dos sinos;geologia;9;1240;830;417.0;ciências naturais, matemática e estatística;1.08
+424;universidade do vale do rio dos sinos;gestão ambiental;17;91921;840;432.0;engenharia, produção e construção;2.02
+425;universidade do vale do rio dos sinos;gestão comercial;15;1114863;1190;461.0;negócios, administração e direito;1.26
+426;universidade do vale do rio dos sinos;gestão de recursos humanos;13;96105;1210;481.0;negócios, administração e direito;1.07
+427;universidade do vale do rio dos sinos;gestão financeira;14;102861;880;326.0;negócios, administração e direito;1.59
+428;universidade do vale do rio dos sinos;gestão hospitalar;2;1149080;150;69.0;negócios, administração e direito;1.33
+429;universidade do vale do rio dos sinos;história;18;1222;820;427.0;educação;2.2
+430;universidade do vale do rio dos sinos;jogos digitais;8;80675;1510;916.0;computação e tecnologias da informação e comunicação (tic);0.53
+431;universidade do vale do rio dos sinos;jornalismo;50;27498;2580;1198.0;ciências sociais, comunicação e informação;1.94
+432;universidade do vale do rio dos sinos;letras - inglês;10;40717;530;259.0;educação;1.89
+433;universidade do vale do rio dos sinos;letras - português;13;40720;390;188.0;educação;3.33
+434;universidade do vale do rio dos sinos;letras - português e espanhol;12;38439;320;140.0;educação;3.75
+435;universidade do vale do rio dos sinos;letras português e inglês;20;29336;950;489.0;educação;2.11
+436;universidade do vale do rio dos sinos;logística;13;96107;800;316.0;negócios, administração e direito;1.62
+437;universidade do vale do rio dos sinos;matemática;23;38431;1200;663.0;educação;1.92
 438;universidade do vale do rio dos sinos;moda;13;1121615;830;323.0;artes e humanidades;1.57
-439;universidade do vale do rio dos sinos;nutriÃ§Ã£o;30;1227;2170;1029.0;saÃºde e bem-estar;1.38
-440;universidade do vale do rio dos sinos;pedagogia;23;112239;2340;745.0;educaÃ§Ã£o;0.98
-441;universidade do vale do rio dos sinos;produÃ§Ã£o fonogrÃ¡fica;6;1178929;450;191.0;artes e humanidades;1.33
-442;universidade do vale do rio dos sinos;psicologia;28;106617;3800;1859.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.74
-443;universidade do vale do rio dos sinos;relaÃ§Ãµes internacionais;2;1119932;270;110.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.74
-444;universidade do vale do rio dos sinos;relaÃ§Ãµes pÃºblicas;23;33262;940;471.0;negÃ³cios, administraÃ§Ã£o e direito;2.45
-445;universidade do vale do rio dos sinos;seguranÃ§a da informaÃ§Ã£o;13;80670;1230;674.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.06
-446;universidade do vale do rio dos sinos;serviÃ§o social;19;1242;640;293.0;saÃºde e bem-estar;2.97
-447;universidade do vale do rio dos sinos;sistemas de informaÃ§Ã£o;19;1261;1070;634.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.78
-448;universidade feevale;administraÃ§Ã£o;39;34666;5820;2735.0;negÃ³cios, administraÃ§Ã£o e direito;0.67
-449;universidade feevale;arquitetura e urbanismo;9;41780;1970;870.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.46
-450;universidade feevale;artes visuais;10;58330;1120;572.0;educaÃ§Ã£o;0.89
-451;universidade feevale;biomedicina;17;39454;1120;463.0;saÃºde e bem-estar;1.52
-452;universidade feevale;ciÃªncia da computaÃ§Ã£o;17;2090;880;402.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.93
-453;universidade feevale;ciÃªncias biolÃ³gicas;17;58372;1250;736.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;1.36
-454;universidade feevale;ciÃªncias contÃ¡beis;16;2082;2030;765.0;negÃ³cios, administraÃ§Ã£o e direito;0.79
-455;universidade feevale;comunicaÃ§Ã£o social - publicidade e propaganda;13;22995;1390;571.0;negÃ³cios, administraÃ§Ã£o e direito;0.94
-456;universidade feevale;comÃ©rcio exterior;6;108356;1170;548.0;negÃ³cios, administraÃ§Ã£o e direito;0.51
-457;universidade feevale;construÃ§Ã£o de edifÃ­cios;1;120997;150;48.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.67
+439;universidade do vale do rio dos sinos;nutrição;30;1227;2170;1029.0;saúde e bem-estar;1.38
+440;universidade do vale do rio dos sinos;pedagogia;23;112239;2340;745.0;educação;0.98
+441;universidade do vale do rio dos sinos;produção fonográfica;6;1178929;450;191.0;artes e humanidades;1.33
+442;universidade do vale do rio dos sinos;psicologia;28;106617;3800;1859.0;ciências sociais, comunicação e informação;0.74
+443;universidade do vale do rio dos sinos;relações internacionais;2;1119932;270;110.0;ciências sociais, comunicação e informação;0.74
+444;universidade do vale do rio dos sinos;relações públicas;23;33262;940;471.0;negócios, administração e direito;2.45
+445;universidade do vale do rio dos sinos;segurança da informação;13;80670;1230;674.0;computação e tecnologias da informação e comunicação (tic);1.06
+446;universidade do vale do rio dos sinos;serviço social;19;1242;640;293.0;saúde e bem-estar;2.97
+447;universidade do vale do rio dos sinos;sistemas de informação;19;1261;1070;634.0;computação e tecnologias da informação e comunicação (tic);1.78
+448;universidade feevale;administração;39;34666;5820;2735.0;negócios, administração e direito;0.67
+449;universidade feevale;arquitetura e urbanismo;9;41780;1970;870.0;engenharia, produção e construção;0.46
+450;universidade feevale;artes visuais;10;58330;1120;572.0;educação;0.89
+451;universidade feevale;biomedicina;17;39454;1120;463.0;saúde e bem-estar;1.52
+452;universidade feevale;ciência da computação;17;2090;880;402.0;computação e tecnologias da informação e comunicação (tic);1.93
+453;universidade feevale;ciências biológicas;17;58372;1250;736.0;ciências naturais, matemática e estatística;1.36
+454;universidade feevale;ciências contábeis;16;2082;2030;765.0;negócios, administração e direito;0.79
+455;universidade feevale;comunicação social - publicidade e propaganda;13;22995;1390;571.0;negócios, administração e direito;0.94
+456;universidade feevale;comércio exterior;6;108356;1170;548.0;negócios, administração e direito;0.51
+457;universidade feevale;construção de edifícios;1;120997;150;48.0;engenharia, produção e construção;0.67
 458;universidade feevale;design;5;39663;1320;657.0;artes e humanidades;0.38
 459;universidade feevale;design de interiores;12;1160863;1110;482.0;artes e humanidades;1.08
-460;universidade feevale;direito;19;19963;4080;1305.0;negÃ³cios, administraÃ§Ã£o e direito;0.47
-461;universidade feevale;educaÃ§Ã£o fÃ­sica;21;2086;2620;1261.0;educaÃ§Ã£o;0.8
-462;universidade feevale;enfermagem;39;39925;2140;719.0;saÃºde e bem-estar;1.82
-463;universidade feevale;engenharia civil;10;1179133;2190;891.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.46
-464;universidade feevale;engenharia de produÃ§Ã£o;7;45723;1260;613.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.56
-465;universidade feevale;engenharia eletrÃ´nica;7;39761;550;279.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.27
-466;universidade feevale;engenharia mecÃ¢nica;13;1115864;2170;960.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.6
-467;universidade feevale;engenharia quÃ­mica;12;1115483;1980;826.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.61
-468;universidade feevale;estÃ©tica e cosmÃ©tica;6;1172141;1190;457.0;serviÃ§os;0.5
-469;universidade feevale;farmÃ¡cia;10;39975;1090;371.0;saÃºde e bem-estar;0.92
-470;universidade feevale;fisioterapia;12;2089;1180;496.0;saÃºde e bem-estar;1.02
+460;universidade feevale;direito;19;19963;4080;1305.0;negócios, administração e direito;0.47
+461;universidade feevale;educação física;21;2086;2620;1261.0;educação;0.8
+462;universidade feevale;enfermagem;39;39925;2140;719.0;saúde e bem-estar;1.82
+463;universidade feevale;engenharia civil;10;1179133;2190;891.0;engenharia, produção e construção;0.46
+464;universidade feevale;engenharia de produção;7;45723;1260;613.0;engenharia, produção e construção;0.56
+465;universidade feevale;engenharia eletrônica;7;39761;550;279.0;engenharia, produção e construção;1.27
+466;universidade feevale;engenharia mecânica;13;1115864;2170;960.0;engenharia, produção e construção;0.6
+467;universidade feevale;engenharia química;12;1115483;1980;826.0;engenharia, produção e construção;0.61
+468;universidade feevale;estética e cosmética;6;1172141;1190;457.0;serviços;0.5
+469;universidade feevale;farmácia;10;39975;1090;371.0;saúde e bem-estar;0.92
+470;universidade feevale;fisioterapia;12;2089;1180;496.0;saúde e bem-estar;1.02
 471;universidade feevale;fotografia;4;1179146;680;339.0;artes e humanidades;0.59
-472;universidade feevale;gastronomia;4;1115885;860;340.0;serviÃ§os;0.47
-473;universidade feevale;gestÃ£o ambiental;6;1115799;680;247.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.88
-474;universidade feevale;gestÃ£o da produÃ§Ã£o industrial;15;1149672;710;157.0;negÃ³cios, administraÃ§Ã£o e direito;2.11
-475;universidade feevale;gestÃ£o de recursos humanos;4;108354;510;95.0;negÃ³cios, administraÃ§Ã£o e direito;0.78
-476;universidade feevale;gestÃ£o financeira;4;120995;1280;471.0;negÃ³cios, administraÃ§Ã£o e direito;0.31
-477;universidade feevale;gestÃ£o hospitalar;1;1115843;50;17.0;negÃ³cios, administraÃ§Ã£o e direito;2.0
-478;universidade feevale;histÃ³ria;13;42194;650;372.0;educaÃ§Ã£o;2.0
-479;universidade feevale;jogos digitais;4;108352;630;233.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.63
-480;universidade feevale;jornalismo;10;45722;960;511.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.04
-481;universidade feevale;letras - portuguÃªs e inglÃªs;10;58205;1020;588.0;educaÃ§Ã£o;0.98
-482;universidade feevale;manutenÃ§Ã£o industrial;3;1179150;500;281.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.6
+472;universidade feevale;gastronomia;4;1115885;860;340.0;serviços;0.47
+473;universidade feevale;gestão ambiental;6;1115799;680;247.0;engenharia, produção e construção;0.88
+474;universidade feevale;gestão da produção industrial;15;1149672;710;157.0;negócios, administração e direito;2.11
+475;universidade feevale;gestão de recursos humanos;4;108354;510;95.0;negócios, administração e direito;0.78
+476;universidade feevale;gestão financeira;4;120995;1280;471.0;negócios, administração e direito;0.31
+477;universidade feevale;gestão hospitalar;1;1115843;50;17.0;negócios, administração e direito;2.0
+478;universidade feevale;história;13;42194;650;372.0;educação;2.0
+479;universidade feevale;jogos digitais;4;108352;630;233.0;computação e tecnologias da informação e comunicação (tic);0.63
+480;universidade feevale;jornalismo;10;45722;960;511.0;ciências sociais, comunicação e informação;1.04
+481;universidade feevale;letras - português e inglês;10;58205;1020;588.0;educação;0.98
+482;universidade feevale;manutenção industrial;3;1179150;500;281.0;engenharia, produção e construção;0.6
 483;universidade feevale;moda;24;58490;2100;691.0;artes e humanidades;1.14
-484;universidade feevale;nutriÃ§Ã£o;7;39745;720;291.0;saÃºde e bem-estar;0.97
-485;universidade feevale;pedagogia;5;2085;1640;774.0;educaÃ§Ã£o;0.3
-486;universidade feevale;psicologia;14;53370;2240;751.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.62
-487;universidade feevale;quiropraxia;11;39749;630;286.0;saÃºde e bem-estar;1.75
-488;universidade feevale;relaÃ§Ãµes pÃºblicas;6;31445;850;409.0;negÃ³cios, administraÃ§Ã£o e direito;0.71
-489;universidade feevale;seguranÃ§a pÃºblica;2;1161859;80;21.0;serviÃ§os;2.5
-490;universidade feevale;sistemas de informaÃ§Ã£o;8;58498;820;442.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.98
-491;universidade feevale;sistemas para internet;8;108358;690;193.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.16
-492;universidade feevale;turismo;9;41161;680;312.0;serviÃ§os;1.32
-493;universidade luterana do brasil;administraÃ§Ã£o;81;8490;8430;4812.0;negÃ³cios, administraÃ§Ã£o e direito;0.96
-494;universidade luterana do brasil;agronegÃ³cio;5;115770;290;102.0;agricultura, silvicultura, pesca e veterinÃ¡ria;1.72
-495;universidade luterana do brasil;agronomia;1;94183;570;395.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.18
-496;universidade luterana do brasil;anÃ¡lise e desenvolvimento de sistemas;12;68029;1310;705.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.92
-497;universidade luterana do brasil;arquitetura e urbanismo;26;9275;2520;1223.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.03
-498;universidade luterana do brasil;automaÃ§Ã£o industrial;3;65549;570;393.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.53
-499;universidade luterana do brasil;biomedicina;12;65092;860;428.0;saÃºde e bem-estar;1.4
-500;universidade luterana do brasil;ciÃªncia da computaÃ§Ã£o;8;9302;810;457.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.99
-501;universidade luterana do brasil;ciÃªncias biolÃ³gicas;16;33566;1490;859.0;educaÃ§Ã£o;1.07
-502;universidade luterana do brasil;ciÃªncias contÃ¡beis;2;9274;570;279.0;negÃ³cios, administraÃ§Ã£o e direito;0.35
-503;universidade luterana do brasil;ciÃªncias econÃ´micas;2;9282;230;88.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.87
-504;universidade luterana do brasil;ciÃªncias polÃ­ticas;3;9322;130;65.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;2.31
-505;universidade luterana do brasil;comunicaÃ§Ã£o social - publicidade e propaganda;5;26396;360;185.0;negÃ³cios, administraÃ§Ã£o e direito;1.39
-506;universidade luterana do brasil;comunicaÃ§Ã£o social - relaÃ§Ãµes pÃºblicas;2;23575;120;40.0;negÃ³cios, administraÃ§Ã£o e direito;1.67
-507;universidade luterana do brasil;danÃ§a;3;108446;310;209.0;educaÃ§Ã£o;0.97
+484;universidade feevale;nutrição;7;39745;720;291.0;saúde e bem-estar;0.97
+485;universidade feevale;pedagogia;5;2085;1640;774.0;educação;0.3
+486;universidade feevale;psicologia;14;53370;2240;751.0;ciências sociais, comunicação e informação;0.62
+487;universidade feevale;quiropraxia;11;39749;630;286.0;saúde e bem-estar;1.75
+488;universidade feevale;relações públicas;6;31445;850;409.0;negócios, administração e direito;0.71
+489;universidade feevale;segurança pública;2;1161859;80;21.0;serviços;2.5
+490;universidade feevale;sistemas de informação;8;58498;820;442.0;computação e tecnologias da informação e comunicação (tic);0.98
+491;universidade feevale;sistemas para internet;8;108358;690;193.0;computação e tecnologias da informação e comunicação (tic);1.16
+492;universidade feevale;turismo;9;41161;680;312.0;serviços;1.32
+493;universidade luterana do brasil;administração;81;8490;8430;4812.0;negócios, administração e direito;0.96
+494;universidade luterana do brasil;agronegócio;5;115770;290;102.0;agricultura, silvicultura, pesca e veterinária;1.72
+495;universidade luterana do brasil;agronomia;1;94183;570;395.0;agricultura, silvicultura, pesca e veterinária;0.18
+496;universidade luterana do brasil;análise e desenvolvimento de sistemas;12;68029;1310;705.0;computação e tecnologias da informação e comunicação (tic);0.92
+497;universidade luterana do brasil;arquitetura e urbanismo;26;9275;2520;1223.0;engenharia, produção e construção;1.03
+498;universidade luterana do brasil;automação industrial;3;65549;570;393.0;engenharia, produção e construção;0.53
+499;universidade luterana do brasil;biomedicina;12;65092;860;428.0;saúde e bem-estar;1.4
+500;universidade luterana do brasil;ciência da computação;8;9302;810;457.0;computação e tecnologias da informação e comunicação (tic);0.99
+501;universidade luterana do brasil;ciências biológicas;16;33566;1490;859.0;educação;1.07
+502;universidade luterana do brasil;ciências contábeis;2;9274;570;279.0;negócios, administração e direito;0.35
+503;universidade luterana do brasil;ciências econômicas;2;9282;230;88.0;ciências sociais, comunicação e informação;0.87
+504;universidade luterana do brasil;ciências políticas;3;9322;130;65.0;ciências sociais, comunicação e informação;2.31
+505;universidade luterana do brasil;comunicação social - publicidade e propaganda;5;26396;360;185.0;negócios, administração e direito;1.39
+506;universidade luterana do brasil;comunicação social - relações públicas;2;23575;120;40.0;negócios, administração e direito;1.67
+507;universidade luterana do brasil;dança;3;108446;310;209.0;educação;0.97
 508;universidade luterana do brasil;design;4;72840;470;242.0;artes e humanidades;0.85
 509;universidade luterana do brasil;design de interiores;4;69206;490;232.0;artes e humanidades;0.82
 510;universidade luterana do brasil;design de moda;8;112316;740;243.0;artes e humanidades;1.08
-511;universidade luterana do brasil;design grÃ¡fico;1;100068;260;141.0;artes e humanidades;0.38
-512;universidade luterana do brasil;direito;114;9292;8890;3999.0;negÃ³cios, administraÃ§Ã£o e direito;1.28
-513;universidade luterana do brasil;educaÃ§Ã£o fÃ­sica;71;8483;7700;3971.0;educaÃ§Ã£o;0.92
-514;universidade luterana do brasil;educaÃ§Ã£o nas organizaÃ§Ãµes;2;104021;380;188.0;educaÃ§Ã£o;0.53
-515;universidade luterana do brasil;enfermagem;11;9278;1790;897.0;saÃºde e bem-estar;0.61
-516;universidade luterana do brasil;engenharia ambiental e sanitÃ¡ria;7;9323;380;224.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.84
-517;universidade luterana do brasil;engenharia civil;3;9287;1620;892.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.19
-518;universidade luterana do brasil;engenharia de produÃ§Ã£o;8;115774;1580;914.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.51
-519;universidade luterana do brasil;engenharia elÃ©trica;2;9307;830;553.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.24
-520;universidade luterana do brasil;engenharia mecÃ¢nica;10;18499;1890;1058.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.53
-521;universidade luterana do brasil;engenharia mecÃ¢nica automotiva;1;60280;700;383.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.14
-522;universidade luterana do brasil;engenharia quÃ­mica;3;9308;670;339.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.45
-523;universidade luterana do brasil;estÃ©tica e cosmÃ©tica;15;70867;1840;901.0;serviÃ§os;0.82
-524;universidade luterana do brasil;farmÃ¡cia;11;9301;480;267.0;saÃºde e bem-estar;2.29
-525;universidade luterana do brasil;fisioterapia;26;9309;1890;941.0;saÃºde e bem-estar;1.38
+511;universidade luterana do brasil;design gráfico;1;100068;260;141.0;artes e humanidades;0.38
+512;universidade luterana do brasil;direito;114;9292;8890;3999.0;negócios, administração e direito;1.28
+513;universidade luterana do brasil;educação física;71;8483;7700;3971.0;educação;0.92
+514;universidade luterana do brasil;educação nas organizações;2;104021;380;188.0;educação;0.53
+515;universidade luterana do brasil;enfermagem;11;9278;1790;897.0;saúde e bem-estar;0.61
+516;universidade luterana do brasil;engenharia ambiental e sanitária;7;9323;380;224.0;engenharia, produção e construção;1.84
+517;universidade luterana do brasil;engenharia civil;3;9287;1620;892.0;engenharia, produção e construção;0.19
+518;universidade luterana do brasil;engenharia de produção;8;115774;1580;914.0;engenharia, produção e construção;0.51
+519;universidade luterana do brasil;engenharia elétrica;2;9307;830;553.0;engenharia, produção e construção;0.24
+520;universidade luterana do brasil;engenharia mecânica;10;18499;1890;1058.0;engenharia, produção e construção;0.53
+521;universidade luterana do brasil;engenharia mecânica automotiva;1;60280;700;383.0;engenharia, produção e construção;0.14
+522;universidade luterana do brasil;engenharia química;3;9308;670;339.0;engenharia, produção e construção;0.45
+523;universidade luterana do brasil;estética e cosmética;15;70867;1840;901.0;serviços;0.82
+524;universidade luterana do brasil;farmácia;11;9301;480;267.0;saúde e bem-estar;2.29
+525;universidade luterana do brasil;fisioterapia;26;9309;1890;941.0;saúde e bem-estar;1.38
 526;universidade luterana do brasil;fotografia;2;65571;610;238.0;artes e humanidades;0.33
-527;universidade luterana do brasil;geografia;2;9293;220;97.0;educaÃ§Ã£o;0.91
-528;universidade luterana do brasil;gestÃ£o ambiental;13;102926;530;292.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;2.45
-529;universidade luterana do brasil;gestÃ£o comercial;1;65577;330;188.0;negÃ³cios, administraÃ§Ã£o e direito;0.3
-530;universidade luterana do brasil;gestÃ£o da produÃ§Ã£o industrial;8;119908;580;311.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.38
-531;universidade luterana do brasil;gestÃ£o de recursos humanos;15;65573;1100;529.0;negÃ³cios, administraÃ§Ã£o e direito;1.36
-532;universidade luterana do brasil;histÃ³ria;2;9289;750;398.0;educaÃ§Ã£o;0.27
-533;universidade luterana do brasil;letras - espanhol;2;112386;150;118.0;educaÃ§Ã£o;1.33
-534;universidade luterana do brasil;letras - inglÃªs;2;33596;250;143.0;educaÃ§Ã£o;0.8
-535;universidade luterana do brasil;letras - portuguÃªs;2;32941;300;143.0;educaÃ§Ã£o;0.67
-536;universidade luterana do brasil;logÃ­stica;7;65551;700;343.0;negÃ³cios, administraÃ§Ã£o e direito;1.0
-537;universidade luterana do brasil;marketing;1;69202;200;89.0;negÃ³cios, administraÃ§Ã£o e direito;0.5
-538;universidade luterana do brasil;matemÃ¡tica;5;60509;670;428.0;educaÃ§Ã£o;0.75
-539;universidade luterana do brasil;medicina;5;9326;850;79.0;saÃºde e bem-estar;0.59
-540;universidade luterana do brasil;medicina veterinÃ¡ria;10;9317;1610;812.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.62
-541;universidade luterana do brasil;odontologia;24;9290;2040;617.0;saÃºde e bem-estar;1.18
-542;universidade luterana do brasil;pedagogia;25;8488;2560;1418.0;educaÃ§Ã£o;0.98
-543;universidade luterana do brasil;processos gerenciais;6;113542;500;256.0;negÃ³cios, administraÃ§Ã£o e direito;1.2
-544;universidade luterana do brasil;produÃ§Ã£o audiovisual;2;101576;180;90.0;artes e humanidades;1.11
-545;universidade luterana do brasil;psicologia;44;26391;3190;1512.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.38
-546;universidade luterana do brasil;quÃ­mica;3;66507;260;124.0;educaÃ§Ã£o;1.15
-547;universidade luterana do brasil;quÃ­mica industrial;1;72854;920;579.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;0.11
-548;universidade luterana do brasil;redes de computadores;2;65565;260;144.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.77
-549;universidade luterana do brasil;secretariado executivo trilÃ­ngue;4;79950;320;181.0;negÃ³cios, administraÃ§Ã£o e direito;1.25
-550;universidade luterana do brasil;sistemas de informaÃ§Ã£o;28;20971;1680;984.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.67
+527;universidade luterana do brasil;geografia;2;9293;220;97.0;educação;0.91
+528;universidade luterana do brasil;gestão ambiental;13;102926;530;292.0;engenharia, produção e construção;2.45
+529;universidade luterana do brasil;gestão comercial;1;65577;330;188.0;negócios, administração e direito;0.3
+530;universidade luterana do brasil;gestão da produção industrial;8;119908;580;311.0;engenharia, produção e construção;1.38
+531;universidade luterana do brasil;gestão de recursos humanos;15;65573;1100;529.0;negócios, administração e direito;1.36
+532;universidade luterana do brasil;história;2;9289;750;398.0;educação;0.27
+533;universidade luterana do brasil;letras - espanhol;2;112386;150;118.0;educação;1.33
+534;universidade luterana do brasil;letras - inglês;2;33596;250;143.0;educação;0.8
+535;universidade luterana do brasil;letras - português;2;32941;300;143.0;educação;0.67
+536;universidade luterana do brasil;logística;7;65551;700;343.0;negócios, administração e direito;1.0
+537;universidade luterana do brasil;marketing;1;69202;200;89.0;negócios, administração e direito;0.5
+538;universidade luterana do brasil;matemática;5;60509;670;428.0;educação;0.75
+539;universidade luterana do brasil;medicina;5;9326;850;79.0;saúde e bem-estar;0.59
+540;universidade luterana do brasil;medicina veterinária;10;9317;1610;812.0;agricultura, silvicultura, pesca e veterinária;0.62
+541;universidade luterana do brasil;odontologia;24;9290;2040;617.0;saúde e bem-estar;1.18
+542;universidade luterana do brasil;pedagogia;25;8488;2560;1418.0;educação;0.98
+543;universidade luterana do brasil;processos gerenciais;6;113542;500;256.0;negócios, administração e direito;1.2
+544;universidade luterana do brasil;produção audiovisual;2;101576;180;90.0;artes e humanidades;1.11
+545;universidade luterana do brasil;psicologia;44;26391;3190;1512.0;ciências sociais, comunicação e informação;1.38
+546;universidade luterana do brasil;química;3;66507;260;124.0;educação;1.15
+547;universidade luterana do brasil;química industrial;1;72854;920;579.0;ciências naturais, matemática e estatística;0.11
+548;universidade luterana do brasil;redes de computadores;2;65565;260;144.0;computação e tecnologias da informação e comunicação (tic);0.77
+549;universidade luterana do brasil;secretariado executivo trilíngue;4;79950;320;181.0;negócios, administração e direito;1.25
+550;universidade luterana do brasil;sistemas de informação;28;20971;1680;984.0;computação e tecnologias da informação e comunicação (tic);1.67
 551;universidade luterana do brasil;teologia;4;9318;550;183.0;artes e humanidades;0.73
-552;universidade regional do noroeste do estado do rio grande do sul;administraÃ§Ã£o;18;10965;3070;1883.0;negÃ³cios, administraÃ§Ã£o e direito;0.59
-553;universidade regional do noroeste do estado do rio grande do sul;agronomia;7;10975;900;419.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.78
-554;universidade regional do noroeste do estado do rio grande do sul;ciÃªncia da computaÃ§Ã£o;6;110974;980;651.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);0.61
-555;universidade regional do noroeste do estado do rio grande do sul;ciÃªncias biolÃ³gicas;4;64194;650;425.0;educaÃ§Ã£o;0.62
-556;universidade regional do noroeste do estado do rio grande do sul;ciÃªncias contÃ¡beis;4;10966;880;364.0;negÃ³cios, administraÃ§Ã£o e direito;0.45
-557;universidade regional do noroeste do estado do rio grande do sul;ciÃªncias econÃ´micas;3;20977;410;198.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.73
-558;universidade regional do noroeste do estado do rio grande do sul;comunicaÃ§Ã£o social - publicidade e propaganda;2;31822;380;223.0;negÃ³cios, administraÃ§Ã£o e direito;0.53
+552;universidade regional do noroeste do estado do rio grande do sul;administração;18;10965;3070;1883.0;negócios, administração e direito;0.59
+553;universidade regional do noroeste do estado do rio grande do sul;agronomia;7;10975;900;419.0;agricultura, silvicultura, pesca e veterinária;0.78
+554;universidade regional do noroeste do estado do rio grande do sul;ciência da computação;6;110974;980;651.0;computação e tecnologias da informação e comunicação (tic);0.61
+555;universidade regional do noroeste do estado do rio grande do sul;ciências biológicas;4;64194;650;425.0;educação;0.62
+556;universidade regional do noroeste do estado do rio grande do sul;ciências contábeis;4;10966;880;364.0;negócios, administração e direito;0.45
+557;universidade regional do noroeste do estado do rio grande do sul;ciências econômicas;3;20977;410;198.0;ciências sociais, comunicação e informação;0.73
+558;universidade regional do noroeste do estado do rio grande do sul;comunicação social - publicidade e propaganda;2;31822;380;223.0;negócios, administração e direito;0.53
 559;universidade regional do noroeste do estado do rio grande do sul;design;4;64124;470;402.0;artes e humanidades;0.85
-560;universidade regional do noroeste do estado do rio grande do sul;direito;26;10976;4260;2219.0;negÃ³cios, administraÃ§Ã£o e direito;0.61
-561;universidade regional do noroeste do estado do rio grande do sul;educaÃ§Ã£o fÃ­sica;17;10981;1520;879.0;educaÃ§Ã£o;1.12
-562;universidade regional do noroeste do estado do rio grande do sul;enfermagem;4;10967;460;235.0;saÃºde e bem-estar;0.87
-563;universidade regional do noroeste do estado do rio grande do sul;engenharia civil;20;18508;3070;1616.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.65
-564;universidade regional do noroeste do estado do rio grande do sul;engenharia elÃ©trica;16;10982;2400;1547.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.67
-565;universidade regional do noroeste do estado do rio grande do sul;engenharia mecÃ¢nica;5;10990;1360;766.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.37
-566;universidade regional do noroeste do estado do rio grande do sul;estÃ©tica e cosmÃ©tica;2;1112301;480;166.0;serviÃ§os;0.42
-567;universidade regional do noroeste do estado do rio grande do sul;farmÃ¡cia;5;18509;320;116.0;saÃºde e bem-estar;1.56
-568;universidade regional do noroeste do estado do rio grande do sul;fisioterapia;4;20974;500;274.0;saÃºde e bem-estar;0.8
-569;universidade regional do noroeste do estado do rio grande do sul;jornalismo;2;29585;330;168.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.61
-570;universidade regional do noroeste do estado do rio grande do sul;letras - lÃ­ngua portuguesa;5;40921;40;9.0;educaÃ§Ã£o;12.5
-571;universidade regional do noroeste do estado do rio grande do sul;matemÃ¡tica;3;19026;270;170.0;educaÃ§Ã£o;1.11
-572;universidade regional do noroeste do estado do rio grande do sul;medicina veterinÃ¡ria;7;111008;1140;505.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.61
-573;universidade regional do noroeste do estado do rio grande do sul;nutriÃ§Ã£o;2;10968;560;331.0;saÃºde e bem-estar;0.36
-574;universidade regional do noroeste do estado do rio grande do sul;pedagogia;7;42088;980;490.0;educaÃ§Ã£o;0.71
-575;universidade regional do noroeste do estado do rio grande do sul;psicologia;8;32224;1630;834.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;0.49
-576;universidade regional do noroeste do estado do rio grande do sul;relaÃ§Ãµes pÃºblicas;2;28310;210;109.0;negÃ³cios, administraÃ§Ã£o e direito;0.95
-577;universidade regional integrada do alto uruguai e das missÃµes;administraÃ§Ã£o;60;8787;4870;2362.0;negÃ³cios, administraÃ§Ã£o e direito;1.23
-578;universidade regional integrada do alto uruguai e das missÃµes;agronegÃ³cio;2;97185;280;62.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.71
-579;universidade regional integrada do alto uruguai e das missÃµes;agronomia;6;106130;1210;320.0;agricultura, silvicultura, pesca e veterinÃ¡ria;0.5
-580;universidade regional integrada do alto uruguai e das missÃµes;arquitetura e urbanismo;16;49506;2030;919.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.79
-581;universidade regional integrada do alto uruguai e das missÃµes;ciÃªncia da computaÃ§Ã£o;18;64020;1340;682.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.34
-582;universidade regional integrada do alto uruguai e das missÃµes;ciÃªncias biolÃ³gicas;23;8801;1340;683.0;educaÃ§Ã£o;1.72
-583;universidade regional integrada do alto uruguai e das missÃµes;ciÃªncias contÃ¡beis;38;8786;3580;1511.0;negÃ³cios, administraÃ§Ã£o e direito;1.06
-584;universidade regional integrada do alto uruguai e das missÃµes;direito;90;8810;7870;2799.0;negÃ³cios, administraÃ§Ã£o e direito;1.14
-585;universidade regional integrada do alto uruguai e das missÃµes;educaÃ§Ã£o fÃ­sica;34;64106;2100;843.0;educaÃ§Ã£o;1.62
-586;universidade regional integrada do alto uruguai e das missÃµes;enfermagem;19;18494;1550;699.0;saÃºde e bem-estar;1.23
-587;universidade regional integrada do alto uruguai e das missÃµes;engenharia agrÃ­cola;7;19342;220;78.0;agricultura, silvicultura, pesca e veterinÃ¡ria;3.18
-588;universidade regional integrada do alto uruguai e das missÃµes;engenharia civil;33;8784;3320;1408.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.99
-589;universidade regional integrada do alto uruguai e das missÃµes;engenharia de alimentos;7;8820;130;59.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;5.38
-590;universidade regional integrada do alto uruguai e das missÃµes;engenharia elÃ©trica;9;1126142;990;368.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;0.91
-591;universidade regional integrada do alto uruguai e das missÃµes;engenharia mecÃ¢nica;15;8785;1450;796.0;engenharia, produÃ§Ã£o e construÃ§Ã£o;1.03
-592;universidade regional integrada do alto uruguai e das missÃµes;farmÃ¡cia;22;20106;1230;594.0;saÃºde e bem-estar;1.79
-593;universidade regional integrada do alto uruguai e das missÃµes;fisioterapia;20;64164;410;148.0;saÃºde e bem-estar;4.88
-594;universidade regional integrada do alto uruguai e das missÃµes;letras - lÃ­ngua portuguesa;8;1151951;750;281.0;educaÃ§Ã£o;1.07
-595;universidade regional integrada do alto uruguai e das missÃµes;matemÃ¡tica;4;8790;660;414.0;educaÃ§Ã£o;0.61
-596;universidade regional integrada do alto uruguai e das missÃµes;nutriÃ§Ã£o;10;88810;550;157.0;saÃºde e bem-estar;1.82
-597;universidade regional integrada do alto uruguai e das missÃµes;odontologia;7;122800;510;87.0;saÃºde e bem-estar;1.37
-598;universidade regional integrada do alto uruguai e das missÃµes;pedagogia;16;8788;1910;723.0;educaÃ§Ã£o;0.84
-599;universidade regional integrada do alto uruguai e das missÃµes;psicologia;23;49498;2090;823.0;ciÃªncias sociais, comunicaÃ§Ã£o e informaÃ§Ã£o;1.1
-600;universidade regional integrada do alto uruguai e das missÃµes;quÃ­mica;12;64040;940;407.0;ciÃªncias naturais, matemÃ¡tica e estatÃ­stica;1.28
-601;universidade regional integrada do alto uruguai e das missÃµes;serviÃ§o social;15;73206;120;41.0;saÃºde e bem-estar;12.5
-602;universidade regional integrada do alto uruguai e das missÃµes;sistemas de informaÃ§Ã£o;9;88180;510;334.0;computaÃ§Ã£o e tecnologias da informaÃ§Ã£o e comunicaÃ§Ã£o (tic);1.76
+560;universidade regional do noroeste do estado do rio grande do sul;direito;26;10976;4260;2219.0;negócios, administração e direito;0.61
+561;universidade regional do noroeste do estado do rio grande do sul;educação física;17;10981;1520;879.0;educação;1.12
+562;universidade regional do noroeste do estado do rio grande do sul;enfermagem;4;10967;460;235.0;saúde e bem-estar;0.87
+563;universidade regional do noroeste do estado do rio grande do sul;engenharia civil;20;18508;3070;1616.0;engenharia, produção e construção;0.65
+564;universidade regional do noroeste do estado do rio grande do sul;engenharia elétrica;16;10982;2400;1547.0;engenharia, produção e construção;0.67
+565;universidade regional do noroeste do estado do rio grande do sul;engenharia mecânica;5;10990;1360;766.0;engenharia, produção e construção;0.37
+566;universidade regional do noroeste do estado do rio grande do sul;estética e cosmética;2;1112301;480;166.0;serviços;0.42
+567;universidade regional do noroeste do estado do rio grande do sul;farmácia;5;18509;320;116.0;saúde e bem-estar;1.56
+568;universidade regional do noroeste do estado do rio grande do sul;fisioterapia;4;20974;500;274.0;saúde e bem-estar;0.8
+569;universidade regional do noroeste do estado do rio grande do sul;jornalismo;2;29585;330;168.0;ciências sociais, comunicação e informação;0.61
+570;universidade regional do noroeste do estado do rio grande do sul;letras - língua portuguesa;5;40921;40;9.0;educação;12.5
+571;universidade regional do noroeste do estado do rio grande do sul;matemática;3;19026;270;170.0;educação;1.11
+572;universidade regional do noroeste do estado do rio grande do sul;medicina veterinária;7;111008;1140;505.0;agricultura, silvicultura, pesca e veterinária;0.61
+573;universidade regional do noroeste do estado do rio grande do sul;nutrição;2;10968;560;331.0;saúde e bem-estar;0.36
+574;universidade regional do noroeste do estado do rio grande do sul;pedagogia;7;42088;980;490.0;educação;0.71
+575;universidade regional do noroeste do estado do rio grande do sul;psicologia;8;32224;1630;834.0;ciências sociais, comunicação e informação;0.49
+576;universidade regional do noroeste do estado do rio grande do sul;relações públicas;2;28310;210;109.0;negócios, administração e direito;0.95
+577;universidade regional integrada do alto uruguai e das missões;administração;60;8787;4870;2362.0;negócios, administração e direito;1.23
+578;universidade regional integrada do alto uruguai e das missões;agronegócio;2;97185;280;62.0;agricultura, silvicultura, pesca e veterinária;0.71
+579;universidade regional integrada do alto uruguai e das missões;agronomia;6;106130;1210;320.0;agricultura, silvicultura, pesca e veterinária;0.5
+580;universidade regional integrada do alto uruguai e das missões;arquitetura e urbanismo;16;49506;2030;919.0;engenharia, produção e construção;0.79
+581;universidade regional integrada do alto uruguai e das missões;ciência da computação;18;64020;1340;682.0;computação e tecnologias da informação e comunicação (tic);1.34
+582;universidade regional integrada do alto uruguai e das missões;ciências biológicas;23;8801;1340;683.0;educação;1.72
+583;universidade regional integrada do alto uruguai e das missões;ciências contábeis;38;8786;3580;1511.0;negócios, administração e direito;1.06
+584;universidade regional integrada do alto uruguai e das missões;direito;90;8810;7870;2799.0;negócios, administração e direito;1.14
+585;universidade regional integrada do alto uruguai e das missões;educação física;34;64106;2100;843.0;educação;1.62
+586;universidade regional integrada do alto uruguai e das missões;enfermagem;19;18494;1550;699.0;saúde e bem-estar;1.23
+587;universidade regional integrada do alto uruguai e das missões;engenharia agrícola;7;19342;220;78.0;agricultura, silvicultura, pesca e veterinária;3.18
+588;universidade regional integrada do alto uruguai e das missões;engenharia civil;33;8784;3320;1408.0;engenharia, produção e construção;0.99
+589;universidade regional integrada do alto uruguai e das missões;engenharia de alimentos;7;8820;130;59.0;engenharia, produção e construção;5.38
+590;universidade regional integrada do alto uruguai e das missões;engenharia elétrica;9;1126142;990;368.0;engenharia, produção e construção;0.91
+591;universidade regional integrada do alto uruguai e das missões;engenharia mecânica;15;8785;1450;796.0;engenharia, produção e construção;1.03
+592;universidade regional integrada do alto uruguai e das missões;farmácia;22;20106;1230;594.0;saúde e bem-estar;1.79
+593;universidade regional integrada do alto uruguai e das missões;fisioterapia;20;64164;410;148.0;saúde e bem-estar;4.88
+594;universidade regional integrada do alto uruguai e das missões;letras - língua portuguesa;8;1151951;750;281.0;educação;1.07
+595;universidade regional integrada do alto uruguai e das missões;matemática;4;8790;660;414.0;educação;0.61
+596;universidade regional integrada do alto uruguai e das missões;nutrição;10;88810;550;157.0;saúde e bem-estar;1.82
+597;universidade regional integrada do alto uruguai e das missões;odontologia;7;122800;510;87.0;saúde e bem-estar;1.37
+598;universidade regional integrada do alto uruguai e das missões;pedagogia;16;8788;1910;723.0;educação;0.84
+599;universidade regional integrada do alto uruguai e das missões;psicologia;23;49498;2090;823.0;ciências sociais, comunicação e informação;1.1
+600;universidade regional integrada do alto uruguai e das missões;química;12;64040;940;407.0;ciências naturais, matemática e estatística;1.28
+601;universidade regional integrada do alto uruguai e das missões;serviço social;15;73206;120;41.0;saúde e bem-estar;12.5
+602;universidade regional integrada do alto uruguai e das missões;sistemas de informação;9;88180;510;334.0;computação e tecnologias da informação e comunicação (tic);1.76
