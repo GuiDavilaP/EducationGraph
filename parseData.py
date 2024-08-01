@@ -5,7 +5,7 @@ COD_ESTADOS = {'RO': '11.0', 'AC': '12.0', 'AM': '13.0', 'RR': '14.0', 'PA': '15
                'MA': '21.0', 'PI': '22.0', 'CE': '23.0', 'RN': '24.0', 'PB': '25.0', 'PE': '26.0', 'AL': '27.0',
                'SE': '28.0', 'BA': '29.0', 'MG': '31.0', 'ES': '32.0', 'RJ': '33.0', 'SP': '35.0', 'PR': '41.0',
                'SC': '42.0', 'RS': '43.0', 'MS': '50.0', 'MT': '51.0', 'GO': '52.0', 'DF': '53.0'}
-ANO = '2010'
+ANO = '2014'
 
 colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                       'Nome da área do Curso segundo a classificação CINE BRASIL',
@@ -28,27 +28,30 @@ prouni = prouni.rename(
 # Filtra as colunas relevantes
 prouni = prouni.loc[:, colunas_relevantes[:2]]
 
+
 # Lê csv: função lambda converte valores para lowercase.
-fluxo = pd.read_csv('arquivosCSV/fluxo/fluxo2010.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';',
+fluxo = pd.read_csv(f'arquivosCSV/fluxo/fluxo{ANO}.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';',
                     ).apply(lambda x: x.astype(str).str.lower())
 
-# Filtra universidades do RS.
-fluxo = fluxo[fluxo['Código da Unidade Federativa do Curso'] == COD_ESTADOS['RS']]
+# Filtro por valores (RS, Privadas, Presencial)
+fluxo = fluxo[(fluxo['Código da Unidade Federativa do Curso'] == COD_ESTADOS['RS']) &
+              (fluxo['Categoria Administrativa'].isin(['4', '5', '7'])) &
+              (fluxo['Modalidade de Ensino'].isin(['1']))]
 
-# Filtra as colunas relevantes
-fluxo = fluxo.loc[:, colunas_relevantes]
+# Filtro por colunas
+fluxo = fluxo[colunas_relevantes]
 
-# Converte quantidade de ingressantes para int para ser somado depois.
-fluxo['Quantidade de Ingressantes no Curso'] = fluxo['Quantidade de Ingressantes no Curso'].astype(int)
-# Converte taxa de desistência para float.
-fluxo['Taxa de Desistência Acumulada - TDA'] = fluxo['Taxa de Desistência Acumulada - TDA'].str.replace(',',
-                                                                                                        '.').astype(
-    float)
+# Conversões
+fluxo = fluxo.assign(
+    **{
+        'Quantidade de Ingressantes no Curso': fluxo['Quantidade de Ingressantes no Curso'].astype(int),
+        'Taxa de Desistência Acumulada - TDA': fluxo['Taxa de Desistência Acumulada - TDA'].str.replace(',', '.').astype(float)
+    }
+)
 
 # Cria nova coluna com quantidade de desistências.
 fluxo['Quantidade de Desistências'] = (
-        fluxo['Quantidade de Ingressantes no Curso'] * fluxo[
-    'Taxa de Desistência Acumulada - TDA'] / 100).round().astype(int)
+        fluxo['Quantidade de Ingressantes no Curso'] * fluxo['Taxa de Desistência Acumulada - TDA'] / 100).round().astype(int)
 
 # Agrupa por universidade e curso, soma a quantia de ingressantes e quantidade de desistências.
 fluxo = fluxo.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).agg({
