@@ -90,7 +90,7 @@ def read_tipo_graf():
 
 
 def read_todas_uni():
-    ano_selecionado = input("Ano [2010 - 2014 ou ALL]: ").strip()
+    ano_selecionado = input("Ano [2010 - 2014] ou 'ALL': ").strip()
     # Lê de todos os anos.
     if ano_selecionado == "ALL":
         df_list = [read_csv(csv) for csv in csvList.values()]
@@ -114,17 +114,18 @@ def read_uma_uni():
 
 
 #-----------------------Execução---------------------------
+if __name__ == '__main__':
+    course = "ciencia da computacao"
+    university = "pontificia universidade catolica do rio grande do sul"
 
-course = "ciencia da computacao"
-university = "pontifícia universidade catolica do rio grande do sul"
+    graphType = read_tipo_graf()
 
-graphType = read_tipo_graf()
+    if graphType == TipoGrafico.TODASUNI:
+        df = read_todas_uni()
+    else:
+        df = read_uma_uni()
 
-if graphType == TipoGrafico.TODASUNI:
-    df = read_todas_uni()
-else:
-    df = read_uma_uni()
+    df = filter_data(df, graphType)
+    df = calculate_percentages(df)
+    plot_graph(df, graphType)
 
-df = filter_data(df, graphType)
-df = calculate_percentages(df)
-plot_graph(df, graphType)
