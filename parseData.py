@@ -1,4 +1,5 @@
 import pandas as pd
+import unidecode as uni
 
 COD_ESTADOS = {'RO': '11.0', 'AC': '12.0', 'AM': '13.0', 'RR': '14.0', 'PA': '15.0', 'AP': '16.0', 'TO': '17.0',
                'MA': '21.0', 'PI': '22.0', 'CE': '23.0', 'RN': '24.0', 'PB': '25.0', 'PE': '26.0', 'AL': '27.0',
@@ -85,5 +86,7 @@ dfFinal['Percentual de Bolsas'] = (
 dfFinal['Taxa de Desistência Acumulada'] = (
         dfFinal['Quantidade de Desistências'] / dfFinal['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(
     float)
+
+dfFinal = dfFinal.map(lambda x: uni.unidecode(x) if type(x) == str else x)
 
 dfFinal.to_csv(f'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-{ANO}-RS.csv', encoding='cp1252', sep=';')
