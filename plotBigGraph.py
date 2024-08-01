@@ -5,7 +5,7 @@ from enum import Enum
 
 
 class TipoGrafico(Enum):
-    TODASUNI = 0,
+    TODASUNI = 0
     UMAUNI = 1
 
 
@@ -25,26 +25,17 @@ columns = ['Nome da Instituição', 'Count',
            'Nome da Área do Curso segundo a classificação CINE BRASIL',
            'Percentual de Bolsas', 'Taxa de Desistência Acumulada', 'Ano de Ingresso']
 
-# Nome da área ou curso selecionado.
-selected = "ciência da computação"
-
-# Nome da universidade selecionado, utilizado apenas para gráfico do tipo "uma universidade em diferentes anos".
-university = "pontifícia universidade católica do rio grande do sul"
-
-
 def read_csv(file_path, delimiter=";", encoding='cp1252'):
+    file_path = "arquivosCSV/bolsas_vs_desist/"+file_path+".csv"
     return pd.read_csv(file_path, delimiter=delimiter, encoding=encoding)
 
 
-def filter_data(df, selected, filter_type="curso", university="none"):
-    if filter_type == "area":
-        df = df[df['Nome da Grande Área do Curso segundo a classificação CINE BRASIL'] == selected]
+def filter_data(df, graph_type):
+    df = df[df['Nome do Curso de Graduação'] == course]
 
-    elif filter_type == "curso":
-        df = df[df['Nome do Curso de Graduação'] == selected]
-
-    if university != "none":
+    if graph_type == TipoGrafico.UMAUNI:
         df = df[df['Nome da Instituição'] == university]
+
     return df
 
 
@@ -57,10 +48,7 @@ def calculate_percentages(df):
     return df
 
 
-def plot_graph(df, graph_type, selected, university_name="none"):
-    # Ensure data is suitable for logarithmic scale
-    df = df[df['Percentual de Bolsas'] > 0]  # Filter out non-positive values
-
+def plot_graph(df, graph_type):
     # Plot the graph using pandas
     if graph_type == TipoGrafico.TODASUNI:
         df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
@@ -68,44 +56,10 @@ def plot_graph(df, graph_type, selected, university_name="none"):
         # Set x-axis ticks
         x_ticks = [1, 10, 100]
         plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])  # Set ticks and labels
-    else:
-        filtered_list = []
-        anoNum = 2010
-        for csv in csvList.values():
-            # Leitura do arquivo CSV
-            df = pd.read_csv('arquivosCSV/bolsas_vs_desist/' + csv + '.csv', delimiter=";", encoding='cp1252')
-
-            # Filtragem dos dados
-            df_filtered = filter_data(df, selected, university)
-
-            # Verifica se o DataFrame não está vazio após a filtragem
-            if not df_filtered.empty:
-                # Cálculo dos percentuais
-                df_calculated = calculate_percentages(df_filtered)
-
-                # Verifica se o DataFrame calculado não está vazio
-                if not df_calculated.empty:
-                    # Converte DataFrame para lista de listas
-                    data_list = df_calculated.values.tolist()
-                    # Adiciona o ano à primeira lista de dados
-                    data_list[0].append(str(anoNum))
-                    # Adiciona a lista de dados filtrados à lista principal
-                    filtered_list.append(data_list[0])
-
-                # Incrementa o ano
-                anoNum += 1
-                # Imprime o nome do arquivo CSV processado
-                print(csv)
-
-        filtered_df = pd.DataFrame(filtered_list, columns=columns)
-        # Plota gráfico.
-        # Desenha pontos com legenda para cada ano no gráfico.
-        sns.lmplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", hue="Ano de Ingresso", data=filtered_df,
-                   fit_reg=False)
 
     # Configure and display the plot as before
-    plt.title(selected if graph_type == TipoGrafico.TODASUNI else university_name)
-    plt.suptitle(selected if graph_type != TipoGrafico.TODASUNI else "")
+    plt.title(course if graph_type == TipoGrafico.TODASUNI else university)
+    plt.suptitle(course if graph_type != TipoGrafico.TODASUNI else "")
     plt.xlabel('Percentual Bolsas')
     plt.ylabel('Percentual Desistência')
     plt.grid(True)
@@ -114,11 +68,55 @@ def plot_graph(df, graph_type, selected, university_name="none"):
     # Exibir o gráfico
     plt.show()
 
+def read_tipo_graf():
+    print("Tipo gráfico")
+    user_input = input("[0: Múltiplas universidades, 1: Uma universidade]: ").strip()
+
+    # Attempt to convert input to integer
+    try:
+        int_user_input = int(user_input)
+    except ValueError:
+        print("Entrada não é um número inteiro!")
+        return
+
+    # Attempt to convert integer to TipoGrafico enumeration
+    try:
+        input_graph_type = TipoGrafico(int_user_input)
+    except ValueError:
+        print("Essa não é uma escolha válida!")
+    
+    return input_graph_type
+
+def read_todas_uni():
+    ano_selecionado = input("Ano [2010 - 2014 ou ALL]: ").strip()
+    # Lê de todos os anos.
+    if ano_selecionado == "ALL":
+        df_list = [read_csv(csv) for csv in csvList.values()]
+        dfLido = pd.concat(df_list, ignore_index=True)
+    # Lê só de um ano selecionado.
+    else:
+        dfLido = read_csv(csvList.get(ano_selecionado))
+    return dfLido
+
+def read_uma_uni():
+    df_list = [read_csv(csv) for csv in csvList.values()]
+    dfTodosAnos = pd.concat(df_list, ignore_index=True)
+    return dfTodosAnos
+
+course = "ciência da computação"
+university = "pontifícia universidade católica do rio grande do sul"
 
 # Exemplo de uso das funções
-file_path = 'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2010-RS.csv'
-df = read_csv(file_path)
+graphType = read_tipo_graf()
 
-df_filtered = filter_data(df, "ciência da computação")
-df_percentages = calculate_percentages(df_filtered)
-plot_graph(df_percentages, TipoGrafico.TODASUNI, "ciência da computação")
+if graphType == TipoGrafico.TODASUNI:
+    df = read_todas_uni()
+else:
+    df = read_uma_uni()
+            
+df = filter_data(df, graphType)
+if df is None or df.empty:
+    print("DataFrame is None or empty")
+df_percentages = calculate_percentages(df)
+
+plot_graph(df_percentages, graphType)
