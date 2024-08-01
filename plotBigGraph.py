@@ -49,8 +49,6 @@ def filter_data(df, selected, filter_type="curso", university="none"):
 
 
 def calculate_percentages(df):
-    df['Percentual de Bolsas'] = (df['Quantia de Bolsas'] / df['Quantidade de Ingressantes no Curso'] * 100).round(
-        2).astype(float)
     df['Taxa de Desistência Acumulada'] = (
             df['Quantidade de Desistências'] / df['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(
         float)
@@ -58,9 +56,6 @@ def calculate_percentages(df):
 
 
 def plot_graph(df, graph_type, selected, university_name="none"):
-    # Ensure data is suitable for logarithmic scale
-    df = df[df['Percentual de Bolsas'] > 0]  # Filter out non-positive values
-
     # Plot the graph using pandas
     if graph_type == TipoGrafico.TODASUNI:
         df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
@@ -71,37 +66,17 @@ def plot_graph(df, graph_type, selected, university_name="none"):
     else:
         filtered_list = []
         anoNum = 2010
-        for csv in csvList.values():
-            # Leitura do arquivo CSV
-            df = pd.read_csv('arquivosCSV/bolsas_vs_desist/' + csv + '.csv', delimiter=";", encoding='cp1252')
 
-            # Filtragem dos dados
-            df_filtered = filter_data(df, selected, university)
+        for i in range(5):
+            filtered_list.append(df[df['Ano de Ingresso'] == str(anoNum + i)])
 
-            # Verifica se o DataFrame não está vazio após a filtragem
-            if not df_filtered.empty:
-                # Cálculo dos percentuais
-                df_calculated = calculate_percentages(df_filtered)
+        for i in range(5):
+            plt.scatter(filtered_list[i]['Percentual de Bolsas'], filtered_list[i]['Taxa de Desistência Acumulada'], label=str(anoNum + i))
+            plt.xscale('log')
 
-                # Verifica se o DataFrame calculado não está vazio
-                if not df_calculated.empty:
-                    # Converte DataFrame para lista de listas
-                    data_list = df_calculated.values.tolist()
-                    # Adiciona o ano à primeira lista de dados
-                    data_list[0].append(str(anoNum))
-                    # Adiciona a lista de dados filtrados à lista principal
-                    filtered_list.append(data_list[0])
+        plt.legend()
+        plt.xticks([1, 10, 100], labels=[str(x) for x in [1, 10, 100]])
 
-                # Incrementa o ano
-                anoNum += 1
-                # Imprime o nome do arquivo CSV processado
-                print(csv)
-
-        filtered_df = pd.DataFrame(filtered_list, columns=columns)
-        # Plota gráfico.
-        # Desenha pontos com legenda para cada ano no gráfico.
-        sns.lmplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", hue="Ano de Ingresso", data=filtered_df,
-                   fit_reg=False)
 
     # Configure and display the plot as before
     plt.title(selected if graph_type == TipoGrafico.TODASUNI else university_name)
@@ -119,6 +94,6 @@ def plot_graph(df, graph_type, selected, university_name="none"):
 file_path = 'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2010-RS.csv'
 df = read_csv(file_path)
 
-df_filtered = filter_data(df, "ciência da computação")
+df_filtered = filter_data(df, "ciência da computação", "curso", "pontifícia universidade católica do rio grande do sul")
 df_percentages = calculate_percentages(df_filtered)
-plot_graph(df_percentages, TipoGrafico.TODASUNI, "ciência da computação")
+plot_graph(df_percentages, TipoGrafico.UMAUNI, "ciência da computação")
