@@ -50,12 +50,11 @@ def calculate_percentages(df):
 
 def plot_graph(df, graph_type):
     # Plot the graph using pandas
-    if graph_type == TipoGrafico.TODASUNI:
-        df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
-        plt.xscale('log')  # Set x-axis to logarithmic scale
-        # Set x-axis ticks
-        x_ticks = [1, 10, 100]
-        plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])  # Set ticks and labels
+    df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
+    plt.xscale('log')  # Set x-axis to logarithmic scale
+    # Set x-axis ticks
+    x_ticks = [1, 10, 100]
+    plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])  # Set ticks and labels    
 
     # Configure and display the plot as before
     plt.title(course if graph_type == TipoGrafico.TODASUNI else university)
@@ -69,8 +68,9 @@ def plot_graph(df, graph_type):
     plt.show()
 
 def read_tipo_graf():
-    print("Tipo gráfico")
-    user_input = input("[0: Múltiplas universidades, 1: Uma universidade]: ").strip()
+    print("0: Múltiplas universidades")
+    print("1: Uma universidade")
+    user_input = input("Tipo gráfico: ").strip()
 
     # Attempt to convert input to integer
     try:
@@ -84,7 +84,7 @@ def read_tipo_graf():
         input_graph_type = TipoGrafico(int_user_input)
     except ValueError:
         print("Essa não é uma escolha válida!")
-    
+    1
     return input_graph_type
 
 def read_todas_uni():
@@ -103,10 +103,10 @@ def read_uma_uni():
     dfTodosAnos = pd.concat(df_list, ignore_index=True)
     return dfTodosAnos
 
+#-----------------------Execução---------------------------
 course = "ciência da computação"
-university = "pontifícia universidade católica do rio grande do sul"
+university = "universidade de caxias do sul"
 
-# Exemplo de uso das funções
 graphType = read_tipo_graf()
 
 if graphType == TipoGrafico.TODASUNI:
@@ -115,8 +115,5 @@ else:
     df = read_uma_uni()
             
 df = filter_data(df, graphType)
-if df is None or df.empty:
-    print("DataFrame is None or empty")
-df_percentages = calculate_percentages(df)
-
-plot_graph(df_percentages, graphType)
+df = calculate_percentages(df)
+plot_graph(df, graphType)
