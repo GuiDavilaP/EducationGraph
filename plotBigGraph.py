@@ -40,8 +40,6 @@ def filter_data(df, graph_type):
 
 
 def calculate_percentages(df):
-    df['Percentual de Bolsas'] = (df['Quantia de Bolsas'] / df['Quantidade de Ingressantes no Curso'] * 100).round(
-        2).astype(float)
     df['Taxa de Desistência Acumulada'] = (
             df['Quantidade de Desistências'] / df['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(
         float)
@@ -49,14 +47,17 @@ def calculate_percentages(df):
 
 
 def plot_graph(df, graph_type):
-    # Plot the graph using pandas
-    df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
-    plt.xscale('log')  # Set x-axis to logarithmic scale
-    # Set x-axis ticks
-    x_ticks = [1, 10, 100]
-    plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])  # Set ticks and labels    
+    if graph_type == TipoGrafico.TODASUNI:
+        df.plot(kind='scatter', x='Percentual de Bolsas', y='Taxa de Desistência Acumulada', color='CornflowerBlue')
+        plt.xscale('log')
+        x_ticks = [1, 10, 100]
+        plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])
+    else:
+        graph = sns.lmplot(x="Percentual de Bolsas", y="Taxa de Desistência Acumulada", hue="Ano de Ingresso", data=df, fit_reg=False)
+        plt.xscale('log')
+        x_ticks = [1, 10, 100]
+        plt.xticks(x_ticks, labels=[str(x) for x in x_ticks])
 
-    # Configure and display the plot as before
     plt.title(course if graph_type == TipoGrafico.TODASUNI else university)
     plt.suptitle(course if graph_type != TipoGrafico.TODASUNI else "")
     plt.xlabel('Percentual Bolsas')
@@ -64,8 +65,7 @@ def plot_graph(df, graph_type):
     plt.grid(True)
     plt.show()
 
-    # Exibir o gráfico
-    plt.show()
+#------------------------Input--------------------------
 
 def read_tipo_graf():
     print("0: Múltiplas universidades")
@@ -99,13 +99,19 @@ def read_todas_uni():
     return dfLido
 
 def read_uma_uni():
-    df_list = [read_csv(csv) for csv in csvList.values()]
+    anoNum = 2010
+    df_list = []
+    for csv in csvList.values():
+        df = read_csv(csv)
+        df['Ano de Ingresso'] = str(anoNum)
+        df_list.append(df)
+        anoNum += 1
     dfTodosAnos = pd.concat(df_list, ignore_index=True)
     return dfTodosAnos
 
 #-----------------------Execução---------------------------
 course = "ciência da computação"
-university = "universidade de caxias do sul"
+university = "pontifícia universidade católica do rio grande do sul"
 
 graphType = read_tipo_graf()
 
