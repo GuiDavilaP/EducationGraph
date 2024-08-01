@@ -87,7 +87,6 @@ dfFinal['Taxa de Desistência Acumulada'] = (
         dfFinal['Quantidade de Desistências'] / dfFinal['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(
     float)
 
-# laço que percorre o dataframe e substitui acentos da linguagem portuguesa por caracteres comuns
 dfFinal = dfFinal.map(lambda x: uni.unidecode(x) if type(x) == str else x)
 
 dfFinal.to_csv(f'arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-{ANO}-RS.csv', encoding='cp1252', sep=';')
