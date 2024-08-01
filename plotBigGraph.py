@@ -110,6 +110,7 @@ def read_uma_uni():
     return dfTodosAnos
 
 #-----------------------Execução---------------------------
+
 course = "ciência da computação"
 university = "pontifícia universidade católica do rio grande do sul"
 
