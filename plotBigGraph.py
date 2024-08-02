@@ -36,13 +36,6 @@ def filter_data(df, graph_type):
     return df
 
 
-def calculate_percentages(df):
-    df['taxa_desistencia_acumulada'] = (
-            df['qtd_desistencias'] / df['qtd_ingressantes'] * 100).round(2).astype(
-        float)
-    return df
-
-
 def plot_graph(df, graph_type):
     if graph_type == TipoGrafico.TODASUNI:
         df.plot(kind='scatter', x='percentual_bolsas', y='taxa_desistencia_acumulada', color='CornflowerBlue')
