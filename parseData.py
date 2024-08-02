@@ -27,8 +27,8 @@ prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
 prouni = prouni.rename(
     columns={'NOME_IES_BOLSA': 'Nome da Instituição', 'NOME_CURSO_BOLSA': 'Nome do Curso de Graduação'})
 
-# Filtra as colunas relevantes
-prouni = prouni.loc[:, colunas_relevantes[:2]]
+# Filtra por colunas
+prouni = prouni[colunas_relevantes[:2]]
 
 # Lê csv: função lambda converte valores para lowercase.
 fluxo = pd.read_csv(f'arquivosCSV/fluxo/fluxo{ANO_INGRESSO}.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';',

@@ -35,8 +35,7 @@ def filter_data(df, graph_type):
 
     return df
 
-
-def plot_graph(df, graph_type):
+def plot_graph(df, graph_type)
     if graph_type == TipoGrafico.TODASUNI:
         df.plot(kind='scatter', x='percentual_bolsas', y='taxa_desistencia_acumulada', color='CornflowerBlue')
         plt.xscale('log')
@@ -60,8 +59,8 @@ def plot_graph(df, graph_type):
 #------------------------Input--------------------------
 
 def read_tipo_graf():
-    print("0: Múltiplas universidades")
-    print("1: Uma universidade")
+    print("0: Múltiplas universidades em um ano")
+    print("1: Uma universidade em vários anos")
     user_input = input("Tipo gráfico: ").strip()
 
     input_graph_type = None

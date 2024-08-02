@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2011-RS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2011-RS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotBigGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotBigGraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +87,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1722545803295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1722549730084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$filterData.coverage" NAME="filterData Coverage Results" MODIFIED="1721357644466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1722548106225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1722549522599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
