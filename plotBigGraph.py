@@ -106,6 +106,7 @@ def read_uma_uni():
 
 
 #-----------------------Execução---------------------------
+
 if __name__ == '__main__':
     course = "ciencia da computacao"
     university = "pontificia universidade catolica do rio grande do sul"
@@ -118,6 +119,5 @@ if __name__ == '__main__':
         df = read_uma_uni()
 
     df = filter_data(df, graphType)
-    df = calculate_percentages(df)
     plot_graph(df, graphType)
 

@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2010-RS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2011-RS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2012-RS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2013-RS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/bolsas_vs_desist-2014-RS.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo2010.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo2010.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plotBigGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotBigGraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +36,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.parseData.executor&quot;: &quot;Run&quot;,
-    &quot;Python.plotBigGraph.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.parseData.executor": "Run",
+    "Python.plotBigGraph.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/maxbo/OneDrive/Documentos/Estudos/PET/rato/DataParser"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="plotBigGraph" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataParser" />
@@ -80,15 +90,62 @@
       <workItem from="1721358823242" duration="1790000" />
       <workItem from="1722392683457" duration="9086000" />
       <workItem from="1722545447713" duration="1564000" />
+      <workItem from="1722556004377" duration="6682000" />
     </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1722549730084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1722557077828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$filterData.coverage" NAME="filterData Coverage Results" MODIFIED="1721357644466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1722549522599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1722562552962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

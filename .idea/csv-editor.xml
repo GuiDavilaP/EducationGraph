@@ -3,14 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\arquivosCSV\bolsasDesist2010RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsasDesist2011RS.csv">
+        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2010-BR.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -18,6 +11,13 @@
           </value>
         </entry>
         <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2010-RS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2011-BR.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
