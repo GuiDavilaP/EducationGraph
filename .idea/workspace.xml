@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2011-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2011-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2012-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2012-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2013-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2013-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2014-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2014-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2015-BR-cic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2015-BR-cic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo2016.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo_dataset.md" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/fluxo/fluxo_dataset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/prouni/dataset_prouni.md" beforeDir="false" afterPath="$PROJECT_DIR$/arquivosCSV/prouni/dataset_prouni.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotBigGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotBigGraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +41,25 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.coropletico.executor&quot;: &quot;Run&quot;,
     &quot;Python.parseData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parseDataEstado.executor&quot;: &quot;Run&quot;,
     &quot;Python.plotBigGraph.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxbo/OneDrive/Documentos/Estudos/PET/rato/DataParser&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/maxbo/OneDrive/Documentos/Estudos/Faculdade/Prática/Semestre5/FBD&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\arquivosCSV\prouni" />
+      <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\arquivosCSV\fluxo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="plotBigGraph" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DataParser" />
@@ -83,15 +104,146 @@
       <workItem from="1722392683457" duration="9086000" />
       <workItem from="1722545447713" duration="1564000" />
       <workItem from="1722556004377" duration="6682000" />
+      <workItem from="1722608908484" duration="6077000" />
+      <workItem from="1722623373485" duration="767000" />
+      <workItem from="1722645199542" duration="39000" />
+      <workItem from="1723310488179" duration="1778000" />
+      <workItem from="1723332490567" duration="2632000" />
+      <workItem from="1723335443353" duration="2968000" />
+      <workItem from="1723340134973" duration="338000" />
+      <workItem from="1723342821929" duration="3294000" />
     </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1722562966879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1723343324292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$coropletico.coverage" NAME="coropletico Coverage Results" MODIFIED="1723311035455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$parseDataEstado.coverage" NAME="parseDataEstado Coverage Results" MODIFIED="1722565586809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$filterData.coverage" NAME="filterData Coverage Results" MODIFIED="1721357644466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1722565010592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1723345861935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

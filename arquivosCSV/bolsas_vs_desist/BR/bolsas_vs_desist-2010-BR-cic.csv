@@ -1,0 +1,99 @@
+;instituicao;curso;qtd_bolsas_parciais;qtd_bolsas_integrais;cod_estado;qtd_ingressantes;qtd_desistencias;grande_area;qtd_total_bolsas;percentual_total_bolsas;percentual_bolsas_parciais;percentual_bolsas_integrais;taxa_desistencia_acumulada
+0;centro universitario anhanguera de campo grande;ciencia da computacao;10;2;50.0;67;22;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;83.33;16.67;32.84
+1;centro universitario anhanguera;ciencia da computacao;7;2;35.0;35;4;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;77.78;22.22;11.43
+2;centro universitario barao de maua;ciencia da computacao;8;2;35.0;84;47;computacao e tecnologias da informacao e comunicacao (tic);10;0.09;80.0;20.0;55.95
+3;centro universitario da cidade;ciencia da computacao;0;14;33.0;84;84;computacao e tecnologias da informacao e comunicacao (tic);14;0.12;0.0;100.0;100.0
+4;centro universitario da fundacao educacional guaxupe;ciencia da computacao;0;3;31.0;37;20;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;54.05
+5;centro universitario da fundacao educacional inaciana pe saboia de medeiros;ciencia da computacao;0;16;35.0;125;88;computacao e tecnologias da informacao e comunicacao (tic);16;0.14;0.0;100.0;70.4
+6;centro universitario da grande dourados;ciencia da computacao;3;3;50.0;51;23;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;50.0;50.0;45.1
+7;centro universitario de belo horizonte;ciencia da computacao;5;10;31.0;134;104;computacao e tecnologias da informacao e comunicacao (tic);15;0.13;33.33;66.67;77.61
+8;centro universitario de joao pessoa;ciencia da computacao;0;3;25.0;72;49;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;68.06
+9;centro universitario do estado do para;ciencia da computacao;0;12;15.0;83;38;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;0.0;100.0;45.78
+10;centro universitario do instituto de educacao superior de brasilia - iesb;ciencia da computacao;1;0;53.0;33;29;computacao e tecnologias da informacao e comunicacao (tic);1;0.01;100.0;0.0;87.88
+11;centro universitario do norte;ciencia da computacao;21;10;13.0;298;226;computacao e tecnologias da informacao e comunicacao (tic);31;0.27;67.74;32.26;75.84
+12;centro universitario do sul de minas;ciencia da computacao;4;2;31.0;44;39;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;66.67;33.33;88.64
+13;centro universitario estacio de ribeirao preto;ciencia da computacao;0;18;35.0;72;44;computacao e tecnologias da informacao e comunicacao (tic);18;0.16;0.0;100.0;61.11
+14;centro universitario euripedes de marilia;ciencia da computacao;2;2;35.0;69;43;computacao e tecnologias da informacao e comunicacao (tic);4;0.04;50.0;50.0;62.32
+15;centro universitario fieo;ciencia da computacao;0;4;35.0;104;80;computacao e tecnologias da informacao e comunicacao (tic);4;0.04;0.0;100.0;76.92
+16;centro universitario filadelfia;ciencia da computacao;0;4;41.0;62;40;computacao e tecnologias da informacao e comunicacao (tic);4;0.04;0.0;100.0;64.52
+17;centro universitario nossa senhora do patrocinio;ciencia da computacao;2;0;35.0;40;20;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;100.0;0.0;50.0
+18;centro universitario salesiano de sao paulo;ciencia da computacao;0;2;35.0;66;43;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;0.0;100.0;65.15
+19;centro universitario senac;ciencia da computacao;7;3;35.0;54;39;computacao e tecnologias da informacao e comunicacao (tic);10;0.09;70.0;30.0;72.22
+20;centro universitario serra dos orgaos;ciencia da computacao;0;11;33.0;51;28;computacao e tecnologias da informacao e comunicacao (tic);11;0.1;0.0;100.0;54.9
+21;faculdade anhanguera de anapolis;ciencia da computacao;6;0;52.0;43;12;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;100.0;0.0;27.91
+22;faculdade anhanguera de indaiatuba;ciencia da computacao;11;2;35.0;68;14;computacao e tecnologias da informacao e comunicacao (tic);13;0.11;84.62;15.38;20.59
+23;faculdade anhanguera de jundiai;ciencia da computacao;14;9;35.0;82;17;computacao e tecnologias da informacao e comunicacao (tic);23;0.2;60.87;39.13;20.73
+24;faculdade anhanguera de limeira;ciencia da computacao;9;0;35.0;72;16;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;100.0;0.0;22.22
+25;faculdade anhanguera de rio claro;ciencia da computacao;6;0;35.0;33;9;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;100.0;0.0;27.27
+26;faculdade anhanguera de santa barbara;ciencia da computacao;10;6;35.0;21;6;computacao e tecnologias da informacao e comunicacao (tic);16;0.14;62.5;37.5;28.57
+27;faculdade anhanguera de sao caetano;ciencia da computacao;2;0;35.0;103;4;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;100.0;0.0;3.88
+28;faculdade anhanguera de taubate;ciencia da computacao;19;3;35.0;49;6;computacao e tecnologias da informacao e comunicacao (tic);22;0.19;86.36;13.64;12.24
+29;faculdade anhanguera de valinhos;ciencia da computacao;10;4;35.0;35;12;computacao e tecnologias da informacao e comunicacao (tic);14;0.12;71.43;28.57;34.29
+30;faculdade anhanguera de bauru;ciencia da computacao;10;7;35.0;66;15;computacao e tecnologias da informacao e comunicacao (tic);17;0.15;58.82;41.18;22.73
+31;faculdade anhanguera de campinas;ciencia da computacao;22;3;35.0;106;30;computacao e tecnologias da informacao e comunicacao (tic);25;0.22;88.0;12.0;28.3
+32;faculdade anhanguera de piracicaba;ciencia da computacao;11;2;35.0;36;4;computacao e tecnologias da informacao e comunicacao (tic);13;0.11;84.62;15.38;11.11
+33;faculdade anhanguera de sorocaba;ciencia da computacao;12;1;35.0;43;14;computacao e tecnologias da informacao e comunicacao (tic);13;0.11;92.31;7.69;32.56
+34;faculdade anhanguera de sao jose;ciencia da computacao;11;6;35.0;33;7;computacao e tecnologias da informacao e comunicacao (tic);17;0.15;64.71;35.29;21.21
+35;faculdade de americana;ciencia da computacao;0;3;35.0;27;13;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;48.15
+36;faculdade de economia e processamento de dados de foz do iguacu;ciencia da computacao;0;8;41.0;75;54;computacao e tecnologias da informacao e comunicacao (tic);8;0.07;0.0;100.0;72.0
+37;faculdade de presidente epitacio - fape;ciencia da computacao;2;4;35.0;21;10;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;33.33;66.67;47.62
+38;faculdade de sao paulo;ciencia da computacao;6;2;35.0;29;24;computacao e tecnologias da informacao e comunicacao (tic);8;0.07;75.0;25.0;82.76
+39;faculdade de tecnologia e ciencias de pernambuco;ciencia da computacao;12;6;26.0;33;21;computacao e tecnologias da informacao e comunicacao (tic);18;0.16;66.67;33.33;63.64
+40;faculdade de tecnologia ibta - sao jose dos campos;ciencia da computacao;21;2;35.0;45;37;computacao e tecnologias da informacao e comunicacao (tic);23;0.2;91.3;8.7;82.22
+41;faculdade do recife;ciencia da computacao;0;12;26.0;88;59;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;0.0;100.0;67.05
+42;faculdade estacio de teresina;ciencia da computacao;0;5;22.0;80;37;computacao e tecnologias da informacao e comunicacao (tic);5;0.04;0.0;100.0;46.25
+43;faculdade nova roma;ciencia da computacao;5;12;26.0;21;13;computacao e tecnologias da informacao e comunicacao (tic);17;0.15;29.41;70.59;61.9
+44;faculdade pitagoras de betim;ciencia da computacao;0;2;31.0;65;45;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;0.0;100.0;69.23
+45;faculdade pitagoras de sao luiz;ciencia da computacao;0;1;21.0;90;65;computacao e tecnologias da informacao e comunicacao (tic);1;0.01;0.0;100.0;72.22
+46;faculdade pitagoras de teixeira de freitas;ciencia da computacao;0;6;29.0;41;20;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;48.78
+47;faculdade unica de ipatinga;ciencia da computacao;0;9;31.0;23;15;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;0.0;100.0;65.22
+48;fatece - faculdade de tecnologia, ciencias e educacao;ciencia da computacao;0;3;35.0;49;25;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;51.02
+49;instituto cuiaba de ensino e cultura;ciencia da computacao;0;21;51.0;113;91;computacao e tecnologias da informacao e comunicacao (tic);21;0.18;0.0;100.0;80.53
+50;instituto de ensino e pesquisa objetivo;ciencia da computacao;0;4;17.0;57;48;computacao e tecnologias da informacao e comunicacao (tic);4;0.04;0.0;100.0;84.21
+51;instituto de ensino superior da grande florianopolis;ciencia da computacao;0;8;42.0;82;57;computacao e tecnologias da informacao e comunicacao (tic);8;0.07;0.0;100.0;69.51
+52;instituto de ensino superior de alagoas;ciencia da computacao;0;7;27.0;52;40;computacao e tecnologias da informacao e comunicacao (tic);7;0.06;0.0;100.0;76.92
+53;instituto itapetiningano de ensino superior;ciencia da computacao;0;9;35.0;63;29;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;0.0;100.0;46.03
+54;instituto paraibano de ensino renovado;ciencia da computacao;0;1;25.0;73;56;computacao e tecnologias da informacao e comunicacao (tic);1;0.01;0.0;100.0;76.71
+55;instituto unificado de ensino superior objetivo;ciencia da computacao;0;9;52.0;113;89;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;0.0;100.0;78.76
+56;pontificia universidade catolica de goias;ciencia da computacao;0;8;52.0;82;58;computacao e tecnologias da informacao e comunicacao (tic);8;0.07;0.0;100.0;70.73
+57;pontificia universidade catolica de minas gerais;ciencia da computacao;36;19;31.0;240;173;computacao e tecnologias da informacao e comunicacao (tic);55;0.48;65.45;34.55;72.08
+58;pontificia universidade catolica de sao paulo;ciencia da computacao;0;6;35.0;71;38;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;53.52
+59;pontificia universidade catolica do parana;ciencia da computacao;5;3;41.0;237;215;computacao e tecnologias da informacao e comunicacao (tic);8;0.07;62.5;37.5;90.72
+60;pontificia universidade catolica do rio de janeiro;ciencia da computacao;0;3;33.0;48;41;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;85.42
+61;pontificia universidade catolica do rio grande do sul;ciencia da computacao;4;8;43.0;144;89;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;33.33;66.67;61.81
+62;universidade anhembi morumbi;ciencia da computacao;0;6;35.0;108;77;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;71.3
+63;universidade catolica de brasilia;ciencia da computacao;0;10;53.0;150;103;computacao e tecnologias da informacao e comunicacao (tic);10;0.09;0.0;100.0;68.67
+64;universidade catolica de pelotas;ciencia da computacao;0;1;43.0;16;6;computacao e tecnologias da informacao e comunicacao (tic);1;0.01;0.0;100.0;37.5
+65;universidade catolica de pernambuco;ciencia da computacao;0;12;26.0;139;90;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;0.0;100.0;64.75
+66;universidade cidade de sao paulo;ciencia da computacao;0;2;35.0;72;38;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;0.0;100.0;52.78
+67;universidade cruzeiro do sul;ciencia da computacao;11;6;35.0;119;92;computacao e tecnologias da informacao e comunicacao (tic);17;0.15;64.71;35.29;77.31
+68;universidade candido mendes;ciencia da computacao;0;3;33.0;85;38;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;44.71
+69;universidade da amazonia;ciencia da computacao;4;2;15.0;46;38;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;66.67;33.33;82.61
+70;universidade de caxias do sul;ciencia da computacao;5;23;43.0;139;71;computacao e tecnologias da informacao e comunicacao (tic);28;0.25;17.86;82.14;51.08
+71;universidade de cruz alta;ciencia da computacao;0;2;43.0;20;12;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;0.0;100.0;60.0
+72;universidade de franca;ciencia da computacao;8;7;35.0;91;62;computacao e tecnologias da informacao e comunicacao (tic);15;0.13;53.33;46.67;68.13
+73;universidade de itauna;ciencia da computacao;0;6;31.0;28;11;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;39.29
+74;universidade de passo fundo;ciencia da computacao;32;5;43.0;57;23;computacao e tecnologias da informacao e comunicacao (tic);37;0.33;86.49;13.51;40.35
+75;universidade de santa cruz do sul;ciencia da computacao;0;5;43.0;113;51;computacao e tecnologias da informacao e comunicacao (tic);5;0.04;0.0;100.0;45.13
+76;universidade do extremo sul catarinense;ciencia da computacao;0;6;42.0;132;65;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;49.24
+77;universidade do oeste paulista;ciencia da computacao;0;6;35.0;39;18;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;0.0;100.0;46.15
+78;universidade do sul de santa catarina;ciencia da computacao;0;16;42.0;125;83;computacao e tecnologias da informacao e comunicacao (tic);16;0.14;0.0;100.0;66.4
+79;universidade do vale do itajai;ciencia da computacao;0;2;42.0;186;146;computacao e tecnologias da informacao e comunicacao (tic);2;0.02;0.0;100.0;78.49
+80;universidade do vale do paraiba;ciencia da computacao;0;4;35.0;4;4;computacao e tecnologias da informacao e comunicacao (tic);4;0.04;0.0;100.0;100.0
+81;universidade do vale do rio dos sinos;ciencia da computacao;29;9;43.0;208;134;computacao e tecnologias da informacao e comunicacao (tic);38;0.33;76.32;23.68;64.42
+82;universidade feevale;ciencia da computacao;0;10;43.0;92;59;computacao e tecnologias da informacao e comunicacao (tic);10;0.09;0.0;100.0;64.13
+83;universidade gama filho;ciencia da computacao;0;28;33.0;195;193;computacao e tecnologias da informacao e comunicacao (tic);28;0.25;0.0;100.0;98.97
+84;universidade ibirapuera;ciencia da computacao;0;3;35.0;98;64;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;65.31
+85;universidade jose do rosario vellano;ciencia da computacao;0;9;31.0;93;75;computacao e tecnologias da informacao e comunicacao (tic);9;0.08;0.0;100.0;80.65
+86;universidade nove de julho;ciencia da computacao;0;38;35.0;1637;1095;computacao e tecnologias da informacao e comunicacao (tic);38;0.33;0.0;100.0;66.89
+87;universidade paulista;ciencia da computacao;0;116;35.0;1756;1297;computacao e tecnologias da informacao e comunicacao (tic);116;1.02;0.0;100.0;73.86
+88;universidade presbiteriana mackenzie;ciencia da computacao;0;25;35.0;195;129;computacao e tecnologias da informacao e comunicacao (tic);25;0.22;0.0;100.0;66.15
+89;universidade regional do noroeste do estado do rio grande do sul;ciencia da computacao;26;12;43.0;147;112;computacao e tecnologias da informacao e comunicacao (tic);38;0.33;68.42;31.58;76.19
+90;universidade regional integrada do alto uruguai e das missoes;ciencia da computacao;12;13;43.0;149;72;computacao e tecnologias da informacao e comunicacao (tic);25;0.22;48.0;52.0;48.32
+91;universidade salvador;ciencia da computacao;0;12;29.0;70;39;computacao e tecnologias da informacao e comunicacao (tic);12;0.11;0.0;100.0;55.71
+92;universidade santa cecilia;ciencia da computacao;0;19;35.0;33;26;computacao e tecnologias da informacao e comunicacao (tic);19;0.17;0.0;100.0;78.79
+93;universidade sao judas tadeu;ciencia da computacao;117;2;35.0;184;116;computacao e tecnologias da informacao e comunicacao (tic);119;1.05;98.32;1.68;63.04
+94;universidade tiradentes;ciencia da computacao;0;3;28.0;55;32;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;58.18
+95;universidade tuiuti do parana;ciencia da computacao;3;3;41.0;40;30;computacao e tecnologias da informacao e comunicacao (tic);6;0.05;50.0;50.0;75.0
+96;universidade veiga de almeida;ciencia da computacao;0;3;33.0;157;70;computacao e tecnologias da informacao e comunicacao (tic);3;0.03;0.0;100.0;44.59
+97;universidade vila velha;ciencia da computacao;0;1;32.0;58;32;computacao e tecnologias da informacao e comunicacao (tic);1;0.01;0.0;100.0;55.17

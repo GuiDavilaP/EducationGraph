@@ -3,7 +3,21 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2010-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2010-BR.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2011-BR-cic.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -17,7 +31,49 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2012-BR.csv">
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2012-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2013-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2014-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2015-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2016-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2017-BR-cic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\arquivosCSV\bolsas_vs_desist\BR\bolsas_vs_desist-2018-BR-cic.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
@@ -53,55 +109,6 @@
           </value>
         </entry>
         <entry key="\arquivosCSV\bolsas_vs_desist\RS\bolsas_vs_desist-2014-RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2010-BR.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2010-RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2011-BR.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2011-RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2012-RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2013-RS.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\arquivosCSV\bolsas_vs_desist\bolsas_vs_desist-2014-RS.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />

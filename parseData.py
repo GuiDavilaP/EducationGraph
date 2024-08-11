@@ -8,7 +8,7 @@ COD_ESTADOS = {'RO': '11.0', 'AC': '12.0', 'AM': '13.0', 'RR': '14.0', 'PA': '15
 
 
 def parse_data(ano_ingresso, curso):
-    ANO_FINAL = ano_ingresso + 7
+    ano_final = ano_ingresso + 4
 
     colunas_relevantes = ['Nome da Instituição', 'Nome do Curso de Graduação',
                           'Código da Unidade Federativa do Curso',
@@ -18,9 +18,11 @@ def parse_data(ano_ingresso, curso):
                           'Taxa de Desistência Acumulada - TDA', 'Código do Curso de Graduação']
 
     # Lê csv: função lambda converte valores para lowercase.
-    prouni = pd.read_csv(f'arquivosCSV/prouni/prouni{ano_ingresso}.csv', encoding='cp1252', on_bad_lines='warn',
-                         delimiter=';').apply(
-        lambda x: x.astype(str).str.lower())
+    try:
+        prouni = pd.read_csv(f'arquivosCSV/prouni/prouni{ano_ingresso}.csv', encoding='cp1252', on_bad_lines='warn', delimiter=';').apply(lambda x: x.astype(str).str.lower())
+    except UnicodeDecodeError:
+        prouni = pd.read_csv(f'arquivosCSV/prouni/prouni{ano_ingresso}.csv', encoding='utf-8', on_bad_lines='warn', delimiter=';').apply(lambda x: x.astype(str).str.lower())
+
 
     # Filtra bolsas presenciais.
     prouni = prouni[prouni['MODALIDADE_ENSINO_BOLSA'] == 'presencial']
@@ -29,8 +31,18 @@ def parse_data(ano_ingresso, curso):
     prouni = prouni.rename(
         columns={'NOME_IES_BOLSA': 'Nome da Instituição', 'NOME_CURSO_BOLSA': 'Nome do Curso de Graduação'})
 
+    # Adiciona colunas para cada tipo de bolsa
+    prouni['qtd_bolsas_parciais'] = prouni['TIPO_BOLSA'].apply(lambda x: 1 if x == 'bolsa parcial 50%' else 0)
+    prouni['qtd_bolsas_integrais'] = prouni['TIPO_BOLSA'].apply(lambda x: 1 if x == 'bolsa integral' else 0)
+
     # Filtra as colunas relevantes
-    prouni = prouni.loc[:, colunas_relevantes[:2]]
+    prouni = prouni.loc[:, colunas_relevantes[:2] + ['qtd_bolsas_parciais', 'qtd_bolsas_integrais']]
+
+    # Agrupa por universidade e curso e soma a quantia de bolsas parciais e integrais, respectivamente.
+    prouni = prouni.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).agg({
+        'qtd_bolsas_parciais': 'sum',
+        'qtd_bolsas_integrais': 'sum'
+    }).reset_index()
 
     # Filtra por curso
     prouni = prouni[prouni['Nome do Curso de Graduação'].str.contains(curso.lower())]
@@ -47,7 +59,7 @@ def parse_data(ano_ingresso, curso):
     fluxo = fluxo[
         (fluxo['Categoria Administrativa'].isin(['4', '5', '7'])) &
         (fluxo['Modalidade de Ensino'].isin(['1'])) &
-        (fluxo['Ano de Referência'] == str(ANO_FINAL))]
+        (fluxo['Ano de Referência'] == str(ano_final))]
 
     # Filtro por colunas
     fluxo = fluxo[colunas_relevantes]
@@ -64,7 +76,8 @@ def parse_data(ano_ingresso, curso):
 
     # Cria nova coluna com quantidade de desistências.
     fluxo['Quantidade de Desistências'] = (
-            fluxo['Quantidade de Ingressantes no Curso'] * fluxo['Taxa de Desistência Acumulada - TDA'] / 100).round().astype(int)
+            fluxo['Quantidade de Ingressantes no Curso'] * fluxo[
+        'Taxa de Desistência Acumulada - TDA'] / 100).round().astype(int)
 
     # Agrupa por universidade e curso, soma a quantia de ingressantes e quantidade de desistências.
     fluxo = fluxo.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).agg({
@@ -79,11 +92,9 @@ def parse_data(ano_ingresso, curso):
     # Cria dataframe dfFinal a partir do dataframe prouni
     dfFinal = prouni.copy()
 
-    # Cria coluna "Quantia de Bolsas", agrupa bolsas de uma mesma universidade e curso e conta quantia delas.
-    dfFinal.insert(2, column='Quantia de Bolsas', value=1)
+    # Agrupa por universidade e curso
     dfFinal = dfFinal.groupby(['Nome da Instituição', 'Nome do Curso de Graduação']).sum().reset_index()
 
-    # Une a base dfFinal, que contém quantia de bolsas, com a quantidade de desistência acumulada, código do curso e quantia de ingressantes do curso, do dataframe 'fluxo'.
     # Associa o nome da universidade e do curso de ambos dataframes para fazer a união
     dfFinal = pd.merge(dfFinal, fluxo[['Nome da Instituição', 'Nome do Curso de Graduação',
                                        'Código da Unidade Federativa do Curso',
@@ -92,12 +103,21 @@ def parse_data(ano_ingresso, curso):
                                        'Nome da Grande Área do Curso segundo a classificação CINE BRASIL']],
                        on=['Nome da Instituição', 'Nome do Curso de Graduação'])
 
-    # Se a quantidade de bolsas for maior que a quantia de ingressantes, remove a linha
-    dfFinal = dfFinal[dfFinal['Quantia de Bolsas'] <= dfFinal['Quantidade de Ingressantes no Curso']]
+    dfFinal['Quantidade Total de Bolsas'] = dfFinal['qtd_bolsas_parciais'] + dfFinal['qtd_bolsas_integrais']
 
-    # Calcula percentual de bolsas ofertadas em relação à quantia de ingressantes.
-    dfFinal['Percentual de Bolsas'] = (
-            dfFinal['Quantia de Bolsas'] / dfFinal['Quantidade de Ingressantes no Curso'] * 100).round(2).astype(float)
+    dfFinal['Percentual Total de Bolsas'] = (dfFinal['Quantidade Total de Bolsas'] / dfFinal[
+        'Quantidade de Ingressantes no Curso'].sum() * 100).round(2).astype(float)
+
+    # Se a quantidade de bolsas for maior que a quantia de ingressantes, remove a linha
+    dfFinal = dfFinal[dfFinal['Quantidade Total de Bolsas'] <= dfFinal['Quantidade de Ingressantes no Curso']]
+
+    # Calcula percentual de bolsas parciais ofertadas em relação à quantidade total de bolsas
+    dfFinal['Percentual de Bolsas Parciais'] = (
+            dfFinal['qtd_bolsas_parciais'] / dfFinal['Quantidade Total de Bolsas'] * 100).round(2).astype(float)
+
+    # Calcula percentual de bolsas integrais ofertadas em relação à quantidade total de bolsas
+    dfFinal['Percentual de Bolsas Integrais'] = (
+            dfFinal['qtd_bolsas_integrais'] / dfFinal['Quantidade Total de Bolsas'] * 100).round(2).astype(float)
 
     # Calcula o percentual de desistência acumulada em relação à quantia de ingressantes no ano de ingresso.
     dfFinal['Taxa de Desistência Acumulada'] = (
@@ -111,20 +131,25 @@ def parse_data(ano_ingresso, curso):
         'Nome da Instituição': 'instituicao',
         'Nome do Curso de Graduação': 'curso',
         'Código da Unidade Federativa do Curso': 'cod_estado',
-        'Quantia de Bolsas': 'qtd_bolsas',
         'Quantidade de Ingressantes no Curso': 'qtd_ingressantes',
         'Quantidade de Desistências': 'qtd_desistencias',
         'Nome da Grande Área do Curso segundo a classificação CINE BRASIL': 'grande_area',
-        'Percentual de Bolsas': 'percentual_bolsas',
-        'Taxa de Desistência Acumulada': 'taxa_desistencia_acumulada'
+        'Percentual de Bolsas Parciais': 'percentual_bolsas_parciais',
+        'Percentual de Bolsas Integrais': 'percentual_bolsas_integrais',
+        'Taxa de Desistência Acumulada': 'taxa_desistencia_acumulada',
+        'Quantidade Total de Bolsas': 'qtd_total_bolsas',
+        'Percentual Total de Bolsas': 'percentual_total_bolsas'
     })
 
-
-    dfFinal.to_csv(f'arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-{ano_ingresso}-BR.csv', encoding='cp1252',
+    dfFinal.to_csv(f'arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-{ano_ingresso}-BR-cic.csv', encoding='cp1252',
                    sep=';')
 
     return dfFinal
 
 
 if __name__ == '__main__':
-    parse_data(2012, 'engenharia')
+    anos = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
+
+    for ano in anos:
+        parse_data(ano, "Ciência Da Computação")
+        print(f'Ano {ano} finalizado.')

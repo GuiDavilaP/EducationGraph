@@ -1,6 +1,6 @@
-# Explicação do CSV de Indicadores de Fluxo da Educação Superior (2010)
+# Explicação do CSV de Indicadores de Fluxo da Educação Superior
 
-Este documento fornece uma explicação detalhada de cada coluna no conjunto de dados `fluxo2010.csv`, que contém informações sobre cursos oferecidos por instituições de ensino superior.
+Este documento fornece uma explicação detalhada de cada coluna no conjunto de dados `fluxo<ano_ingresso>.csv`, que contém informações sobre cursos oferecidos por instituições de ensino superior.
 
 ## Colunas
 
@@ -34,4 +34,4 @@ Este documento fornece uma explicação detalhada de cada coluna no conjunto de 
 - **Taxa de Conclusão Anual - TCAN**: Percentual de estudantes que concluíram o curso no ano de referência.
 - **Taxa de Desistência Anual - TDAN**: Percentual de estudantes que desistiram do curso no ano de referência.
 
-Este documento visa facilitar a compreensão e análise dos dados contidos no arquivo `fluxo2010.csv`.
+Este documento visa facilitar a compreensão e análise dos dados contidos nos arquivos `fluxo<ano_ingresso>.csv`.

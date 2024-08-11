@@ -47,4 +47,4 @@ O conjunto de dados do ProUni contém informações abrangentes sobre cursos ofe
 
 ## Conclusão
 
-Este documento visa esclarecer a estrutura e o significado dos dados contidos no conjunto de dados do ProUni, facilitando sua análise e interpretação.
+Este documento visa esclarecer a estrutura e o significado dos dados contidos nos conjuntos de dados do ProUni, facilitando sua análise e interpretação.
