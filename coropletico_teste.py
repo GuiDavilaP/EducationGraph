@@ -12,29 +12,28 @@ if __name__ == '__main__':
 
     # Bolsas
     df_bolsas = dfzao.groupby('cod_estado').agg({
-        'qtd_total_bolsas': lambda x: round(x.mean(), 2),
-        'percentual_bolsas_parciais': lambda x: round(x.mean(), 2),
-        'percentual_bolsas_integrais': lambda x: round(x.mean(), 2),
+        'qtd_ingressantes': 'sum',
+        'qtd_bolsas_parciais': 'sum',
+        'qtd_bolsas_integrais': 'sum',
+        'qtd_total_bolsas': 'sum',
     }).reset_index()
 
-    df_bolsas = df_bolsas.rename(columns={
-        'qtd_total_bolsas': 'media_total_bolsas',
-        'percentual_bolsas_parciais': 'media_percentual_bolsas_parciais',
-        'percentual_bolsas_integrais': 'media_percentual_bolsas_integrais'
-    })
+    # Recalcula percentuais
+    df_bolsas['percentual_bolsas_parciais'] = (df_bolsas['qtd_bolsas_parciais'] / df_bolsas['qtd_total_bolsas']).round(2)
+    df_bolsas['percentual_bolsas_integrais'] = (df_bolsas['qtd_bolsas_integrais'] / df_bolsas['qtd_total_bolsas']).round(2)
+
+    df_bolsas['percentual_total_bolsas'] = (df_bolsas['qtd_total_bolsas'] / df_bolsas['qtd_ingressantes']).round(2)
+
+
 
     # Desistências
     df_desistencias = dfzao.groupby('cod_estado').agg({
-        'qtd_ingressantes': lambda x: round(x.mean(), 2),
-        'taxa_desistencia_acumulada': lambda x: round(x.mean(), 2),
-        'qtd_desistencias': lambda x: round(x.mean(), 2),
+        'qtd_ingressantes': 'sum',
+        'qtd_desistencias': 'sum',
     }).reset_index()
 
-    df_desistencias = df_desistencias.rename(columns={
-        'qtd_ingressantes': 'media_ingressantes',
-        'taxa_desistencia_acumulada': 'media_taxa_desistencia_acumulada',
-        'qtd_desistencias': 'media_desistencias'
-    })
+    # Recalcula taxa de desistência
+    df_desistencias['taxa_desistencia'] = (df_desistencias['qtd_desistencias'] / df_desistencias['qtd_ingressantes']).round(2)
 
     # ------------------------------- Código do Indiano -------------------------------- #
 
@@ -51,11 +50,20 @@ if __name__ == '__main__':
 
 # --------------------------------------------------------------------------------- #
 
-# Criar o mapa coroplético
+# # Criar o mapa coroplético desistência
+# fig = px.choropleth(df_desistencias,
+#                     locations='cod_estado',
+#                     geojson=estados_br,
+#                     color='taxa_desistencia',
+#                     featureidkey="properties.codigo_ibg",
+#                     projection="mercator")
+
+
+# Criar o mapa coroplético bolsas
 fig = px.choropleth(df_bolsas,
                     locations='cod_estado',
                     geojson=estados_br,
-                    color='media_total_bolsas',
+                    color='percentual_total_bolsas',
                     featureidkey="properties.codigo_ibg",
                     projection="mercator")
 
@@ -63,7 +71,7 @@ print("Checkpoint 1")
 
 # Atualizar o layout do mapa
 fig.update_geos(fitbounds="locations", visible=False)
-fig.update_layout(title_text='Mapa Coroplético - Média de Bolsas por Estado')
+fig.update_layout(title_text='Mapa Coroplético - Porcentagens de bolsas por estado')
 
 print("Checkpoint 2")
 
