@@ -61,7 +61,7 @@ def parse_data(ano_ingresso, curso):
     # Filtra por curso
     fluxo = fluxo[fluxo['Nome do Curso de Graduação'].str.contains(curso.lower())]
 
-    # Filtro por valores (RS, Privadas, Presencial)
+    # Filtro por valores (Privadas, Presencial, Acompanhamento de 4 anos)
     fluxo = fluxo[
         (fluxo['Categoria Administrativa'].isin(['4', '5', '7'])) &
         (fluxo['Modalidade de Ensino'].isin(['1'])) &
@@ -78,7 +78,8 @@ def parse_data(ano_ingresso, curso):
                                                                                                             '.').astype(
                 float),
             'Código da Unidade Federativa do Curso': fluxo['Código da Unidade Federativa do Curso'].str.replace('.0',
-                                                                                                                '').astype(int)
+                                                                                                                '').astype(
+                int)
         }
     )
 
@@ -149,23 +150,25 @@ def parse_data(ano_ingresso, curso):
         'Percentual Total de Bolsas': 'percentual_total_bolsas'
     })
 
-    dfFinal.to_csv(f'arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-{ano_ingresso}-BR-cic.csv', encoding='cp1252',
-                   sep=';')
+    return dfFinal
 
 
 if __name__ == '__main__':
+    sigla_curso = input('Digite a sigla do curso: ')
+    cursos = {'CIC': 'Ciência da Computação', 'ECP': 'Engenharia de Computação'}
+
     anos = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
 
     dfs = []
 
     for ano in anos:
-        #parse_data(ano, 'Ciência Da Computação')
-        dfs.append(pd.read_csv(f'arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-{ano}-BR-cic.csv', delimiter=';', index_col=False))
+        dfs.append(parse_data(ano, cursos[sigla_curso]))
         print(f'Arquivo {ano} processado.')
 
     dfzao = pd.concat(dfs)
 
     dfzao = dfzao.groupby('instituicao').agg({
+        'instituicao': 'first',
         'qtd_bolsas_parciais': 'sum',
         'qtd_bolsas_integrais': 'sum',
         'cod_estado': 'first',
@@ -182,6 +185,5 @@ if __name__ == '__main__':
 
     dfzao = dfzao.sort_values(by='cod_estado', ascending=True)
 
-
-    dfzao.to_csv(f'arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-2018-BR-cic.csv', encoding='cp1252')
-
+    dfzao.to_csv(f"arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-2018-BR-{sigla_curso.lower()}.csv",
+                 encoding='cp1252')

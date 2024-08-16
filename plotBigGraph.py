@@ -12,18 +12,17 @@ class TipoGrafico(Enum):
 #-------------------------------------Constantes---------------------------------------------
 
 ANO_INICIAL = '2010'
-ANO_FINAL = '2014'
+ANO_FINAL = '2018'
 
 csvList = {'2010': 'bolsas_vs_desist-2010-RS', '2011': 'bolsas_vs_desist-2011-RS', '2012': 'bolsas_vs_desist-2012-RS',
-           '2013': 'bolsas_vs_desist-2013-RS',
-           '2014': 'bolsas_vs_desist-2014-RS'}
+           '2013': 'bolsas_vs_desist-2013-RS', '2014': 'bolsas_vs_desist-2014-RS'}
 
 columns = ['instituicao', 'curso', 'qtd_bolsas', 'qtd_ingressantes', 'qtd_desistencias', 'grande_area',
            'percentual_bolsas', 'taxa_desistencia_acumulada', 'ano_ingresso']
 
 
 def read_csv(file_name, delimiter=";", encoding='cp1252'):
-    file_path = "arquivosCSV/bolsas_vs_desist/" + file_name + ".csv"
+    file_path = "arquivosCSV/bolsas_vs_desist/RS/" + file_name + ".csv"
     return pd.read_csv(file_path, delimiter=delimiter, encoding=encoding)
 
 

@@ -1,0 +1,85 @@
+,instituicao,qtd_bolsas_parciais,qtd_bolsas_integrais,cod_estado,qtd_ingressantes,grande_area,qtd_desistencias,qtd_total_bolsas,percentual_bolsas_parciais,percentual_bolsas_integrais,percentual_total_bolsas,taxa_desistencia_acumulada
+50,faculdade sapiens,0,4,11,47,"engenharia, producao e construcao",28,4,0.0,100.0,8.51,59.57
+12,centro universitario do norte,0,42,13,340,"engenharia, producao e construcao",227,42,0.0,100.0,12.35,66.76
+52,instituto de ensino superior fucapi,46,20,13,429,computacao e tecnologias da informacao e comunicacao (tic),277,66,69.7,30.3,15.38,64.57
+44,faculdade estacio de belem - estacio belem,52,62,15,1139,"engenharia, producao e construcao",779,114,45.61,54.39,10.01,68.39
+10,centro universitario do estado do para,0,18,15,293,"engenharia, producao e construcao",161,18,0.0,100.0,6.14,54.95
+39,faculdade de tecnologia do amapa,0,13,16,169,"engenharia, producao e construcao",63,13,0.0,100.0,7.69,37.28
+63,universidade ceuma,81,13,21,156,computacao e tecnologias da informacao e comunicacao (tic),112,94,86.17,13.83,60.26,71.79
+79,universidade potiguar,17,35,24,475,"engenharia, producao e construcao",308,52,32.69,67.31,10.95,64.84
+21,centro universitario mauricio de nassau,0,40,26,181,"engenharia, producao e construcao",131,40,0.0,100.0,22.1,72.38
+40,faculdade de tecnologia ibratec,0,8,26,82,"engenharia, producao e construcao",81,8,0.0,100.0,9.76,98.78
+17,centro universitario fbv wyden,0,2,26,4,"engenharia, producao e construcao",2,2,0.0,100.0,50.0,50.0
+80,universidade salvador,0,60,29,836,"engenharia, producao e construcao",628,60,0.0,100.0,7.18,75.12
+29,centro universitario unirb,1,1,29,5,"engenharia, producao e construcao",5,2,50.0,50.0,40.0,100.0
+51,faculdade unime de ciencias exatas e tecnologicas,0,3,29,65,computacao e tecnologias da informacao e comunicacao (tic),54,3,0.0,100.0,4.62,83.08
+46,faculdade independente do nordeste,115,64,29,462,"engenharia, producao e construcao",324,179,64.25,35.75,38.74,70.13
+37,faculdade de ciencia e tecnologia de montes claros,0,39,31,405,"engenharia, producao e construcao",259,39,0.0,100.0,9.63,63.95
+26,centro universitario una,14,32,31,780,"engenharia, producao e construcao",582,46,30.43,69.57,5.9,74.62
+56,pontificia universidade catolica de minas gerais,127,110,31,668,computacao e tecnologias da informacao e comunicacao (tic),422,237,53.59,46.41,35.48,63.17
+71,universidade de uberaba,0,72,31,421,"engenharia, producao e construcao",261,72,0.0,100.0,17.1,62.0
+49,faculdade presidente antonio carlos de conselheiro lafaiete,0,27,31,251,computacao e tecnologias da informacao e comunicacao (tic),167,27,0.0,100.0,10.76,66.53
+41,faculdade do centro leste,27,22,32,112,"engenharia, producao e construcao",82,49,55.1,44.9,43.75,73.21
+27,centro universitario unicarioca,0,25,33,126,"engenharia, producao e construcao",68,25,0.0,100.0,19.84,53.97
+53,instituto infnet rio de janeiro,63,17,33,313,computacao e tecnologias da informacao e comunicacao (tic),213,80,78.75,21.25,25.56,68.05
+57,pontificia universidade catolica do rio de janeiro,0,46,33,760,computacao e tecnologias da informacao e comunicacao (tic),380,46,0.0,100.0,6.05,50.0
+61,universidade catolica de petropolis,0,32,33,246,computacao e tecnologias da informacao e comunicacao (tic),60,32,0.0,100.0,13.01,24.39
+74,universidade estacio de sa,0,7,33,89,"engenharia, producao e construcao",56,7,0.0,100.0,7.87,62.92
+83,universidade veiga de almeida,42,68,33,1169,"engenharia, producao e construcao",677,110,38.18,61.82,9.41,57.91
+5,centro universitario de barra mansa,0,8,33,33,"engenharia, producao e construcao",12,8,0.0,100.0,24.24,36.36
+14,centro universitario estacio de ribeirao preto,0,25,35,175,"engenharia, producao e construcao",123,25,0.0,100.0,14.29,70.29
+13,centro universitario do norte paulista,17,11,35,89,"engenharia, producao e construcao",63,28,60.71,39.29,31.46,70.79
+9,centro universitario de votuporanga,2,11,35,179,"engenharia, producao e construcao",89,13,15.38,84.62,7.26,49.72
+54,pontificia universidade catolica de campinas,0,74,35,676,computacao e tecnologias da informacao e comunicacao (tic),301,74,0.0,100.0,10.95,44.53
+8,centro universitario de lins,4,24,35,200,"engenharia, producao e construcao",130,28,14.29,85.71,14.0,65.0
+59,uniao das faculdades dos grandes lagos,1,0,35,15,"engenharia, producao e construcao",13,1,100.0,0.0,6.67,86.67
+60,universidade anhembi morumbi,0,46,35,691,"engenharia, producao e construcao",373,46,0.0,100.0,6.66,53.98
+6,centro universitario de excelencia eniac,0,14,35,134,"engenharia, producao e construcao",79,14,0.0,100.0,10.45,58.96
+15,centro universitario etep,0,10,35,83,computacao e tecnologias da informacao e comunicacao (tic),55,10,0.0,100.0,12.05,66.27
+24,centro universitario senac,14,7,35,201,"engenharia, producao e construcao",135,21,66.67,33.33,10.45,67.16
+65,universidade de araraquara,20,7,35,396,"engenharia, producao e construcao",266,27,74.07,25.93,6.82,67.17
+69,universidade de ribeirao preto,36,39,35,280,computacao e tecnologias da informacao e comunicacao (tic),168,75,48.0,52.0,26.79,60.0
+3,centro universitario central paulista,32,23,35,478,"engenharia, producao e construcao",336,55,58.18,41.82,11.51,70.29
+76,universidade metodista de sao paulo,0,16,35,130,computacao e tecnologias da informacao e comunicacao (tic),43,16,0.0,100.0,12.31,33.08
+77,universidade paulista,0,164,35,2576,"engenharia, producao e construcao",2148,164,0.0,100.0,6.37,83.39
+2,centro universitario anhanguera de sao paulo,0,6,35,224,computacao e tecnologias da informacao e comunicacao (tic),206,6,0.0,100.0,2.68,91.96
+1,centro universitario adventista de sao paulo,6,11,35,127,computacao e tecnologias da informacao e comunicacao (tic),64,17,35.29,64.71,13.39,50.39
+81,universidade sao francisco,7,8,35,70,"engenharia, producao e construcao",45,15,46.67,53.33,21.43,64.29
+64,universidade cidade de sao paulo,4,4,35,89,"engenharia, producao e construcao",65,8,50.0,50.0,8.99,73.03
+48,faculdade politecnica de campinas,1,6,35,58,"engenharia, producao e construcao",30,7,14.29,85.71,12.07,51.72
+0,centro regional universitario de espirito santo do pinhal,2,1,35,14,computacao e tecnologias da informacao e comunicacao (tic),10,3,66.67,33.33,21.43,71.43
+16,centro universitario facens,0,15,35,180,computacao e tecnologias da informacao e comunicacao (tic),95,15,0.0,100.0,8.33,52.78
+45,faculdade gran tiete,2,4,35,41,"engenharia, producao e construcao",28,6,33.33,66.67,14.63,68.29
+18,centro universitario fieo,0,28,35,323,"engenharia, producao e construcao",210,28,0.0,100.0,8.67,65.02
+33,faculdade anhanguera de jacarei,0,1,35,35,computacao e tecnologias da informacao e comunicacao (tic),24,1,0.0,100.0,2.86,68.57
+43,faculdade esamc santos,270,4,35,426,"engenharia, producao e construcao",276,274,98.54,1.46,64.32,64.79
+42,faculdade esamc campinas,91,6,35,176,"engenharia, producao e construcao",123,97,93.81,6.19,55.11,69.89
+34,faculdade anhanguera de jundiai,20,34,35,383,computacao e tecnologias da informacao e comunicacao (tic),227,54,37.04,62.96,14.1,59.27
+82,universidade sao judas tadeu,481,27,35,1311,"engenharia, producao e construcao",1018,508,94.69,5.31,38.75,77.65
+23,centro universitario salesiano de sao paulo,0,20,35,256,computacao e tecnologias da informacao e comunicacao (tic),155,20,0.0,100.0,7.81,60.55
+32,faculdade anhanguera de guarulhos,0,3,35,22,computacao e tecnologias da informacao e comunicacao (tic),22,3,0.0,100.0,13.64,100.0
+19,centro universitario funvic,4,1,35,12,"engenharia, producao e construcao",6,5,80.0,20.0,41.67,50.0
+35,faculdade anhanguera de ribeirao preto,0,6,35,120,computacao e tecnologias da informacao e comunicacao (tic),94,6,0.0,100.0,5.0,78.33
+31,faculdade anhanguera de campinas,0,3,35,55,computacao e tecnologias da informacao e comunicacao (tic),42,3,0.0,100.0,5.45,76.36
+22,centro universitario metrocamp wyden,44,0,35,79,computacao e tecnologias da informacao e comunicacao (tic),37,44,100.0,0.0,55.7,46.84
+36,faculdade anhanguera de sao jose,0,3,35,34,computacao e tecnologias da informacao e comunicacao (tic),28,3,0.0,100.0,8.82,82.35
+47,faculdade padre joao bagozzi,0,1,41,7,"engenharia, producao e construcao",5,1,0.0,100.0,14.29,71.43
+20,centro universitario internacional,25,6,41,226,"engenharia, producao e construcao",151,31,80.65,19.35,13.72,66.81
+78,universidade positivo,0,107,41,792,"engenharia, producao e construcao",540,107,0.0,100.0,13.51,68.18
+38,faculdade de engenharia e inovacao tecnico profissi,8,6,41,42,"engenharia, producao e construcao",30,14,57.14,42.86,33.33,71.43
+73,universidade do vale do itajai,3,98,42,460,"engenharia, producao e construcao",331,101,2.97,97.03,21.96,71.96
+25,centro universitario sociesc,52,12,42,455,"engenharia, producao e construcao",287,64,81.25,18.75,14.07,63.08
+72,universidade do oeste de santa catarina,51,49,42,578,"engenharia, producao e construcao",324,100,51.0,49.0,17.3,56.06
+75,universidade la salle,0,1,43,14,"engenharia, producao e construcao",11,1,0.0,100.0,7.14,78.57
+28,centro universitario uniftec,6,44,43,396,"engenharia, producao e construcao",284,50,12.0,88.0,12.63,71.72
+66,universidade de caxias do sul,9,22,43,212,"engenharia, producao e construcao",135,31,29.03,70.97,14.62,63.68
+70,universidade de santa cruz do sul,3,30,43,358,computacao e tecnologias da informacao e comunicacao (tic),258,33,9.09,90.91,9.22,72.07
+68,universidade de passo fundo,23,15,43,74,computacao e tecnologias da informacao e comunicacao (tic),42,38,60.53,39.47,51.35,56.76
+58,pontificia universidade catolica do rio grande do sul,5,122,43,807,computacao e tecnologias da informacao e comunicacao (tic),519,127,3.94,96.06,15.74,64.31
+4,centro universitario da serra gaucha,0,5,43,40,"engenharia, producao e construcao",34,5,0.0,100.0,12.5,85.0
+62,universidade catolica dom bosco,0,34,50,319,"engenharia, producao e construcao",227,34,0.0,100.0,10.66,71.16
+67,universidade de cuiaba,0,15,51,229,computacao e tecnologias da informacao e comunicacao (tic),160,15,0.0,100.0,6.55,69.87
+30,faculdade anhanguera de anapolis,0,7,52,98,computacao e tecnologias da informacao e comunicacao (tic),87,7,0.0,100.0,7.14,88.78
+7,centro universitario de goias,11,6,52,116,"engenharia, producao e construcao",81,17,64.71,35.29,14.66,69.83
+55,pontificia universidade catolica de goias,0,118,52,897,computacao e tecnologias da informacao e comunicacao (tic),577,118,0.0,100.0,13.15,64.33
+11,centro universitario do instituto de educacao superior de brasilia - iesb,60,32,53,829,computacao e tecnologias da informacao e comunicacao (tic),664,92,65.22,34.78,11.1,80.1

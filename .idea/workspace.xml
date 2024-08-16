@@ -5,18 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropletico.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_bolsas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropleticoV2.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2011-BR.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coropletico_bolsas.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_bolsas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coropletico_desistencias.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_desistencias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coropletico_teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_interativo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coropletico_teste2.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_interativo_pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapa_bolsas.png" beforeDir="false" afterPath="$PROJECT_DIR$/cic-bolsas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapa_desistencia.png" beforeDir="false" afterPath="$PROJECT_DIR$/cic-desist.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotBigGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotBigGraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/coropletico_desistencias.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/venv/Lib/site-packages/geopandas/base.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -37,6 +55,7 @@
     "Python.coropleticoV2.executor": "Run",
     "Python.coropletico_bolsas.executor": "Run",
     "Python.coropletico_desistencias.executor": "Run",
+    "Python.coropletico_teste.executor": "Run",
     "Python.coropleticov2.executor": "Run",
     "Python.parseData.executor": "Run",
     "Python.parseDataEstado.executor": "Run",
@@ -52,13 +71,14 @@
       <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser" />
       <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\testes" />
       <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\arquivosCSV\prouni" />
       <recent name="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\arquivosCSV\fluxo" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="coropletico_teste" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.plotBigGraph">
+    <configuration name="coropletico_interativo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DataParser" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,7 +92,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\coropletico_teste.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\maxbo\OneDrive\Documentos\Estudos\PET\rato\DataParser\coropletico_interativo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.coropletico_teste" />
+        <item itemvalue="Python.coropletico_interativo" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +165,17 @@
       <workItem from="1723787112226" duration="232000" />
       <workItem from="1723787496405" duration="83000" />
       <workItem from="1723790328006" duration="853000" />
+      <workItem from="1723805227097" duration="162000" />
+      <workItem from="1723826262061" duration="1704000" />
+      <workItem from="1723832806787" duration="1373000" />
+      <workItem from="1724720829650" duration="3822000" />
+      <workItem from="1724724761239" duration="558000" />
+      <workItem from="1724725345796" duration="5068000" />
+      <workItem from="1724731242481" duration="593000" />
+      <workItem from="1724731858692" duration="1406000" />
+      <workItem from="1724733297138" duration="722000" />
+      <workItem from="1724883583955" duration="3583000" />
+      <workItem from="1724976437674" duration="6920000" />
     </task>
     <servers />
   </component>
@@ -155,136 +186,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
+          <url>file://$PROJECT_DIR$/coropletico_desistencias.py</url>
           <line>50</line>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>90</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>91</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>93</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>95</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/parseData.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="60" />
+          <url>file://$PROJECT_DIR$/coropletico_desistencias.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1723343324292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$coropletico_bolsas.coverage" NAME="coropletico_bolsas Coverage Results" MODIFIED="1723791038919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$plotBigGraph.coverage" NAME="plotBigGraph Coverage Results" MODIFIED="1724978943205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$coropletico_teste.coverage" NAME="coropletico_teste Coverage Results" MODIFIED="1724722063293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$coropletico_bolsas.coverage" NAME="coropletico_bolsas Coverage Results" MODIFIED="1724732018371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$coropleticov2.coverage" NAME="coropleticoV2 Coverage Results" MODIFIED="1723780473563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$coropletico.coverage" NAME="coropletico Coverage Results" MODIFIED="1723787251930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$coropletico.coverage" NAME="coropletico Coverage Results" MODIFIED="1724733346836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$parseDataEstado.coverage" NAME="parseDataEstado Coverage Results" MODIFIED="1722565586809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DataParser$filterData.coverage" NAME="filterData Coverage Results" MODIFIED="1721357644466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1723781911010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DataParser$coropletico_desistencias.coverage" NAME="coropletico_desistencias Coverage Results" MODIFIED="1723791156884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$parseData.coverage" NAME="parseData Coverage Results" MODIFIED="1724729468332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DataParser$coropletico_desistencias.coverage" NAME="coropletico_desistencias Coverage Results" MODIFIED="1724733407276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
