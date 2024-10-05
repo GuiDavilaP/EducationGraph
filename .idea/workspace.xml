@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2011-BR.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropletico_bolsas.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_bolsas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropletico_desistencias.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_desistencias.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropletico_teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_interativo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coropletico_teste2.py" beforeDir="false" afterPath="$PROJECT_DIR$/coropletico_interativo_pizza.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapa_bolsas.png" beforeDir="false" afterPath="$PROJECT_DIR$/cic-bolsas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapa_desistencia.png" beforeDir="false" afterPath="$PROJECT_DIR$/cic-desist.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parseData.py" beforeDir="false" afterPath="$PROJECT_DIR$/parseData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plotBigGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/plotBigGraph.py" afterDir="false" />
-    </list>
+    <list default="true" id="7f8f24b2-eb57-47d2-a134-ff7b5674f22e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +163,7 @@
       <workItem from="1724731858692" duration="1406000" />
       <workItem from="1724733297138" duration="722000" />
       <workItem from="1724883583955" duration="3583000" />
-      <workItem from="1724976437674" duration="6920000" />
+      <workItem from="1724976437674" duration="8409000" />
     </task>
     <servers />
   </component>
