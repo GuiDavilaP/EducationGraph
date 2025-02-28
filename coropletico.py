@@ -1,10 +1,47 @@
 import matplotlib.pyplot as plt
 import geopandas as gpd
 import pandas as pd
+import numpy as np
+from matplotlib.colors import BoundaryNorm, ListedColormap
+import matplotlib.patheffects as path_effects
 
+#------------------------Configurações Gerais dos Mapas------------------------
+def configure_plot():
+    plt.rcParams.update({
+        'font.size': 11,  # Tamanho da fonte geral
+        'legend.fontsize': 7,  # Tamanho da fonte da legenda do gráfico de pizza
+        'axes.titlesize': 15,  # Tamanho da fonte do título dos eixos
+        'axes.labelsize': 13,  # Tamanho da fonte dos rótulos dos eixos
+        'xtick.labelsize': 10,  # Tamanho da fonte dos valores da barra de cores (eixo x)
+        'ytick.labelsize': 10   # Tamanho da fonte dos valores da barra de cores (eixo y)
+    })
 
-def plot_mapa_bolsas(dfzao, mapa, sigla_curso):
-    # Bolsas
+def plot_map(ax, mapa, column, cmap, legend_label, boundaries):
+    norm = BoundaryNorm(boundaries, ncolors=len(boundaries)-1, clip=True)
+    mapa.boundary.plot(ax=ax, linewidth=0.5)  # Plota as bordas do mapa
+    mapa.plot(
+        column=column,
+        ax=ax,
+        legend=True,
+        cmap=cmap,
+        norm=norm,
+        legend_kwds={
+            'label': legend_label,  # Rótulo da legenda
+            'orientation': "horizontal",  # Orientação da barra de cores
+            'boundaries': boundaries,  # Limites da barra de cores
+            'ticks': boundaries,  # Valores dos ticks na barra de cores
+            'shrink': 0.5  # Ajusta o tamanho da barra de cores
+        }
+    )
+
+def show_map(title):
+    plt.title(title)  # Define o título do mapa
+    plt.axis('equal')  # Define a proporção igual para os eixos
+    plt.show()  # Mostra o mapa
+
+#-------------------------Mapa de Percentual de Bolsas -------------------------
+
+def calculate_bolsas(dfzao):
     df_bolsas = dfzao.groupby('cod_estado').agg({
         'qtd_ingressantes': 'sum',
         'qtd_bolsas_parciais': 'sum',
@@ -12,67 +49,57 @@ def plot_mapa_bolsas(dfzao, mapa, sigla_curso):
         'qtd_total_bolsas': 'sum',
     }).reset_index()
 
-    # Recalcula percentuais
-    df_bolsas['percentual_bolsas_parciais'] = (df_bolsas['qtd_bolsas_parciais'] / df_bolsas['qtd_total_bolsas']).round(
-        2)
-    df_bolsas['percentual_bolsas_integrais'] = (
-                df_bolsas['qtd_bolsas_integrais'] / df_bolsas['qtd_total_bolsas']).round(2)
-
+    df_bolsas['percentual_bolsas_parciais'] = (df_bolsas['qtd_bolsas_parciais'] / df_bolsas['qtd_total_bolsas']).round(2)
+    df_bolsas['percentual_bolsas_integrais'] = (df_bolsas['qtd_bolsas_integrais'] / df_bolsas['qtd_total_bolsas']).round(2)
     df_bolsas['percentual_total_bolsas'] = (df_bolsas['qtd_total_bolsas'] / df_bolsas['qtd_ingressantes']).round(2)
 
-    # Mesclar com o GeoDataFrame
-    mapa = mapa.merge(df_bolsas, how='left', left_on='CD_UF', right_on='cod_estado')
+    return df_bolsas
 
-    # Ajustar o tamanho da fonte globalmente
-    plt.rcParams.update({
-        'font.size': 50,  # Aumenta o tamanho da fonte
-        'legend.fontsize': 20,  # Aumenta o tamanho da fonte da legenda
-        'axes.titlesize': 28,  # Aumenta o tamanho da fonte dos títulos
-        'axes.labelsize': 24  # Aumenta o tamanho da fonte dos rótulos dos eixos
-    })
-
-    # Plotar mapa coroplético
-    fig, ax = plt.subplots(1, figsize=(55, 35))
-    mapa.boundary.plot(ax=ax, linewidth=2)
-    mapa.plot(
-        column='percentual_total_bolsas',
-        ax=ax,
-        legend=True,
-        cmap='Greens',
-        legend_kwds={
-            'label': "\nPercentual Bolsistas / Ingressantes",
-            'orientation': "horizontal",  # Ajuste o tamanho da legenda se necessário
-
-        }
-    )
-
-    # Adicionar gráficos de pizza
+def add_pizza_graph(ax, mapa):
     for idx, row in mapa.iterrows():
-        # Coordenadas do centroide do estado
         x, y = row.geometry.centroid.x, row.geometry.centroid.y
         sizes = [row['percentual_bolsas_parciais'], row['percentual_bolsas_integrais']]
-        # Substitui NaN por 0
         sizes = [0 if pd.isna(size) else size for size in sizes]
 
-        # Certifica-se de que a soma dos sizes não seja zero
         if sum(sizes) == 0:
             continue
 
-        # Tamanho do gráfico de pizza baseado na quantidade de bolsistas, com limitação para não cobrir o mapa
         if row['qtd_total_bolsas'] == 0 or pd.isna(row['qtd_total_bolsas']):
-            size = 0.1  # Valor padrão se qtd_total_bolsas for 0 ou NaN
+            size = 0.1
         else:
             size = min(1, (row['qtd_total_bolsas']) * 0.01)
 
-        # Adiciona o gráfico de pizza
         ax.pie(sizes, radius=size, center=(x, y), colors=['lightblue', 'blue'], startangle=90, counterclock=False, wedgeprops={'edgecolor': 'gray'})
+        
+        # Adiciona o percentual de bolsas integrais ao lado do gráfico de pizza
+        text = ax.text(x + size, y, f"{row['percentual_bolsas_integrais']*100:.0f}%", fontsize=8, ha='left', va='center')
+        text.set_path_effects([path_effects.Stroke(linewidth=1, foreground='white'), path_effects.Normal()])
 
-    # Configurar título e mostrar o mapa
-    plt.title(f'Bolsistas Parciais e Integrais do ProUni em {sigla_curso} no Brasil (2010 - 2018)', fontsize=64)
-    plt.axis('equal')  # Mantém a proporção
-    plt.show()
+    # Adiciona a legenda para os gráficos de pizza
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='lightblue', edgecolor='gray', label='Bolsas Parciais'),
+        Patch(facecolor='blue', edgecolor='gray', label='Bolsas Integrais')
+    ]
+    ax.legend(handles=legend_elements, loc='upper left', bbox_to_anchor=(0.2, 0.8), title='Legenda')  # Move a legenda para a direita
 
+def plot_mapa_bolsas(dfzao, mapa, sigla_curso):
+    df_bolsas = calculate_bolsas(dfzao)
+    mapa = mapa.merge(df_bolsas, how='left', left_on='CD_UF', right_on='cod_estado')
 
+    configure_plot()
+    _, ax = plt.subplots(1, figsize=(20, 15))  # Tamanho da janela
+    boundaries = np.linspace(0, 0.4, 11)  # Limites da barra de cores
+    cmap = ListedColormap([
+        '#ffffcc', '#ffeda0', '#fed976', '#feb24c', '#fd8d3c', 
+        '#fc4e2a', '#e31a1c', '#bd0026', '#800026', '#4d0019'
+    ])  # Cores da barra de cores
+    plot_map(ax, mapa, 'percentual_total_bolsas', cmap, "\nPercentual Bolsistas / Ingressantes", boundaries)
+    add_pizza_graph(ax, mapa)
+    title = f'Bolsistas Parciais e Integrais do ProUni em {sigla_curso} no Brasil (2010 - 2018)'
+    show_map(title)
+
+#---------------------------Mapa de Desistências-----------------------------
 
 def plot_mapa_desist(dfzao, mapa, sigla_curso):
     # Desistências
@@ -88,33 +115,20 @@ def plot_mapa_desist(dfzao, mapa, sigla_curso):
     # Mesclar com o GeoDataFrame
     mapa = mapa.merge(df_desistencias, how='left', left_on='CD_UF', right_on='cod_estado')
 
-    # Ajustar o tamanho da fonte globalmente
-    plt.rcParams.update({
-        'font.size': 50,  # Aumenta o tamanho da fonte
-        'legend.fontsize': 20,  # Aumenta o tamanho da fonte da legenda
-        'axes.titlesize': 28,  # Aumenta o tamanho da fonte dos títulos
-        'axes.labelsize': 24  # Aumenta o tamanho da fonte dos rótulos dos eixos
-    })
+    configure_plot()
+    _, ax = plt.subplots(1, figsize=(20, 15))  # Tamanho da janela
 
-    # Plotar mapa coroplético
-    fig, ax = plt.subplots(1, figsize=(55, 35))
-    mapa.boundary.plot(ax=ax, linewidth=2)
-    mapa.plot(
-        column='taxa_desistencia',
-        ax=ax,
-        legend=True,
-        cmap='Reds',
-        legend_kwds={
-            'label': "\nPercentual Desistentes (Até 201X + 4) / Ingressantes (201X)",
-            'orientation': "horizontal",
-        }
-    )
+    # Intervalos na legenda de cores
+    boundaries = np.linspace(0, 1, 11)  
+    # Mapa de cores
+    cmap = ListedColormap(['#fff5f0', '#fee0d2', '#fcbba1', '#fc9272', '#fb6a4a', '#ef3b2c', '#cb181d', '#a50f15', '#67000d', '#290106'])
 
-    # Configurar título e mostrar o mapa
-    plt.title(f"Taxa de Desistência em {sigla_curso} no Brasil (2010 - 2018)", fontsize=64)
-    plt.axis('equal')  # Mantém a proporção
-    plt.show()
+    plot_map(ax, mapa, 'taxa_desistencia', cmap, "\nPercentual Desistentes (Até 201X + 4) / Ingressantes (201X)", boundaries)
+    title = f"Taxa de Desistência em {sigla_curso} no Brasil (2010 - 2018)"
+    plt.axis('off')
+    show_map(title)
 
+#---------------------------------Main------------------------------------
 
 if __name__ == '__main__':
     # Caminho para o shapefile e o CSV
@@ -125,7 +139,8 @@ if __name__ == '__main__':
     # Converte a coluna 'CD_UF' para o tipo int
     mapa['CD_UF'] = mapa['CD_UF'].astype(int)
 
-    sigla_curso = input('Digite a sigla do curso: ')
+    #sigla_curso = input('Digite a sigla do curso: ')
+    sigla_curso = "cic"
 
     dfzao = pd.read_csv(f"arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-2018-BR-{sigla_curso.lower()}.csv",
                         delimiter=',')
