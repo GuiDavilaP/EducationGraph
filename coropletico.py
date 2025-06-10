@@ -89,7 +89,7 @@ def plot_mapa_bolsas(dfzao, mapa, sigla_curso):
 
     configure_plot()
     _, ax = plt.subplots(1, figsize=(20, 15))  # Tamanho da janela
-    boundaries = np.linspace(0, 0.4, 11)  # Limites da barra de cores
+    boundaries = np.linspace(0, 0.6, 11)  # Limites da barra de cores
     cmap = ListedColormap([
         '#ffffcc', '#ffeda0', '#fed976', '#feb24c', '#fd8d3c', 
         '#fc4e2a', '#e31a1c', '#bd0026', '#800026', '#4d0019'
@@ -130,6 +130,49 @@ def plot_mapa_desist(dfzao, mapa, sigla_curso):
 
 #---------------------------------Main------------------------------------
 
+def print_table(dfzao):
+    # Calcula dados de bolsas
+    df_bolsas = calculate_bolsas(dfzao)
+    
+    # Calcula dados de desistência
+    df_desistencias = dfzao.groupby('cod_estado').agg({
+        'qtd_ingressantes': 'sum',
+        'qtd_desistencias': 'sum',
+    }).reset_index()
+    df_desistencias['taxa_desistencia'] = (df_desistencias['qtd_desistencias'] / df_desistencias['qtd_ingressantes']).round(2)
+    
+    # Combina os dataframes
+    df_final = df_bolsas.merge(df_desistencias[['cod_estado', 'taxa_desistencia']], on='cod_estado')
+    
+    # Adiciona nomes dos estados
+    estados = {
+        11: 'RO', 12: 'AC', 13: 'AM', 14: 'RR', 15: 'PA', 16: 'AP', 17: 'TO',
+        21: 'MA', 22: 'PI', 23: 'CE', 24: 'RN', 25: 'PB', 26: 'PE', 27: 'AL', 28: 'SE', 29: 'BA',
+        31: 'MG', 32: 'ES', 33: 'RJ', 35: 'SP',
+        41: 'PR', 42: 'SC', 43: 'RS',
+        50: 'MS', 51: 'MT', 52: 'GO', 53: 'DF'
+    }
+    df_final['Estado'] = df_final['cod_estado'].map(estados)
+    
+    # Seleciona e renomeia colunas
+    tabela = df_final[['Estado', 'percentual_total_bolsas', 'percentual_bolsas_integrais', 'percentual_bolsas_parciais', 'taxa_desistencia']]
+    tabela = tabela.rename(columns={
+        'percentual_total_bolsas': 'Bolsistas/Ingressantes',
+        'percentual_bolsas_integrais': 'Bolsas Integrais',
+        'percentual_bolsas_parciais': 'Bolsas Parciais',
+        'taxa_desistencia': 'Taxa de Desistência'
+    })
+    
+    # Formata os percentuais
+    for col in tabela.columns[1:]:
+        tabela[col] = (tabela[col] * 100).round(1).astype(str) + '%'
+    
+    # Ordena por estado
+    tabela = tabela.sort_values('Estado')
+    
+    print("\nDados por Estado:")
+    print(tabela.to_string(index=False))
+
 if __name__ == '__main__':
     # Caminho para o shapefile e o CSV
     shapefile_path = "shapefile/BR_UF_2022.shp"
@@ -145,6 +188,9 @@ if __name__ == '__main__':
     dfzao = pd.read_csv(f"arquivosCSV/bolsas_vs_desist/BR/bolsas_vs_desist-2010-2018-BR-{sigla_curso.lower()}.csv",
                         delimiter=',')
 
+    # Gera os mapas
     plot_mapa_bolsas(dfzao, mapa, sigla_curso)
-
     plot_mapa_desist(dfzao, mapa, sigla_curso)
+    
+    # Imprime a tabela de dados
+    print_table(dfzao)
